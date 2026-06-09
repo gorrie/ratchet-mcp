@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ratchet-mcp"
+version = "0.1.0"
+description = "Model Context Protocol server for the Ratchet Revolving Door dataset."
+readme = "../README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ian Gorrie" }]
+keywords = ["mcp", "model-context-protocol", "influence-mapping", "osint"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Sociology",
+]
+dependencies = [
+  "mcp>=1.2",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+ratchet-mcp = "ratchet_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ratchet_mcp*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

@@ -1,0 +1,44 @@
+# Ratchet MCP — open-source stack.
+#
+# Two services:
+#   mcp  — the MCP server, exposed over stdio for Claude Desktop / IDEs
+#   web  — optional D3 viewer (lightweight Nginx) at http://localhost:8088
+#
+# Quickstart:
+#   docker compose up --build
+#
+# To use the MCP server from Claude Desktop, point its
+# `claude_desktop_config.json` at:
+#   { "mcpServers": { "ratchet": { "command": "docker", "args": ["compose", "-f",
+#     "<path-to-this-file>", "run", "--rm", "-T", "mcp"] } } }
+
+services:
+  mcp:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: ratchet-mcp:latest
+    container_name: ratchet-mcp
+    # The data directory is bind-mounted so a contributor can edit JSONL
+    # files locally and re-run without rebuilding.
+    volumes:
+      - ./server/data:/app/data:ro
+    environment:
+      RATCHET_DATA_DIR: /app/data
+    # stdio — no ports.
+    stdin_open: true
+    tty: false
+    restart: "no"
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    image: ratchet-web:latest
+    container_name: ratchet-web
+    ports:
+      - "8088:80"
+    volumes:
+      - ./server/data:/usr/share/nginx/html/data:ro
+    profiles: ["web"]   # `docker compose --profile web up`
+    restart: unless-stopped
