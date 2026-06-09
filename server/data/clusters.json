@@ -1,0 +1,624 @@
+{
+  "_meta": {
+    "schema_version": "1",
+    "description": "Saved cluster definitions for the Ratchet dataset. Each cluster is a named query: a thesis-relevant pattern that resolves to a set of persons via the standard query primitives. Updating the dataset auto-updates cluster membership.",
+    "last_reviewed": "2026-05-29"
+  },
+  "clusters": [
+    {
+      "id": "tap-backdoor-trinity",
+      "label": "Tap-Backdoor-Watchers Trinity",
+      "summary": "Persons who touched both the Tap actor (SIGINT mass collection) and the Backdoor actor (encryption mandates). The book's headline overlap — surveillance authorities and the legal/operational architecture that built them.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "actors": [
+            "tap",
+            "backdoor"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        14,
+        16
+      ],
+      "book_chapter": "the-ratchet:14-the-tap, 16-the-backdoor"
+    },
+    {
+      "id": "treasury-vault-loop",
+      "label": "Treasury Vault Loop",
+      "summary": "Wall Street → US Treasury → Wall Street rotation across all administrations. The financial-services revolving door.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "sector": "fin",
+          "play": "vault"
+        }
+      },
+      "ratchet_clicks": [
+        4
+      ],
+      "book_chapter": "the-ratchet:04-the-money"
+    },
+    {
+      "id": "paypal-mafia-trump2",
+      "label": "PayPal Mafia → Trump II Vault",
+      "summary": "PayPal Mafia alumni installed in Trump II (Musk DOGE, Vance VP, Sacks AI/Crypto Czar) and their VC vehicles (Founders Fund, 8VC, Khosla). Convergence of tech-right operator class with executive power.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "admins": [
+            "trump2"
+          ]
+        },
+        "filter_ids": [
+          "Musk",
+          "JVance",
+          "Sacks",
+          "Thiel",
+          "Lonsdale",
+          "Rabois",
+          "Hoffman"
+        ]
+      },
+      "ratchet_clicks": [
+        17,
+        18
+      ],
+      "book_chapter": "the-ratchet:17-the-model, 18-the-blueprint"
+    },
+    {
+      "id": "ts-fbi-bridge",
+      "label": "Trust & Safety / FBI Bridge",
+      "summary": "FBI/DOJ NSD/CIA → Twitter/Meta/SIO content-moderation pipeline. The Flagging Machine click made operational via named individuals.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "actors": [
+            "flagging"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        1
+      ],
+      "book_chapter": "the-ratchet:01-the-flagging-machine"
+    },
+    {
+      "id": "ai-policy-council",
+      "label": "Tech-Right AI Policy Council",
+      "summary": "Persons shaping AI governance architecture across administrations — founders, regulators, lobbyists. The Blueprint click cohort.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "actors": [
+            "blueprint"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        18
+      ],
+      "book_chapter": "the-ratchet:18-the-blueprint"
+    },
+    {
+      "id": "biglaw-carousel",
+      "label": "BigLaw Carousel",
+      "summary": "DOJ → BigLaw partner → DOJ rotation. Backstop play executed through legal firms with persistent personnel pipelines.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "play": "pipeline",
+          "sector": "tank"
+        }
+      },
+      "ratchet_clicks": [
+        1,
+        5
+      ],
+      "book_chapter": "the-ratchet:01-the-flagging-machine, 05-the-papers"
+    },
+    {
+      "id": "china-influence-bridge",
+      "label": "China Influence Bridge",
+      "summary": "Western cohort with documented institutional engagement at China-state nodes (Tsinghua, Boao Forum, China Development Forum, BRI, AIIB). Institutional-only on the Chinese side per anti-tinfoil rule.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "sector": "china-state"
+        },
+        "filter": "edges_from_existing_cohort"
+      },
+      "ratchet_clicks": [
+        4,
+        9
+      ],
+      "book_chapter": "the-ratchet:04-the-money, 09-the-eagle"
+    },
+    {
+      "id": "trilateral-carter-crew",
+      "label": "Trilateral Carter Crew",
+      "summary": "Trilateral Commission → Carter administration → think-tank pipeline. The named Cycle play at its peak.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "trilateral"
+          ],
+          "admins": [
+            "carter"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        6
+      ],
+      "book_chapter": "the-ratchet:06-the-club"
+    },
+    {
+      "id": "cfr-pulpit",
+      "label": "CFR Pulpit",
+      "summary": "CFR member → State Department → CFR/think-tank seat. The foreign-policy revolving door.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "cfr"
+          ]
+        },
+        "filter_sector": "gov"
+      },
+      "ratchet_clicks": [
+        8,
+        9
+      ],
+      "book_chapter": "the-ratchet:08-the-embassy, 09-the-eagle"
+    },
+    {
+      "id": "imf-rumpelstiltskin",
+      "label": "IMF Rumpelstiltskin",
+      "summary": "IMF/World Bank pipeline → finance or regulator role → back to private capital. The named play for multilateral-to-private value extraction.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "play": "rumpelstiltskin"
+        }
+      },
+      "ratchet_clicks": [
+        4,
+        9
+      ],
+      "book_chapter": "the-ratchet:04-the-money"
+    },
+    {
+      "id": "bilderberg-cousin",
+      "label": "Bilderberg Cousin",
+      "summary": "Sustained Bilderberg attendance while holding senior US position. The Cousin play — the supranational coordination pattern.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "bilderberg"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        6
+      ],
+      "book_chapter": "the-ratchet:06-the-club"
+    },
+    {
+      "id": "federalist-judicial-pipeline",
+      "label": "Federalist Judicial Pipeline",
+      "summary": "Federalist Society network → White House Counsel → federal bench (DC Circuit, SCOTUS). The conservative legal infrastructure pattern.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "federalist"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        18
+      ],
+      "book_chapter": "the-ratchet:18-the-blueprint"
+    },
+    {
+      "id": "olc-surveillance-architects",
+      "label": "OLC Surveillance-Memo Architects",
+      "summary": "Office of Legal Counsel attorneys who authored the post-9/11 surveillance/interrogation legal framework. The Backdoor click's substrate authors.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "actors": [
+            "backdoor"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        14,
+        15,
+        16
+      ],
+      "book_chapter": "the-ratchet:16-the-backdoor"
+    },
+    {
+      "id": "defense-backstop",
+      "label": "Defense Contractor Backstop",
+      "summary": "Defense officials → contractor C-suite/board → back to Defense. The 'rule about not lobbying the agency you just left' worked-around.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "play": "backstop"
+        }
+      },
+      "ratchet_clicks": [
+        9
+      ],
+      "book_chapter": "the-ratchet:09-the-eagle"
+    },
+    {
+      "id": "wef-ygl-cohort",
+      "label": "WEF Young Global Leaders in Office",
+      "summary": "WEF Young Global Leader alumni who reached senior elected or appointed positions. Macron, Trudeau, Ardern, Sandberg, Hoffman cluster.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "wef-ygl"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        6,
+        18
+      ],
+      "book_chapter": "the-ratchet:06-the-club"
+    },
+    {
+      "id": "cfr-mass",
+      "label": "CFR Mass — the gravitational center",
+      "summary": "All persons in the dataset with a documented Council on Foreign Relations affiliation. ~25% of named persons (currently ~85 of 342), making CFR the single most-central institution in the graph — connected to more than 4x as many persons as the next-largest institutional node (State Dept at ~38).",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "network": "cfr"
+        }
+      },
+      "ratchet_clicks": [
+        6,
+        8
+      ],
+      "book_chapter": "the-ratchet:06-the-club, 08-the-embassy"
+    },
+    {
+      "id": "supranational-class",
+      "label": "Supranational Coordination Class",
+      "summary": "Persons holding membership in MULTIPLE supranational forums (CFR + Bilderberg + Trilateral). The 'Cousin' play's hardest expression — the named figures whose career arc passes through every supranational coordination layer simultaneously. Includes the Kissinger-gravity-field type figures (Kissinger, Rubin, Paulson, Rice, Schwarzman, Soros, Fink, Schmidt). Approximation of 'Kissinger Gravity Field' surfaced by the discovery script (Kissinger is the dataset's most-connected named person at 9 edges).",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "cfr",
+            "bilderberg"
+          ]
+        }
+      },
+      "ratchet_clicks": [
+        6
+      ],
+      "book_chapter": "the-ratchet:06-the-club"
+    },
+    {
+      "id": "facial-recognition-deployers",
+      "label": "Facial Recognition Deployers",
+      "summary": "Named persons leading facial-recognition / biometric-surveillance deployment at platform or product scale. Newly drained as the `model` actor tag was previously underused. Includes Clearview AI leadership (Ton-That, Schwartz), Palantir founders (Karp, Thiel, Lonsdale), Anduril (Luckey), Worldcoin/biometric-ID (Blania), platform-vision leadership (Schmidt, Pichai, Hassabis).",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "actor": "model"
+        }
+      },
+      "ratchet_clicks": [
+        17
+      ],
+      "book_chapter": "the-ratchet:17-the-model"
+    },
+    {
+      "id": "digital-id-papers-cohort",
+      "label": "Digital ID / Papers Cohort",
+      "summary": "Named persons running biometric-enrollment, digital-ID, or papers-equivalent deployment. Aadhaar architect Nilekani, Worldcoin (Blania), Mastercard/India Stack (Banga), Schmidt + Sandberg + Khan in platform-ID adjacent roles, Schwab + WEF on digital-ID advocacy.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "actor": "papers"
+        }
+      },
+      "ratchet_clicks": [
+        5
+      ],
+      "book_chapter": "the-ratchet:05-the-papers"
+    },
+    {
+      "id": "british-ratchet",
+      "label": "British Ratchet",
+      "summary": "The UK-state's parallel control-grid architecture: Chatham House (Royal Institute of International Affairs) + IISS + RUSI + King's War Studies as the brain trust; FCDO + Bank of England + MI5 + MI6 + GCHQ as the operational organs; documented UK persons (Blair, Cameron, BJohnson, Truss, Sunak, Starmer, Reeves, Carney, Sawers, Fleming, RMoore, Niblett, BMaddox, AParker, McCallum, Hadley-adjacent UK figures). Nation-state-keyed term — the British Ratchet is the UK's institutional analogue to the US Ratchet, with structural homologies (CFR↔Chatham House, RAND↔IISS, NSA↔GCHQ, FBI↔MI5, CIA↔MI6, Treasury↔Treasury+BoE) and operational pipeline differences (UK retains more peerage / honors / Crown-appointed structures; US retains more campaign-finance / lobbying coupling). Documented in the UK persons' multi-institution edge patterns.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "cfr"
+          ]
+        },
+        "filter_ids_via_institutions": [
+          "Chatham",
+          "IISS",
+          "RUSI",
+          "FCDO",
+          "BoE",
+          "MI5",
+          "MI6",
+          "GCHQ"
+        ]
+      },
+      "ratchet_clicks": [
+        6,
+        8,
+        14
+      ],
+      "book_chapter": "the-ratchet:06-the-club, 08-the-embassy"
+    },
+    {
+      "id": "european-ratchet",
+      "label": "European Ratchet",
+      "summary": "EU-aligned parallel control-grid architecture: European Commission + ECB + ECFR + Bruegel + CER as the institutional brain trust; named figures Vestager (DSA architect), Breton (DSA enforcer), VonDerLeyen, Draghi, JBorrell, Macron, Kurz, Rutte. Nation-state-keyed (EU as a political union). Structural homology with US Ratchet but EU operates more through regulation (DSA, AI Act) and supranational coordination than through revolving-door personnel rotation.",
+      "query": {
+        "tool": "find_overlap",
+        "args": {
+          "networks": [
+            "wef"
+          ]
+        },
+        "filter_ids_via_institutions": [
+          "EC",
+          "ECB",
+          "ECFR",
+          "Bruegel",
+          "CER"
+        ]
+      },
+      "ratchet_clicks": [
+        1,
+        5,
+        18
+      ],
+      "book_chapter": "the-ratchet:01-the-flagging-machine, 18-the-blueprint"
+    },
+    {
+      "id": "indian-ratchet",
+      "label": "Indian Ratchet",
+      "summary": "Indian-state's parallel control-grid architecture: MEA + ORF + MP-IDSA + Gateway House + VIF as institutional brain trust; named persons Nilekani (Aadhaar architect), Jaishankar (current EAM), SMenon (ex-NSA), Doval (current NSA). Distinct shape from US/UK: India Stack (Aadhaar + UPI + DigiLocker + Account Aggregator) is the world's most-deployed digital-ID-and-payment-rails program. The Indian Ratchet exports its model — Philippines, Sri Lanka, Brazil have all imported variants.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "sector": "gov",
+          "network": "cfr"
+        },
+        "filter_ids_via_institutions": [
+          "MEA_India",
+          "ORF",
+          "MP_IDSA",
+          "VIF",
+          "Aadhaar"
+        ]
+      },
+      "ratchet_clicks": [
+        2,
+        4,
+        5
+      ],
+      "book_chapter": "the-ratchet:02-the-algorithm, 04-the-money, 05-the-papers"
+    },
+    {
+      "id": "israeli-ratchet",
+      "label": "Israeli Ratchet",
+      "summary": "Israeli-state's parallel control-grid architecture: alumni-pipeline pattern (Unit 8200 → tech startups → commercial surveillance vendors) rather than think-tank-driven. Institutional anchors: Knesset, Mossad, Unit 8200, INSS (Tel Aviv), NSO Group (Pegasus), Cellebrite (mobile forensics), Black Cube (private intel). Named ex-officials: Netanyahu, Barak, Olmert, Livni, Bennett, YCohen (ex-Mossad chief), Barnea (current Mossad chief). Commercial-surveillance vendor abuses are documented in court records (NSO v. WhatsApp, Citizen Lab attribution reports) — those documents are the citation backbone, not allegations.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "sector": "intel"
+        },
+        "filter_ids_via_institutions": [
+          "Mossad",
+          "Unit8200",
+          "NSO",
+          "Cellebrite",
+          "INSS",
+          "BlackCube",
+          "Knesset"
+        ]
+      },
+      "ratchet_clicks": [
+        15,
+        16,
+        17
+      ],
+      "book_chapter": "the-ratchet:15-the-watchers, 16-the-backdoor, 17-the-model"
+    },
+    {
+      "id": "canadian-ratchet",
+      "label": "Canadian Ratchet",
+      "summary": "Canada's parallel control-grid architecture: finance-first pattern (central bank → senior cabinet → think tank), Five Eyes membership. Institutional: CIGI, CSIS_Can (Canadian Security Intelligence Service), CSE_Can (signals), CGAI, Munk School, BoC. Named persons: Carney (BoC → BoE → UN Climate → Brookfield → PM 2025-), Trudeau, Freeland (FM/DPM/Finance), DJohnston (Governor General), Barton (McKinsey → Growth Council Chair → Ambassador to China → Rio Tinto Chair).",
+      "query": {
+        "tool": "query_cohort",
+        "args": {},
+        "filter_ids_via_institutions": [
+          "CanadaGov",
+          "BoC",
+          "CIGI",
+          "CSIS_Can",
+          "CSE_Can",
+          "MunkSchool"
+        ]
+      },
+      "ratchet_clicks": [
+        4,
+        6,
+        14
+      ],
+      "book_chapter": "the-ratchet:04-the-money, 06-the-club"
+    },
+    {
+      "id": "australian-ratchet",
+      "label": "Australian Ratchet",
+      "summary": "Australia's parallel control-grid architecture: defense-first pattern, explicit state-foundation fusion. Institutional anchors: ASIO + ASIS + ASD + ONI_AU (intelligence), ASPI + Lowy Institute (think tanks). Named: Albanese, Rudd (PM → Asia Society Policy Institute → US Ambassador), Turnbull (Goldman → PM), MPayne (FM/Defence → Hoover), TAbbott (PM → UK Board of Trade). ASPI's governance includes Defence Secretary + DFAT Secretary ex-officio — the cleanest example of state-foundation institutional fusion in any Ratchet.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {},
+        "filter_ids_via_institutions": [
+          "AUGov",
+          "ASIO",
+          "ASPI",
+          "Lowy"
+        ]
+      },
+      "ratchet_clicks": [
+        9,
+        14,
+        18
+      ],
+      "book_chapter": "the-ratchet:09-the-eagle"
+    },
+    {
+      "id": "japanese-ratchet",
+      "label": "Japanese Ratchet",
+      "summary": "Japan's parallel control-grid architecture: bureaucratic meritocracy, LDP party-state fusion. JIIA (Japan Institute of International Affairs, chartered at Abe's initiative — state-aligned, not independent like Chatham House). Intelligence fragmented across PSIA + CIRO + JMOD + MOFA. De-facto Five Eyes sixth eye per CSIS. Named: Kishida (PM 2021-24), Abe (longest-serving PM, NSC architect, assassinated 2022), Motegi (FM continuity), Okazaki (Foreign Ministry diplomat → Okazaki Institute founder).",
+      "query": {
+        "tool": "query_cohort",
+        "args": {},
+        "filter_ids_via_institutions": [
+          "JPGov",
+          "JIIA",
+          "PSIA",
+          "JMOD",
+          "OkazakiInst"
+        ]
+      },
+      "ratchet_clicks": [
+        8,
+        9
+      ],
+      "book_chapter": "the-ratchet:08-the-embassy"
+    },
+    {
+      "id": "korean-ratchet",
+      "label": "Korean Ratchet",
+      "summary": "South Korea's parallel control-grid architecture: hybrid state-private model. Asan Institute (independent but policy-aligned) + KIDA (defense research). NIS_SK politically weaponized across multiple impeachments (Park 2017, Yoon 2025). Prosecutor-to-presidency pipeline (Yoon Suk-yeol: career prosecutor → Prosecutor General → President 2022-25). Transnational expert node Victor Cha (NSC Bush2 → CSIS Korea Chair → Georgetown → Asan). Named: Yoon, VCha, CKang (Asan President), Park.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {},
+        "filter_ids_via_institutions": [
+          "Asan",
+          "NIS_SK",
+          "KIDA",
+          "MND_SK"
+        ]
+      },
+      "ratchet_clicks": [
+        9,
+        14
+      ],
+      "book_chapter": "the-ratchet:09-the-eagle"
+    },
+    {
+      "id": "surveillance-customer-cohort",
+      "label": "Surveillance Customer Cohort",
+      "summary": "Gulf states + Egypt as documented customers of Western/Israeli commercial-surveillance products (NSO Pegasus, Cellebrite, Cytrox Predator, Hacking Team). NOT operators of indigenous Ratchets — they buy and deploy what the Israeli/Western operator-states' alumni-pipeline produces. Customer states: Saudi Arabia (GIP_Saudi + KFCRIS + PIF), UAE (SSA_UAE + DarkMatter contractor-host + ADIA), Egypt (GIS_Egypt + Technical Research Division), Bahrain (NSA_Bahrain, LULU Pegasus operator). Qatar is non-player (defensive only). Per anti-defamation rule for foreign nationals: institutional-only.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "sector": "intel"
+        },
+        "filter_ids_via_institutions": [
+          "GIP_Saudi",
+          "SSA_UAE",
+          "DarkMatter",
+          "GIS_Egypt",
+          "NSA_Bahrain"
+        ]
+      },
+      "ratchet_clicks": [
+        15,
+        16,
+        17
+      ],
+      "book_chapter": "the-ratchet:15-the-watchers, 16-the-backdoor, 17-the-model"
+    },
+    {
+      "id": "green-priest-cohort",
+      "label": "The Green Priests — Climate / ESG / Net-Zero financialization",
+      "summary": "Named architects of the climate-finance infrastructure. The 'fifth pawl' of the Priest archetype (Chapter 7 in The Ratchet), per author 2026-05-29: 'the climate people are also kind of like green priests.' Sits alongside Opus Dei, EA utilitarianism, progressive epistemic control, and WEF technocracy as variant priest-class operating control-grid mechanism. Persons: Fink (BlackRock), Carney (UN Climate Envoy + GFANZ + Canadian PM), Bloomberg (UN Climate Envoy + GFANZ + TCFD), Kerry (Biden Climate Envoy), Figueres (UNFCCC Paris architect), Espinosa (UNFCCC 2016-22), Stiell (UNFCCC 2022-), Yellen (FSOC climate authority), HMizuno (UN PRI + GPIF), BBadré (WB CFO → Blue like an Orange). Institutional: GFANZ + NZAOA + UN PRI + Climate Action 100+ + ISSB + NGFS + UNFCCC.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "actor": "priest"
+        }
+      },
+      "ratchet_clicks": [
+        7
+      ],
+      "book_chapter": "the-ratchet:07-the-priest"
+    },
+    {
+      "id": "health-governance-ratchet",
+      "label": "The Hospital — Health-Governance Ratchet",
+      "summary": "The 'philanthropic-funding-determinism' structural pattern, distinct from the US/UK revolving-door Ratchets. Gates Foundation seeds Gavi (2000) and CEPI (2017) → Wellcome Trust co-funds CEPI → multilateral WHO (funding-dependent, 84% voluntary/earmarked, Gates is second-largest donor with 15-20% allocation influence per Politico) → PEPFAR (US bilateral). Personnel rotate but structural lock is funding conditionality, not employment. Named: Tedros (WHO DG), MChan (WHO DG predecessor), Fauci (NIAID), Farrar (Wellcome→WHO), Berkley (Gavi), Hatchett (BARDA→CEPI), Dybul (PEPFAR→Global Fund), Birx (WH Coronavirus Response), Slaoui (Operation Warp Speed), BGates, Suzman, RShah, Gawande, RFKJr. Institutional: Gavi + CEPI + Wellcome + WHO + WHO HEP + PEPFAR + NIAID + BARDA + GlobalFund + GISAID.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "actor": "hospital"
+        }
+      },
+      "ratchet_clicks": [
+        13
+      ],
+      "book_chapter": "the-ratchet:13-the-hospital"
+    },
+    {
+      "id": "diaspora-pacs",
+      "label": "Diaspora PACs",
+      "summary": "Horizontal cluster: country-of-origin diaspora political-action committees and advocacy orgs operating in US politics. Template-replication pattern: USINPAC's founders explicitly modeled it on AIPAC; subsequent formations across multiple country-of-origin communities followed similar templates (501(c)(3) education arm + 501(c)(4) lobbying arm + FEC PAC + congressional caucus liaison). Includes both embassy-aligned vehicles (USINPAC, OFBJP-USA, Impact-PAC, RHC, HAF, PAK-PAC, BAPAC, ANCA, AAA, ATFL, NaFFAA, CARECEN, KAGC) and reverse-aligned counter-home-state vehicles (US-Cuba Democracy PAC, CANF, FAPA, BPSOS). OFBJP-USA is the single documented FARA-registered foreign-agent presence (Aug 2020). Eritrea is an edge case that bypasses the PAC pattern entirely via embassy 2% Recovery Tax collection.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {
+          "sector": "diaspora"
+        },
+        "filter_ids_via_institutions": [
+          "USINPAC",
+          "OFBJP-USA",
+          "Impact-PAC",
+          "RHC",
+          "HAF",
+          "PAK-PAC",
+          "BAPAC",
+          "ANCA",
+          "AAA-Armenia",
+          "FAPA",
+          "Committee100",
+          "CANF",
+          "USCDP",
+          "ATFL",
+          "NaFFAA",
+          "CARECEN",
+          "BPSOS",
+          "KAGC"
+        ]
+      },
+      "ratchet_clicks": [
+        8
+      ],
+      "book_chapter": "the-ratchet:08-the-embassy"
+    }
+  ]
+}

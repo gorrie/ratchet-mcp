@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ratchet — Revolving Door</title>
+  <link rel="stylesheet" href="/viewer.css">
+</head>
+<body>
+  <header class="rd-header">
+    <h1>The Revolving Door</h1>
+    <p class="rd-sub">Open dataset of named persons and institutions across the
+      US government / Wall Street / multilateral / tech control grid. Tagged
+      with 8 staffing plays and 11 control-grid actors. See
+      <a href="https://github.com/gorrie/ratchet-mcp/blob/master/docs/SCOPE.md">docs/SCOPE.md</a>.</p>
+  </header>
+
+  <main class="rd-main">
+    <div id="status">Loading data...</div>
+    <svg id="graph" width="100%" height="800"></svg>
+    <aside id="detail" hidden>
+      <h2 id="detail-name"></h2>
+      <p id="detail-role"></p>
+      <ul id="detail-tags"></ul>
+      <h3>Sources</h3>
+      <ul id="detail-sources"></ul>
+    </aside>
+  </main>
+
+  <footer class="rd-footer">
+    <p>Repo (code + data) MIT-licensed. See also
+      <a href="https://littlesis.org/">LittleSis</a> (Public Accountability
+      Initiative), an adjacent open influence-network database we
+      reference at the record level.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="/viewer.js"></script>
+</body>
+</html>
