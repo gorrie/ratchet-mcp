@@ -5,8 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ratchet-mcp"
 version = "0.1.0"
-description = "Model Context Protocol server for the Ratchet Revolving Door dataset."
-readme = "../README.md"
+description = "Model Context Protocol server for the Ratchet Revolving Door dataset. See https://github.com/gorrie/ratchet-mcp for the full README, dataset and scope docs."
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Ian Gorrie" }]
