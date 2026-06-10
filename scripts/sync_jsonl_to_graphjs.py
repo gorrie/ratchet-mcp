@@ -16,22 +16,28 @@ serves a single graph.js file that declares an Alpine.js component:
 We rewrite those three array literals only. The surrounding component
 methods are preserved.
 
-After running:
+After running, preview with hugo (any platform):
     cd evil-robots-series/website
-    <home>/tools/hugo.exe server --buildFuture
+    hugo server --buildFuture
 to visually verify the foreign-cluster nodes appear in the right color
 group and that no existing nodes were lost.
 """
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
-WORKSPACE = Path(r"<workspace>")
-GRAPH_JS = WORKSPACE / "evil-robots-series" / "website" / "static" / "tech" / "revolving-door" / "graph.js"
-DATA = WORKSPACE / "evil-robots-series" / "research" / "ratchet-mcp" / "server" / "data"
+# Website-bridge script: needs the evil-robots-series working copy (the public
+# standalone ratchet-mcp repo has no website/ tree). EUREKA_WORKSPACE overrides;
+# otherwise resolve the series root from this script's location (ratchet-mcp is
+# at <series>/research/ratchet-mcp/, so parents[2] is the series dir).
+_here = Path(__file__).resolve()
+SERIES = Path(os.environ["EUREKA_WORKSPACE"]) if os.environ.get("EUREKA_WORKSPACE") else _here.parents[2]
+GRAPH_JS = SERIES / "website" / "static" / "tech" / "revolving-door" / "graph.js"
+DATA = _here.parents[1] / "server" / "data"
 
 # Fields we emit inline. Other fields (kind, accessed dates, etc.) are
 # carried in the JSONL but not needed by the web viewer.

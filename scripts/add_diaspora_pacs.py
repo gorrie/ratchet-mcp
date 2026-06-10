@@ -12,7 +12,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-DATA = Path("<workspace>/evil-robots-series/research/ratchet-mcp/server/data")
+# Portable: resolve relative to the repo, matching the other add_*.py scripts.
+# RATCHET_DATA_DIR overrides (same env var the server's data.py honors).
+import os
+ROOT = Path(__file__).resolve().parents[1]
+DATA = Path(os.environ["RATCHET_DATA_DIR"]) if os.environ.get("RATCHET_DATA_DIR") else ROOT / "server" / "data"
 
 INSTITUTIONS = [
     {

@@ -13,13 +13,20 @@ from __future__ import annotations
 
 import ast
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
-WORKSPACE = Path(r"<workspace>")
-GRAPH_JS = WORKSPACE / "evil-robots-series" / "website" / "static" / "tech" / "revolving-door" / "graph.js"
-OUT_DIR = WORKSPACE / "evil-robots-series" / "research" / "ratchet-mcp" / "server" / "data"
+# Website-bridge script: needs the evil-robots-series working copy (the public
+# standalone ratchet-mcp repo has no website/ tree). Resolve the series root
+# from EUREKA_WORKSPACE, else from this script's location — ratchet-mcp lives at
+# <series>/research/ratchet-mcp/, so parents[2] is the series dir. No hard-coded
+# user paths; runs on any host that has the working copy.
+_here = Path(__file__).resolve()
+SERIES = Path(os.environ["EUREKA_WORKSPACE"]) if os.environ.get("EUREKA_WORKSPACE") else _here.parents[2]
+GRAPH_JS = SERIES / "website" / "static" / "tech" / "revolving-door" / "graph.js"
+OUT_DIR = _here.parents[1] / "server" / "data"
 
 
 def js_array_to_py(text: str, marker: str) -> list:
