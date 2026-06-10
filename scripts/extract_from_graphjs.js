@@ -5,9 +5,13 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const WORKSPACE = '<workspace>';
-const GRAPH_JS = path.join(WORKSPACE, 'evil-robots-series/website/static/tech/revolving-door/graph.js');
-const OUT_DIR = path.join(WORKSPACE, 'evil-robots-series/research/ratchet-mcp/server/data');
+// Website-bridge script: needs the evil-robots-series working copy. Resolve the
+// series root from SERIES_ROOT, else from this script's location (ratchet-mcp is
+// at <series>/research/ratchet-mcp/, so three levels up is the series dir). No
+// hard-coded user path.
+const SERIES = process.env.SERIES_ROOT || path.resolve(__dirname, '..', '..', '..');
+const GRAPH_JS = path.join(SERIES, 'website/static/tech/revolving-door/graph.js');
+const OUT_DIR = path.resolve(__dirname, '..', 'server', 'data');
 
 const src = fs.readFileSync(GRAPH_JS, 'utf8');
 

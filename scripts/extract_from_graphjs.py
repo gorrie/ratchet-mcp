@@ -20,11 +20,11 @@ from pathlib import Path
 
 # Website-bridge script: needs the evil-robots-series working copy (the public
 # standalone ratchet-mcp repo has no website/ tree). Resolve the series root
-# from EUREKA_WORKSPACE, else from this script's location — ratchet-mcp lives at
+# from SERIES_ROOT, else from this script's location — ratchet-mcp lives at
 # <series>/research/ratchet-mcp/, so parents[2] is the series dir. No hard-coded
 # user paths; runs on any host that has the working copy.
 _here = Path(__file__).resolve()
-SERIES = Path(os.environ["EUREKA_WORKSPACE"]) if os.environ.get("EUREKA_WORKSPACE") else _here.parents[2]
+SERIES = Path(os.environ["SERIES_ROOT"]) if os.environ.get("SERIES_ROOT") else _here.parents[2]
 GRAPH_JS = SERIES / "website" / "static" / "tech" / "revolving-door" / "graph.js"
 OUT_DIR = _here.parents[1] / "server" / "data"
 
