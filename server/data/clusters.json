@@ -175,13 +175,13 @@
       "book_chapter": "the-ratchet:08-the-embassy, 09-the-eagle"
     },
     {
-      "id": "imf-rumpelstiltskin",
-      "label": "IMF Rumpelstiltskin",
+      "id": "imf-bretton",
+      "label": "IMF Bretton",
       "summary": "IMF/World Bank pipeline → finance or regulator role → back to private capital. The named play for multilateral-to-private value extraction.",
       "query": {
         "tool": "query_cohort",
         "args": {
-          "play": "rumpelstiltskin"
+          "play": "bretton"
         }
       },
       "ratchet_clicks": [
@@ -619,6 +619,70 @@
         8
       ],
       "book_chapter": "the-ratchet:08-the-embassy"
+    },
+    {
+      "id": "openai-apparatus",
+      "label": "OpenAI Policy & Safety",
+      "summary": "OpenAI's in-house model-behavior, policy, safety and global-affairs people — the apparatus shaping what the model refuses and how the company is governed.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {}
+      },
+      "filter_ids_via_institutions": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "anthropic-apparatus",
+      "label": "Anthropic Apparatus",
+      "summary": "Anthropic's safety, policy and character people — authors of the model's constitution and its public-benefit posture.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {}
+      },
+      "filter_ids_via_institutions": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "the-evaluators",
+      "label": "The Evaluators",
+      "summary": "The model-audit layer — METR, Apollo Research, the UK AI Security Institute — that grades frontier models for danger and deception, funded largely by the same philanthropies that fund the labs.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {}
+      },
+      "filter_ids_via_institutions": [
+        "METR",
+        "ApolloResearch",
+        "UKAISI"
+      ]
+    },
+    {
+      "id": "governance-shops",
+      "label": "Governance Shops",
+      "summary": "The think-tank governance layer — Georgetown CSET and the Centre for the Governance of AI — whose alumni staff both the frontier labs and the state bodies that regulate them.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {}
+      },
+      "filter_ids_via_institutions": [
+        "CSET",
+        "GovAI"
+      ]
+    },
+    {
+      "id": "fmf-bloc",
+      "label": "Frontier Model Forum Bloc",
+      "summary": "The frontier companies' own consortium — the Frontier Model Forum and its AI Safety Fund — through which the labs set and fund the standards they are judged by.",
+      "query": {
+        "tool": "query_cohort",
+        "args": {}
+      },
+      "filter_ids_via_institutions": [
+        "FMF",
+        "FMFSafetyFund"
+      ]
     }
   ]
 }

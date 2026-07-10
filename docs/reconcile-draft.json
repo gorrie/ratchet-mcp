@@ -1,0 +1,1308 @@
+[
+  {
+    "slug": "amanda-askell",
+    "id": "AmandaAskell",
+    "label": "Amanda Askell",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Researcher, Anthropic (Claude character / alignment finetuning)",
+    "n_sources": 2,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.anthropic.com/research/claude-character"
+      },
+      {
+        "type": "official",
+        "url": "https://www.anthropic.com/news/claude-new-constitution"
+      }
+    ],
+    "edges": [
+      "Anthropic"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "andrea-vallone",
+    "id": "AndreaVallone",
+    "label": "Andrea Vallone",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Led Model Policy, OpenAI (departed end-2025, per Wired)",
+    "n_sources": 2,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://arxiv.org/abs/2508.09224"
+      },
+      {
+        "type": "official",
+        "url": "https://www.wired.com/story/openai-research-lead-mental-health-quietly-departs/"
+      }
+    ],
+    "edges": [
+      "OpenAI"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "andy-zou",
+    "id": "AndyZou",
+    "label": "Andy Zou",
+    "kind": "person",
+    "sector": "tank",
+    "role": "PhD researcher, Carnegie Mellon; co-founder & CTO, Gray Swan AI",
+    "n_sources": 4,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://arxiv.org/abs/2307.15043"
+      },
+      {
+        "type": "official",
+        "url": "https://www.csd.cs.cmu.edu/academics/doctoral/degrees-conferred/andy-zou"
+      },
+      {
+        "type": "official",
+        "url": "https://www.grayswan.ai/research/circuit-breakers"
+      },
+      {
+        "type": "official",
+        "url": "https://github.com/llm-attacks/llm-attacks"
+      }
+    ],
+    "edges": [
+      "CMU",
+      "GraySwan"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "anika-navaroli",
+    "id": "AnikaCollierNavaroli",
+    "label": "Anika Collier Navaroli",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Director, Craig Newmark Center for Journalism Ethics and Security, Columbia Journalism School (eff. Jan 2026); formerly senior content-policy, Twitter & Twitch Trust & Safety",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Anika_Collier_Navaroli"
+      },
+      {
+        "type": "official",
+        "url": "https://journalism.columbia.edu/news/anika-collier-navaroli-named-director-newmark-center"
+      },
+      {
+        "type": "official",
+        "url": "https://magazine.law.unc.edu/february-2024/alumni-profile-anika-collier-navaroli/"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "apollo-research",
+    "id": "ApolloResearch",
+    "label": "Apollo Research",
+    "kind": "institution",
+    "sector": "tank",
+    "role": "AI-safety evaluation organization; founded May 2023 (London), now a US Public Benefit Corporation",
+    "n_sources": 9,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.alignmentforum.org/posts/FG6icLPKizEaWHex5/announcing-apollo-research"
+      },
+      {
+        "type": "official",
+        "url": "https://www.apolloresearch.ai/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.apolloresearch.ai/about"
+      },
+      {
+        "type": "official",
+        "url": "https://arxiv.org/abs/2412.04984"
+      },
+      {
+        "type": "official",
+        "url": "https://openai.com/index/openai-o1-system-card/"
+      },
+      {
+        "type": "official",
+        "url": "https://time.com/collections/time100-ai-2025/7305864/marius-hobbhahn/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.anthropic.com/claude-4-system-card"
+      },
+      {
+        "type": "official",
+        "url": "https://www.axios.com/2025/05/23/anthropic-ai-deception-risk"
+      },
+      {
+        "type": "official",
+        "url": "https://www.apolloresearch.ai/blog/apollo-research-is-becoming-a-pbc/"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "ben-nimmo",
+    "id": "BenNimmo",
+    "label": "Ben Nimmo",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Principal Investigator / head of investigations, OpenAI",
+    "n_sources": 1,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+      }
+    ],
+    "edges": [
+      "OpenAI"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "camille-francois",
+    "id": "CamilleFrancois",
+    "label": "Camille François",
+    "kind": "person",
+    "sector": "tank",
+    "role": "President, ROOST; former Chief Innovation Officer, Graphika",
+    "n_sources": 1,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+      }
+    ],
+    "edges": [
+      "ROOST"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "charlotte-willner",
+    "id": "CharlotteWillner",
+    "label": "Charlotte Willner",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Founding Executive Director, Trust & Safety Professional Association / Trust & Safety Foundation",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "chris-meserole",
+    "id": "ChrisMeserole",
+    "label": "Chris Meserole",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Executive Director, Frontier Model Forum",
+    "n_sources": 2,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.frontiermodelforum.org/updates/announcing-chris-meserole/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "clara-tsao",
+    "id": "ClaraTsao",
+    "label": "Clara Tsao",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Co-founder & Board Member, Trust & Safety Professional Association",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "dfrlab",
+    "id": "AtlanticCouncilDfrlab",
+    "label": "Atlantic Council Dfrlab",
+    "kind": "institution",
+    "sector": "tank",
+    "role": "Digital Forensic Research Lab, incubated at the Atlantic Council 2016",
+    "n_sources": 7,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://dfrlab.org/about/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Atlantic_Council"
+      },
+      {
+        "type": "official",
+        "url": "https://hewlett.org/grants/atlantic-council-for-the-digital-forensic-research-lab/"
+      },
+      {
+        "type": "official",
+        "url": "https://quincyinst.org/research/big-ideas-and-big-money-think-tank-funding-in-america/"
+      },
+      {
+        "type": "official",
+        "url": "https://thinktankfundingtracker.org/think-tank/atlantic-council/"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "elham-tabassi",
+    "id": "ElhamTabassi",
+    "label": "Elham Tabassi",
+    "kind": "person",
+    "sector": "gov",
+    "role": "architect of the NIST AI Risk Management Framework; former CTO, US AI Safety Institute (now CAISI)",
+    "n_sources": 5,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.nist.gov/news-events/events/2023/01/nist-ai-risk-management-framework-ai-rmf-10-launch"
+      },
+      {
+        "type": "official",
+        "url": "https://www.nist.gov/awards/time-magazine-recognizes-nist-itl-associate-director-emerging-technologies-elham-tabassi-one"
+      },
+      {
+        "type": "official",
+        "url": "https://www.brookings.edu/people/elham-tabassi/"
+      },
+      {
+        "type": "official",
+        "url": "https://fedscoop.com/us-ai-safety-institute-usaisi-kelly-tabassi-raimondo-nist/"
+      },
+      {
+        "type": "official",
+        "url": "https://ssti.org/blog/us-ai-safety-institute-has-been-renamed-center-ai-standards-and-innovation"
+      }
+    ],
+    "edges": [
+      "CAISI",
+      "NIST"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "eliezer-yudkowsky",
+    "id": "EliezerYudkowsky",
+    "label": "Eliezer Yudkowsky",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Co-Founder, Machine Intelligence Research Institute (MIRI)",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "failspy",
+    "id": "Failspy",
+    "label": "Failspy",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Pseudonymous researcher; author of abliterated open-weight models and tooling on Hugging Face / GitHub",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://huggingface.co/failspy/Llama-3-8B-Instruct-abliterated"
+      },
+      {
+        "type": "official",
+        "url": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated"
+      },
+      {
+        "type": "official",
+        "url": "https://huggingface.co/blog/mlabonne/abliteration"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "geoffrey-hinton",
+    "id": "GeoffreyHinton",
+    "label": "Geoffrey Hinton",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Professor Emeritus, University of Toronto; Nobel Laureate, Physics 2024",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "govai",
+    "id": "GovaiCentreForTheGovernanceOfAi",
+    "label": "Govai (Centre For The Governance Of Ai)",
+    "kind": "institution",
+    "sector": "tank",
+    "role": "AI-governance research nonprofit; Oxford-origin, independent since 2021",
+    "n_sources": 8,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.governance.ai/about-us"
+      },
+      {
+        "type": "official",
+        "url": "https://www.governance.ai/research"
+      },
+      {
+        "type": "official",
+        "url": "https://www.governance.ai/post/the-centre-for-the-governance-of-ai-has-relaunched"
+      },
+      {
+        "type": "official",
+        "url": "https://www.openphilanthropy.org/grants/centre-for-the-governance-of-ai-ai-field-building/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.openphilanthropy.org/grants/centre-for-the-governance-of-ai-general-support-2/"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jade_Leung_(engineer"
+      },
+      {
+        "type": "official",
+        "url": "https://forum.effectivealtruism.org/topics/centre-for-the-governance-of-ai"
+      },
+      {
+        "type": "official",
+        "url": "https://forum.effectivealtruism.org/posts/zcAxoAHcSECyewr2t/the-centre-for-the-governance-of-ai-is-becoming-a-nonprofit"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": "GovAI"
+  },
+  {
+    "slug": "graphika",
+    "id": "Graphika",
+    "label": "Graphika",
+    "kind": "institution",
+    "sector": "intel",
+    "role": "Commercial network-analysis / influence-mapping firm, founded 2013",
+    "n_sources": 6,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.graphika.com/our-story"
+      },
+      {
+        "type": "official",
+        "url": "https://www.graphika.com/team/dr-john-w-kelly"
+      },
+      {
+        "type": "official",
+        "url": "https://www.cnbc.com/2019/01/27/ex-google-exec-camille-francois-russian-trolls.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.prnewswire.com/news-releases/graphika-chief-innovation-officer-camille-francois-named-as-mit-technology-review-2019-innovator-under-35-300876264.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.graphika.com/reports/unheard-voice"
+      },
+      {
+        "type": "official",
+        "url": "https://www.lawfaremedia.org/article/fewer-bots--more-ads--the-pentagon-s-evolving-online-influence-campaigns"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "helen-toner",
+    "id": "HelenToner",
+    "label": "Helen Toner",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Executive Director, Georgetown CSET; former OpenAI board member",
+    "n_sources": 5,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://cset.georgetown.edu/staff/helen-toner/"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helen_Toner"
+      },
+      {
+        "type": "official",
+        "url": "https://www.ted.com/pages/what-really-went-down-at-openai-and-the-future-of-regulation-w-helen-toner"
+      },
+      {
+        "type": "official",
+        "url": "https://finance.yahoo.com/news/sam-altman-confirms-return-openai-021751937.html"
+      },
+      {
+        "type": "official",
+        "url": "https://cset.georgetown.edu/article/cset-director-helen-toner-testifies-before-senate-judiciary-committee"
+      }
+    ],
+    "edges": [
+      "CSET",
+      "OpenAI"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "j-nathan-matias",
+    "id": "JNathanMatias",
+    "label": "J. Nathan Matias",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Assistant Professor, Cornell University; Founder, Citizens and Technology Lab",
+    "n_sources": 4,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://cals.cornell.edu/people/j-nathan-matias"
+      },
+      {
+        "type": "official",
+        "url": "https://citizensandtech.org/about-cat-lab/"
+      },
+      {
+        "type": "official",
+        "url": "https://natematias.com/"
+      },
+      {
+        "type": "official",
+        "url": "https://civilservant.io/about_us"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "jacob-klein",
+    "id": "JacobKlein",
+    "label": "Jacob Klein",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Head of Threat Intelligence, Anthropic",
+    "n_sources": 2,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.cyberuk.uk/2026/speaker/2191327/jacob-klein"
+      },
+      {
+        "type": "official",
+        "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
+      }
+    ],
+    "edges": [
+      "Anthropic"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "james-manyika",
+    "id": "JamesManyika",
+    "label": "James Manyika",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Senior Vice President, Research, Technology & Society, Google; former Chair, McKinsey Global Institute",
+    "n_sources": 2,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://ai.google/responsibility/principles/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.cnbc.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-surveillance.html"
+      }
+    ],
+    "edges": [
+      "Google"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "jan-leike",
+    "id": "JanLeike",
+    "label": "Jan Leike",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Alignment Researcher, Anthropic (joined May 2024)",
+    "n_sources": 1,
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jan_Leike"
+      }
+    ],
+    "edges": [
+      "Anthropic"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "joe-carlsmith",
+    "id": "JoeCarlsmith",
+    "label": "Joe Carlsmith",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Researcher, Anthropic (Claude character / constitution / spec)",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to"
+      },
+      {
+        "type": "official",
+        "url": "https://www-cdn.anthropic.com/cffd979fd050fbc0d8874b8c58b24cc10554e208/claudes-constitution_webPDF_26-01.26a.pdf"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Precipice_(book"
+      }
+    ],
+    "edges": [
+      "Anthropic"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "johann-rehberger",
+    "id": "JohannRehberger",
+    "label": "Johann Rehberger",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Independent security researcher; author, Embrace the Red (wunderwuzzi)",
+    "n_sources": 4,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://embracethered.com/blog/"
+      },
+      {
+        "type": "official",
+        "url": "https://arxiv.org/pdf/2412.06090"
+      },
+      {
+        "type": "official",
+        "url": "https://www.packtpub.com/en-us/product/cybersecurity-attacks-ai-red-team-strategies-9781838828868"
+      },
+      {
+        "type": "official",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-promptware-agent-commander-c2-20260317-csa/"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "kate-klonick",
+    "id": "KateKlonick",
+    "label": "Kate Klonick",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Associate Professor of Law, St. John's University; scholar of platform governance",
+    "n_sources": 4,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.stjohns.edu/law/faculty/kate-klonick"
+      },
+      {
+        "type": "official",
+        "url": "https://scholarship.law.stjohns.edu/faculty_publications/183/"
+      },
+      {
+        "type": "official",
+        "url": "https://scholarship.law.stjohns.edu/faculty_publications/312/"
+      },
+      {
+        "type": "official",
+        "url": "https://cyber.harvard.edu/people/kate-klonick"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "leonard-tang",
+    "id": "LeonardTang",
+    "label": "Leonard Tang",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Co-founder & CEO, Haize Labs",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://pitchbook.com/news/articles/general-catalyst-haize-labs-100-million-valuation"
+      },
+      {
+        "type": "official",
+        "url": "https://www.angelsround.com/p/haize-labs"
+      },
+      {
+        "type": "official",
+        "url": "https://www.aisecuritypodcast.com/videos/ai-red-teaming-securing-enterprise-ai-with-leonard-tang-of-haize-labs"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "maxime-labonne",
+    "id": "MaximeLabonne",
+    "label": "Maxime Labonne",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Head of Post-Training, Liquid AI; author, LLM course and LLM Engineer's Handbook",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://huggingface.co/blog/mlabonne/abliteration"
+      },
+      {
+        "type": "official",
+        "url": "https://github.com/mlabonne"
+      },
+      {
+        "type": "official",
+        "url": "https://www.packtpub.com/en-us/product/llm-engineers-handbook-9781836200062"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "michael-sellitto",
+    "id": "MichaelSellitto",
+    "label": "Michael Sellitto",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Head of Global Affairs, Anthropic",
+    "n_sources": 1,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.cnas.org/people/michael-sellitto"
+      }
+    ],
+    "edges": [
+      "Anthropic"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "mlcommons",
+    "id": "Mlcommons",
+    "label": "Mlcommons",
+    "kind": "institution",
+    "sector": "tank",
+    "role": "open engineering consortium, founded 2018 (MLPerf); MLCommons incorporated 2020",
+    "n_sources": 5,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://mlcommons.org/about-us/"
+      },
+      {
+        "type": "official",
+        "url": "https://mlcommons.org/ailuminate/"
+      },
+      {
+        "type": "official",
+        "url": "https://mlcommons.org/2024/12/mlcommons-ailuminate-v1-0-release/"
+      },
+      {
+        "type": "official",
+        "url": "https://techarena.ai/content/mlcommons-peter-mattson-on-the-new-ailuminate-ai-safety-benchmark"
+      },
+      {
+        "type": "official",
+        "url": "https://mlcommons.org/about-us/leadership/"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "nicholas-carlini",
+    "id": "NicholasCarlini",
+    "label": "Nicholas Carlini",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Research Scientist, Anthropic (prev. Google Brain / DeepMind, 2018–2025)",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://nicholas.carlini.com/"
+      },
+      {
+        "type": "official",
+        "url": "https://nicholas.carlini.com/writing/2025/career-update.html"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nicholas_Carlini"
+      }
+    ],
+    "edges": [
+      "Anthropic",
+      "Google"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "nick-bostrom",
+    "id": "NickBostrom",
+    "label": "Nick Bostrom",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Independent Philosopher; Former Director, Future of Humanity Institute (CLOSED)",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "partnership-on-ai",
+    "id": "PartnershipOnAi",
+    "label": "Partnership On Ai",
+    "kind": "institution",
+    "sector": "tank",
+    "role": "multistakeholder AI nonprofit, San Francisco; founded 2016",
+    "n_sources": 9,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/about/"
+      },
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/funding/"
+      },
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/resource/partnership-on-ai-names-rebecca-finlay-as-ceo/"
+      },
+      {
+        "type": "official",
+        "url": "https://deepmind.google/discover/blog/announcing-the-partnership-on-ai-to-benefit-people-society/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.macrumors.com/2017/01/27/apple-joins-partnership-on-ai/"
+      },
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/pai-model-deployment-guidance-press-release/"
+      },
+      {
+        "type": "official",
+        "url": "https://syntheticmedia.partnershiponai.org/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.accessnow.org/press-release/access-now-resignation-partnership-on-ai/"
+      },
+      {
+        "type": "official",
+        "url": "https://venturebeat.com/ai/access-now-resigns-from-partnership-on-ai-due-to-lack-of-change-among-tech-companies/"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "peter-mattson",
+    "id": "PeterMattson",
+    "label": "Peter Mattson",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Founder & President, MLCommons; senior staff engineer, Google",
+    "n_sources": 4,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://mlcommons.org/about-us/leadership/"
+      },
+      {
+        "type": "official",
+        "url": "https://opensource.googleblog.com/2020/12/from-mlperf-to-mlcommons-moving-machine.html"
+      },
+      {
+        "type": "official",
+        "url": "https://mlcommons.org/2024/12/mlcommons-ailuminate-v1-0-release/"
+      },
+      {
+        "type": "official",
+        "url": "https://spectrum.ieee.org/ai-safety-standard"
+      }
+    ],
+    "edges": [
+      "Google"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "pliny-the-liberator",
+    "id": "PlinyTheLiberator",
+    "label": "Pliny The Liberator",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Pseudonymous jailbreaker; author of the L1B3RT4S, CL4R1T4S, and G0DM0D3 projects",
+    "n_sources": 5,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://github.com/elder-plinius/L1B3RT4S"
+      },
+      {
+        "type": "official",
+        "url": "https://github.com/elder-plinius/CL4R1T4S"
+      },
+      {
+        "type": "official",
+        "url": "https://github.com/elder-plinius/G0DM0D3"
+      },
+      {
+        "type": "official",
+        "url": "https://venturebeat.com/ai/an-interview-with-the-most-prolific-jailbreaker-of-chatgpt-and-other-leading-llms"
+      },
+      {
+        "type": "official",
+        "url": "https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "rand-corporation",
+    "id": "RandCorporation",
+    "label": "Rand Corporation",
+    "kind": "institution",
+    "sector": "tank",
+    "role": "nonprofit policy research institute, founded 1948; AI-policy work via its Technology and Security Policy Center",
+    "n_sources": 11,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.rand.org/about/history.html"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/RAND_Corporation"
+      },
+      {
+        "type": "official",
+        "url": "https://www.rand.org/news/press/2024/01/25.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.rand.org/pubs/research_reports/RRA2977-2.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.openphilanthropy.org/grants/rand-corporation-emerging-technology-initiatives/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.openphilanthropy.org/grants/rand-corporation-technology-and-security-policy-center/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.politico.com/news/2023/12/16/billionaire-backed-think-tank-played-key-role-in-bidens-ai-order-00132128"
+      },
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jason_Gaverick_Matheny"
+      },
+      {
+        "type": "official",
+        "url": "https://www.rand.org/about/people/m/matheny_jason.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.rand.org/about/organization/randtrustees.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.rand.org/news/press/2025/03/matthew-pottinger-and-stefanie-tompkins-elected-to.html"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": "RAND"
+  },
+  {
+    "slug": "rebecca-finlay",
+    "id": "RebeccaFinlay",
+    "label": "Rebecca Finlay",
+    "kind": "person",
+    "sector": "tank",
+    "role": "CEO, Partnership on AI",
+    "n_sources": 5,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/resource/partnership-on-ai-names-rebecca-finlay-as-ceo/"
+      },
+      {
+        "type": "official",
+        "url": "https://oecd.ai/en/community/rebecca-finlay"
+      },
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/nov-2024-synthetic-media-case-studies-announcement/"
+      },
+      {
+        "type": "official",
+        "url": "https://partnershiponai.org/pai-model-deployment-guidance-press-release/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.ditchley.com/ms-rebecca-finlay"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "riley-goodside",
+    "id": "RileyGoodside",
+    "label": "Riley Goodside",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Staff Prompt Engineer, Google DeepMind (formerly Scale AI)",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/"
+      },
+      {
+        "type": "official",
+        "url": "https://thegradientpub.substack.com/p/riley-goodside-the-art-and-craft"
+      },
+      {
+        "type": "official",
+        "url": "https://twimlai.com/network/riley-goodside"
+      }
+    ],
+    "edges": [
+      "Google",
+      "Scale"
+    ],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "sander-schulhoff",
+    "id": "SanderSchulhoff",
+    "label": "Sander Schulhoff",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Founder, Learn Prompting & HackAPrompt",
+    "n_sources": 4,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://learnprompting.org/about"
+      },
+      {
+        "type": "official",
+        "url": "https://learnprompting.org/blog/hackaprompt-1-results"
+      },
+      {
+        "type": "official",
+        "url": "https://aclanthology.org/2023.emnlp-main.302/"
+      },
+      {
+        "type": "official",
+        "url": "https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "sarah-heck",
+    "id": "SarahHeck",
+    "label": "Sarah Heck",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Head of Public Policy, Anthropic",
+    "n_sources": 1,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute"
+      }
+    ],
+    "edges": [
+      "Anthropic"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "sarah-t-roberts",
+    "id": "SarahTRoberts",
+    "label": "Sarah T. Roberts",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Associate Professor, UCLA Department of Information Studies",
+    "n_sources": 3,
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sarah_T._Roberts"
+      },
+      {
+        "type": "official",
+        "url": "https://yalebooks.yale.edu/book/9780300261479/behind-the-screen/"
+      },
+      {
+        "type": "official",
+        "url": "https://newsroom.ucla.edu/stories/ucla-professors-book-goes-behind-the-screen-of-commercial-content-moderation"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "stuart-russell",
+    "id": "StuartRussell",
+    "label": "Stuart Russell",
+    "kind": "person",
+    "sector": "intel",
+    "role": "Professor, UC Berkeley; Co-Author, Artificial Intelligence: A Modern Approach",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "suchir-balaji",
+    "id": "SuchirBalaji",
+    "label": "Suchir Balaji",
+    "kind": "person",
+    "sector": "tank",
+    "role": "DECEASED — November 26, 2024",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "uk-ai-safety-institute",
+    "id": "UkAiSafetyInstitute",
+    "label": "Uk Ai Safety Institute",
+    "kind": "institution",
+    "sector": "gov",
+    "role": "UK government body; launched Nov 2023, renamed AI Security Institute Feb 2025",
+    "n_sources": 7,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.gov.uk/government/publications/ai-safety-institute-overview/introducing-the-ai-safety-institute"
+      },
+      {
+        "type": "official",
+        "url": "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change"
+      },
+      {
+        "type": "official",
+        "url": "https://www.aisi.gov.uk/about"
+      },
+      {
+        "type": "official",
+        "url": "https://www.gov.uk/government/news/uk-united-states-announce-partnership-on-science-of-ai-safety"
+      },
+      {
+        "type": "official",
+        "url": "https://time.com/collections/davos-2025/7204670/uk-ai-safety-institute/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update"
+      },
+      {
+        "type": "official",
+        "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2297850/uk-changes-ai-safety-to-security-institute-with-new-cybercrime-csam-remit"
+      }
+    ],
+    "edges": [],
+    "id_collision": false,
+    "likely_existing_inst": "UKAISI"
+  },
+  {
+    "slug": "us-caisi",
+    "id": "CenterForAiStandardsAndInnovationCaisi",
+    "label": "Center For Ai Standards And Innovation (Caisi)",
+    "kind": "institution",
+    "sector": "gov",
+    "role": "US government body at NIST/Commerce; established 2023 as US AI Safety Institute, renamed CAISI June 2025",
+    "n_sources": 7,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.nist.gov/caisi"
+      },
+      {
+        "type": "official",
+        "url": "https://fedscoop.com/trump-administration-rebrands-ai-safety-institute-aisi-caisi/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research"
+      },
+      {
+        "type": "official",
+        "url": "https://www.cnbc.com/2024/08/29/openai-and-anthropic-agree-to-let-us-ai-safety-institute-test-models.html"
+      },
+      {
+        "type": "official",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/"
+      },
+      {
+        "type": "official",
+        "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks"
+      },
+      {
+        "type": "official",
+        "url": "https://www.meritalk.com/articles/trump-administration-taps-chris-fall-to-lead-caisi/"
+      }
+    ],
+    "edges": [
+      "CAISI",
+      "NIST"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": "CAISI"
+  },
+  {
+    "slug": "victoria-krakovna",
+    "id": "VictoriaKrakovna",
+    "label": "Victoria Krakovna",
+    "kind": "person",
+    "sector": "tech",
+    "role": "Research Scientist, Google DeepMind Safety Team",
+    "n_sources": 0,
+    "sources": [],
+    "edges": [
+      "Google"
+    ],
+    "id_collision": false,
+    "likely_existing_inst": null
+  },
+  {
+    "slug": "yoshua-bengio",
+    "id": "YoshuaBengio",
+    "label": "Yoshua Bengio",
+    "kind": "person",
+    "sector": "tank",
+    "role": "Turing laureate; Chair, International AI Safety Report; Co-President & Scientific Director, LawZero",
+    "n_sources": 5,
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.acm.org/articles/bulletins/2019/march/turing-award-2018"
+      },
+      {
+        "type": "official",
+        "url": "https://mila.quebec/en/news/launch-of-the-first-international-report-on-ai-safety-chaired-by-yoshua-bengio"
+      },
+      {
+        "type": "official",
+        "url": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai"
+      },
+      {
+        "type": "official",
+        "url": "https://www.safe.ai/work/statement-on-ai-risk"
+      },
+      {
+        "type": "official",
+        "url": "https://time.com/7290554/yoshua-bengio-launches-lawzero-for-safer-ai/"
+      }
+    ],
+    "edges": [],
+    "id_collision": true,
+    "likely_existing_inst": null
+  }
+]

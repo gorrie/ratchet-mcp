@@ -59,8 +59,8 @@ def wayback_lookup(url: str) -> str | None:
     return None
 
 
-def process_records(path: Path) -> tuple[int, int, int]:
-    """Return (fixed, still_dead, get_alive)."""
+def process_records(path: Path) -> tuple[int, int, int, int]:
+    """Return (fixed, still_dead, get_alive, blocked)."""
     records = []
     with path.open("r", encoding="utf-8") as f:
         for line in f:
@@ -71,6 +71,7 @@ def process_records(path: Path) -> tuple[int, int, int]:
     fixed = 0
     still_dead = 0
     get_alive = 0
+    blocked = 0
     today = date.today().isoformat()
 
     for rec in records:
@@ -88,21 +89,25 @@ def process_records(path: Path) -> tuple[int, int, int]:
             status = get_check(url)
             time.sleep(0.15)
             if status == 200 or (200 <= status < 400):
-                if status != 200:
-                    # 3xx redirect — accept
-                    pass
-                # GET succeeded — alive (was a HEAD-blocked false positive)
-                if status >= 300 and status < 400:
+                # GET succeeded — alive (a HEAD-blocked false positive from the sweep).
+                if 300 <= status < 400:
                     get_alive += 1
                 continue
-            # 404 or worse — try Wayback fallback
+            # Only a genuinely-GONE resource (404/410) gets Wayback-replaced. A 403/401/
+            # 429/451/5xx/network-error is a bot-block or a transient failure — the live
+            # primary URL is still the correct citation for a human, so leave it in place
+            # and log it for manual review rather than degrading it to an archive snapshot.
+            if status not in (404, 410):
+                blocked += 1
+                print(f"  SKIP  {rec['id']!r} ({s.get('type')}) status {status}: {url}")
+                continue
             wb = wayback_lookup(url)
             time.sleep(0.3)
             if wb:
                 srcs[i] = {
                     "type": "wayback",
                     "url": wb,
-                    "note": f"original 404 as of {today}: {url}",
+                    "note": f"original HTTP {status} as of {today}: {url}",
                 }
                 fixed += 1
                 print(f"  FIXED {rec['id']!r} -> {wb}")
@@ -113,19 +118,22 @@ def process_records(path: Path) -> tuple[int, int, int]:
 
     with path.open("w", encoding="utf-8") as f:
         for rec in records:
-            f.write(json.dumps(rec) + "\n")
+            # ensure_ascii=False matches the dataset's native UTF-8 serialization, so
+            # the diff stays minimal (only repaired records change, not every accented name).
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
-    return fixed, still_dead, get_alive
+    return fixed, still_dead, get_alive, blocked
 
 
 def main() -> int:
     print("=== people.jsonl ===")
-    f1, d1, g1 = process_records(DATA / "people.jsonl")
+    f1, d1, g1, b1 = process_records(DATA / "people.jsonl")
     print("=== institutions.jsonl ===")
-    f2, d2, g2 = process_records(DATA / "institutions.jsonl")
-    print(f"\nFixed (Wayback fallback): {f1 + f2}")
-    print(f"Still dead (no snapshot): {d1 + d2}")
-    print(f"GET-alive (was HEAD-blocked): {g1 + g2}")
+    f2, d2, g2, b2 = process_records(DATA / "institutions.jsonl")
+    print(f"\nFixed (404/410 -> Wayback):        {f1 + f2}")
+    print(f"Still gone (no snapshot, manual):  {d1 + d2}")
+    print(f"GET-alive (HEAD-blocked, kept):    {g1 + g2}")
+    print(f"Blocked/transient (left in place): {b1 + b2}")
     return 0
 
 

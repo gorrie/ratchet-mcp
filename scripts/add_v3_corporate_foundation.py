@@ -163,7 +163,7 @@ NEW_PERSONS = [
                  off("https://americanprogress.org/about/our-leadership/")]},
     {"id": "MalloochBrown", "label": "Mark Malloch Brown", "sector": "multi",
      "admin": [], "networks": [],
-     "plays": ["rumpelstiltskin"], "actors": [],
+     "plays": ["bretton"], "actors": [],
      "role": "UNDP Administrator -> UN Deputy Secretary-General 2006 -> UK Minister of State for Africa, Asia and the UN 2007-09 (Lord Malloch-Brown) -> Smartmatic Chair -> Open Society Foundations President 2021-",
      "sources": [w("Mark_Malloch_Brown,_Baron_Malloch-Brown"), wd("Q1899020"),
                  off("https://www.opensocietyfoundations.org/who-we-are/leadership/mark-malloch-brown")]},

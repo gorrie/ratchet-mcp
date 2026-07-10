@@ -21,7 +21,21 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "server" / "data"
 OUT = ROOT / "scripts" / "_url-liveness-report.md"
 
-USER_AGENT = "ratchet-mcp-liveness/0.1 (https://github.com/gorrie/ratchet-mcp)"
+# Browser UA: a library UA gets FALSE 403/timeout from bot-blocked-but-live hosts
+# (justice.gov, ftc.gov, rand.org, openai.com ...). Confirmed 2026-07: those return
+# 200 in a browser. Without this the report is drowned in false-positive 403s that
+# would wrongly trigger Wayback swaps. Treat 403/timeout as INCONCLUSIVE, not dead.
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
+
+# Wikimedia bot-blocks raw HEAD/GET — it serves 404/403 to automated clients even
+# for live pages (confirmed: live Wikidata items like Q22245690/Q333792 return 404
+# to urllib). Raw-fetch liveness is therefore meaningless for these; verify titles
+# via the MediaWiki API and QIDs via the Wikidata API instead. Skip them here so the
+# report isn't drowned in false-positives that would wrongly trigger Wayback swaps.
+SKIP_DOMAINS = ("wikipedia.org", "wikidata.org")
 
 
 def collect_urls() -> list[tuple[str, str, str, str]]:
@@ -37,22 +51,28 @@ def collect_urls() -> list[tuple[str, str, str, str]]:
                 rec = json.loads(line)
                 for s in rec.get("sources", []) or []:
                     if isinstance(s, dict) and s.get("url"):
+                        if any(d in s["url"] for d in SKIP_DOMAINS):
+                            continue  # Wikimedia bot-blocks raw fetch — verify via API, not here
                         urls.append((rec["id"], kind, s.get("type", ""), s["url"]))
     return urls
 
 
 def check_url(url: str) -> tuple[int, str]:
     """Return (status_code, note). status_code -1 means network error."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT}, method="HEAD")
-    try:
-        with urllib.request.urlopen(req, timeout=8) as r:
-            return r.status, r.headers.get("Location", "")
-    except urllib.error.HTTPError as e:
-        return e.code, str(e)
-    except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
-        return -1, type(e).__name__ + ": " + str(e)[:80]
-    except Exception as e:
-        return -2, type(e).__name__ + ": " + str(e)[:80]
+    for method in ("HEAD", "GET"):  # some hosts 403/405 HEAD but 200 GET
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT}, method=method)
+        try:
+            with urllib.request.urlopen(req, timeout=12) as r:
+                return r.status, r.headers.get("Location", "")
+        except urllib.error.HTTPError as e:
+            if method == "HEAD" and e.code in (403, 405, 501):
+                continue  # retry with GET
+            return e.code, str(e)
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+            return -1, type(e).__name__ + ": " + str(e)[:80]
+        except Exception as e:
+            return -2, type(e).__name__ + ": " + str(e)[:80]
+    return 403, "HEAD+GET both 403/405"
 
 
 def main() -> int:

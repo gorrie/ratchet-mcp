@@ -33,10 +33,32 @@ ACCEPTED_SOURCE_TYPES = {
     "wayback", "academic", "news",
 }
 
+# Common natural-language synonyms -> canonical type. Contributors shouldn't
+# fail the audit for writing the obvious word ("paper", "press", "gov"); these
+# are normalized on read so the canonical set above stays the single vocabulary.
+SOURCE_TYPE_ALIASES = {
+    "paper": "academic", "arxiv": "academic", "study": "academic", "journal": "academic",
+    "press": "news", "article": "news", "media": "news", "report": "news",
+    "announcement": "official", "org": "official", "company": "official",
+    "homepage": "official", "site": "official",
+    "gov": "gov-record", "government": "gov-record", "court": "gov-record",
+    "filing": "gov-record", "testimony": "gov-record", "statute": "gov-record",
+    "archive": "wayback", "waybackmachine": "wayback", "web.archive": "wayback",
+    "wiki": "wikipedia",
+}
+
+
+def canonical_source_type(t):
+    """Map a source type to its canonical form (alias-tolerant, case-insensitive)."""
+    if not isinstance(t, str):
+        return t
+    key = t.strip().lower()
+    return SOURCE_TYPE_ALIASES.get(key, key)
+
 # Closed vocabularies — see docs/PLAYS.md, docs/ACTORS.md.
 PLAYS = {
     "vault", "pulpit", "cycle", "acquisition", "pipeline", "backstop",
-    "cousin", "rumpelstiltskin",
+    "cousin", "bretton",
 }
 ACTORS = {
     "flagging", "algorithm", "money", "papers", "embassy", "eagle",
@@ -130,7 +152,7 @@ def main() -> int:
     # 3. Wikipedia-only
     for p in people:
         srcs = p.get("sources", []) or []
-        types = {s.get("type") for s in srcs if isinstance(s, dict)}
+        types = {canonical_source_type(s.get("type")) for s in srcs if isinstance(s, dict)}
         if types and types <= {"wikipedia"}:
             fails.append(f"person {p['id']!r} has only Wikipedia sources")
 
@@ -140,9 +162,9 @@ def main() -> int:
             if not isinstance(src, dict):
                 fails.append(f"{rec['id']!r} has non-dict source: {src!r}")
                 continue
-            t = src.get("type")
+            t = canonical_source_type(src.get("type"))
             if t not in ACCEPTED_SOURCE_TYPES:
-                fails.append(f"{rec['id']!r} unknown source type {t!r}")
+                fails.append(f"{rec['id']!r} unknown source type {src.get('type')!r}")
             url = src.get("url", "")
             if not url:
                 fails.append(f"{rec['id']!r} source missing url")

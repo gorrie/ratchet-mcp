@@ -12,21 +12,21 @@ Mechanical analyses below; cross-reference against clusters.json (named human-cu
 | Person | Edge count | Sector | Plays | Actors |
 |---|---|---|---|---|
 | `Kissinger` (Henry Kissinger) | 10 | gov | pulpit,cycle,cousin | embassy,eagle |
-| `Summers` (Larry Summers) | 9 | gov | rumpelstiltskin,vault | money |
+| `Summers` (Larry Summers) | 9 | gov | bretton,vault | money |
 | `Paulson` (Hank Paulson) | 8 | fin | vault,acquisition,cousin | money |
-| `Carney` (Mark Carney) | 8 | gov | rumpelstiltskin,cousin | money,priest |
-| `Zoellick` (Robert Zoellick) | 7 | imf | rumpelstiltskin | money,embassy |
+| `Carney` (Mark Carney) | 8 | gov | bretton,cousin | money,priest |
+| `Zoellick` (Robert Zoellick) | 7 | imf | bretton | money,embassy |
 | `Rice` (Condoleezza Rice) | 6 | gov | pulpit,cousin | embassy,eagle |
-| `Fischer` (Stanley Fischer) | 6 | imf | rumpelstiltskin,vault | money |
+| `Fischer` (Stanley Fischer) | 6 | imf | bretton,vault | money |
 | `Schmidt` (Eric Schmidt) | 6 | tech | pipeline,cousin | algorithm,model,blueprint,flagging |
 | `Rubin` (Robert Rubin) | 5 | fin | vault,cousin | money |
 | `Geithner` (Timothy Geithner) | 5 | gov | vault | money |
 | `Shultz` (George Shultz) | 5 | gov | pulpit,cousin | money,embassy |
 | `Baker` (James Baker) | 5 | gov | pulpit | money,embassy |
-| `Wolfowitz` (Paul Wolfowitz) | 5 | gov | rumpelstiltskin | embassy,eagle |
+| `Wolfowitz` (Paul Wolfowitz) | 5 | gov | bretton | embassy,eagle |
 | `Fink` (Larry Fink) | 5 | fin | cousin | money,priest |
 | `Volcker` (Paul Volcker) | 5 | gov | cycle | money |
-| `Lagarde` (Christine Lagarde) | 5 | imf | rumpelstiltskin,cousin | money |
+| `Lagarde` (Christine Lagarde) | 5 | imf | bretton,cousin | money |
 | `Donilon` (Tom Donilon) | 5 | gov | vault,cousin | embassy,flagging |
 | `Bolton` (John Bolton) | 5 | gov | pulpit | embassy,backdoor |
 | `Sandberg` (Sheryl Sandberg) | 5 | tech | pipeline,vault,cousin | algorithm,flagging,papers |
@@ -79,8 +79,8 @@ Mechanical analyses below; cross-reference against clusters.json (named human-cu
 | acquisition | pipeline | 5 |
 | acquisition | vault | 4 |
 | cycle | pulpit | 4 |
-| cousin | rumpelstiltskin | 4 |
-| rumpelstiltskin | vault | 3 |
+| cousin | bretton | 4 |
+| bretton | vault | 3 |
 | backstop | pulpit | 3 |
 
 ### Actors that co-occur (>= 3 persons touch both)
@@ -144,7 +144,7 @@ Small cohorts are thesis-sharp. These are the unexpected ones — small named-pa
 | backstop | embassy | 13 | Rumsfeld, Cheney, Gates, HBrown, JJones, Hagel, Mattis, Esper, Austin, Mueller, Marshall, Stimson, MPayne |
 | pipeline | blueprint | 14 | Schmidt, Khan, Andreessen, Hoffman, Altman, Hassabis, Suleyman, Amodei, Musk, Sacks, Leo, Vought, Calabresi, PLuckey |
 | pipeline | flagging | 15 | Schmidt, Sandberg, Stamos, JBaker, Bickert, JKaplan, Greenblatt, Monaco, McCord, Walker, Brookie, YRoth, AStone, SPower, Badalich |
-| rumpelstiltskin | money | 15 | Summers, Fischer, Lagarde, Georgieva, Zoellick, Kim, Banga, Camdessus, Kohler, Rato, StraussKahn, Wolfensohn, Malpass, Carney, Draghi |
+| bretton | money | 15 | Summers, Fischer, Lagarde, Georgieva, Zoellick, Kim, Banga, Camdessus, Kohler, Rato, StraussKahn, Wolfensohn, Malpass, Carney, Draghi |
 | vault | money | 15 | Rubin, Paulson, Geithner, Lew, Mnuchin, Yellen, Summers, Bessent, Fischer, Blumenthal, Corzine, Weill, Pandit, Lewis, Draghi |
 
 ### Network x Actor intersections
@@ -331,7 +331,7 @@ People connected to institutions across many distinct sectors. Higher = bridges 
 | cycle | 12 |
 | pipeline | 61 |
 | pulpit | 50 |
-| rumpelstiltskin | 19 |
+| bretton | 19 |
 | vault | 18 |
 
 ### Actors usage

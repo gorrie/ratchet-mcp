@@ -2,27 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ratchet — Revolving Door</title>
   <link rel="stylesheet" href="/viewer.css">
 </head>
 <body>
-  <header class="rd-header">
-    <h1>The Revolving Door</h1>
-    <p class="rd-sub">Open dataset of named persons and institutions across the
-      US government / Wall Street / multilateral / tech control grid. Tagged
-      with 8 staffing plays and 11 control-grid actors. See
-      <a href="https://github.com/gorrie/ratchet-mcp/blob/master/docs/SCOPE.md">docs/SCOPE.md</a>.</p>
+  <div class="rd-keyline" aria-hidden="true"></div>
+
+  <header class="rd-toolbar">
+    <div class="rd-brand">
+      <span class="rd-led" aria-hidden="true"></span>
+      <span class="rd-wordmark">Ratchet <span class="rd-sep">//</span> Revolving Door</span>
+    </div>
+    <div id="status" class="rd-status" role="status" aria-live="polite">Loading data...</div>
+    <nav class="rd-toolbar-links">
+      <a href="https://github.com/gorrie/ratchet-mcp/blob/master/docs/SCOPE.md">Scope &amp; method</a>
+      <a href="https://github.com/gorrie/ratchet-mcp">Dataset</a>
+    </nav>
   </header>
 
+  <p class="rd-sub">Named persons and institutions across the US government / Wall
+    Street / multilateral / tech control grid, tagged with 8 staffing plays and
+    11 control-grid actors. Every node carries sources. Click one to open its
+    dossier.</p>
+
   <main class="rd-main">
-    <div id="status">Loading data...</div>
-    <svg id="graph" width="100%" height="800"></svg>
-    <aside id="detail" hidden>
-      <h2 id="detail-name"></h2>
-      <p id="detail-role"></p>
-      <ul id="detail-tags"></ul>
-      <h3>Sources</h3>
-      <ul id="detail-sources"></ul>
+    <section class="rd-viewport" aria-label="Force-directed network graph">
+      <span class="rd-tick rd-tl" aria-hidden="true"></span>
+      <span class="rd-tick rd-tr" aria-hidden="true"></span>
+      <span class="rd-tick rd-bl" aria-hidden="true"></span>
+      <span class="rd-tick rd-br" aria-hidden="true"></span>
+      <svg id="graph" width="100%" height="800"></svg>
+      <div class="rd-legend" aria-label="Cluster legend">
+        <span class="rd-legend-title">Clusters</span>
+        <ul class="rd-legend-list">
+          <li><i style="background:#4a8edb"></i>Government</li>
+          <li><i style="background:#2ec47b"></i>Finance</li>
+          <li><i style="background:#b56fff"></i>IMF</li>
+          <li><i style="background:#cc0000"></i>CFR</li>
+          <li><i style="background:#e8a83a"></i>Think tank</li>
+          <li><i style="background:#ff5050"></i>Intelligence</li>
+          <li><i style="background:#888899"></i>Defense</li>
+          <li><i style="background:#3acc99"></i>Tech</li>
+          <li><i style="background:#a05fff"></i>Multilateral</li>
+          <li><i style="background:#dca64a"></i>Judiciary</li>
+          <li><i style="background:#8b0000"></i>China state</li>
+          <li><i style="background:#566573"></i>Russia state</li>
+        </ul>
+        <ul class="rd-legend-list rd-legend-shapes">
+          <li><i class="rd-dot-lg"></i>Institution</li>
+          <li><i class="rd-dot-sm"></i>Person</li>
+        </ul>
+      </div>
+    </section>
+
+    <aside class="rd-dossier" aria-label="Node dossier">
+      <h2 class="rd-dossier-head">Dossier</h2>
+      <div id="detail" hidden>
+        <h2 id="detail-name"></h2>
+        <p id="detail-role"></p>
+        <ul id="detail-tags"></ul>
+        <h3>Sources</h3>
+        <ul id="detail-sources"></ul>
+      </div>
+      <div class="rd-dossier-empty">
+        <p class="rd-empty-mark" aria-hidden="true">[ no node selected ]</p>
+        <p>Click any node to load its record — role, plays, actors, and the
+          sources behind every claim.</p>
+      </div>
     </aside>
   </main>
 
