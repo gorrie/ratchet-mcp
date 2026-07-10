@@ -100,5 +100,49 @@ def test_profile_person_unknown(data_dir):
     assert T.profile_person(g, "Ghost")["error"] == "unknown person_id"
 
 
+def test_verified_receipts_unknown_person(data_dir):
+    g = Graph.load(data_dir)
+    out = T.verified_person_receipts(g, "NobodyHere")
+    assert out["error"] == "unknown person_id"
+
+
+def test_verified_receipts_rejects_cues_backend(data_dir):
+    g = Graph.load(data_dir)
+    out = T.verified_person_receipts(g, "TestSubj", backend="cues")
+    assert "context backend" in out["error"]
+
+
+def test_verified_receipts_no_texts(data_dir):
+    g = Graph.load(data_dir)
+    g.people["Empty"] = {"id": "Empty", "label": "Empty Person", "kind": "person"}
+    out = T.verified_person_receipts(g, "Empty")
+    assert out["n_texts"] == 0 and out["receipts"] == []
+
+
+def test_verified_receipts_populated(data_dir, monkeypatch):
+    """The context-verify main loop — mock the tradecraft backend so no LLM/key is needed."""
+    import tradecraft.detect as td
+
+    class _Hit:
+        detection_id = "inevitability_framing.tina"
+        span = [0, 12]
+        confidence = "high"
+        rationale = "author asserts there is no alternative"
+
+    monkeypatch.setattr(
+        td, "verified_cue_receipts",
+        lambda body, tax, backend=None, model=None: [_Hit()] if body else [],
+    )
+    g = Graph.load(data_dir)
+    out = T.verified_person_receipts(g, "TestSubj", backend="auto")
+    assert out["backend"] == "auto"
+    assert out["n_texts"] == 2
+    assert out["n_receipts"] >= 1
+    r = out["receipts"][0]
+    assert r["detection_id"] == "inevitability_framing.tina"
+    assert r["url"] is None or isinstance(r["url"], str)
+    assert "verdict" in out["note"]
+
+
 if __name__ == "__main__":
     raise SystemExit(pytest.main([__file__, "-q"]))

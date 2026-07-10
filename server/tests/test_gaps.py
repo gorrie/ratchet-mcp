@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -110,7 +111,11 @@ def test_load_texts_skips_blank_lines(monkeypatch, tmp_path):
 
 def test_import_tradecraft_env_path(monkeypatch):
     # Force the first import to fail (fresh) so the TRADECRAFT_PATH branch runs, then recover.
-    real = str(Path(texts.__file__).resolve().parents[4] / "tradecraft")
+    # Honor a CI-provided TRADECRAFT_PATH (standalone checkout has no dev-workspace sibling);
+    # fall back to the dev-workspace layout (evil-robots-series/tradecraft) when unset.
+    real = os.environ.get("TRADECRAFT_PATH") or str(
+        Path(texts.__file__).resolve().parents[4] / "tradecraft"
+    )
     for m in ("tradecraft", "tradecraft.loader", "tradecraft.subject"):
         monkeypatch.delitem(sys.modules, m, raising=False)
     monkeypatch.setattr(sys, "path", [p for p in sys.path if p != real])
