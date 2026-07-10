@@ -23,7 +23,7 @@ queryable.
   `find_in_administration`, `grade_person_texts`, `enrich_from_littlesis`,
   `littlesis_relationships`.
 - **Texts-by-person lane** — `grade_person_texts` runs the
-  [Tradecraft](../../tradecraft) TEXT lenses over a dataset person's stored
+  [Tradecraft](https://github.com/gorrie/tradecraft) TEXT lenses over a dataset person's stored
   statements (`server/data/texts.jsonl`; see its `texts.README.md`), profiling
   *how their own words operate* per lens, aggregated per subject, never blended,
   never a verdict. The graph half profiles topology; this is the prose half.
@@ -81,6 +81,22 @@ This is an **open dataset** held to publication standards:
 To propose additions or corrections, read
 [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) first. PRs that don't meet
 the citation and tag-justification standards get blocked at CI.
+
+## Related projects
+
+Part of a three-repo toolkit for measuring institutional capture — the graph
+layer here, the prose grader, and the model-layer audit:
+
+- **[tradecraft](https://github.com/gorrie/tradecraft)** — detect-the-method
+  capture grader. The `grade_person_texts` tool here calls Tradecraft's TEXT
+  lenses to profile *how a dataset person's own words operate*; this repo is the
+  graph half, Tradecraft is the prose half.
+- **[bias-study](https://github.com/gorrie/bias-study)** — a reproducible audit
+  of institutional-skepticism framing across 36+ LLMs, including *The Wash*, the
+  abliterated low-flinch judge that Tradecraft's verify step can run as its
+  `local` context-reading backend.
+- **[evilrobots.lol](https://evilrobots.lol)** — the same argument in narrative
+  form; companion to *The Ratchet* (Evil Robots Series Book 2, 4LULZ).
 
 ## Licensing
 
