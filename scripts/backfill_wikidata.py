@@ -114,7 +114,7 @@ def main() -> int:
 
     with PEOPLE.open("w", encoding="utf-8") as f:
         for rec in records:
-            f.write(json.dumps(rec) + "\n")
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     print(f"\nAdded Wikidata sources: {added}")
     print(f"Skipped (no Wikipedia URL): {skipped_no_wiki}")

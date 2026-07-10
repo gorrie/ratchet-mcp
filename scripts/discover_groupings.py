@@ -225,7 +225,7 @@ def main() -> int:
 
     # ============================================================ Empty / unrepresented values
     lines.append("\n## 8. Vocabulary coverage check\n")
-    PLAYS = {"vault","pulpit","cycle","acquisition","pipeline","backstop","cousin","rumpelstiltskin"}
+    PLAYS = {"vault","pulpit","cycle","acquisition","pipeline","backstop","cousin","bretton"}
     ACTORS = {"flagging","algorithm","money","papers","embassy","eagle","tap","watchers","backdoor","model","blueprint"}
     NETWORKS = {"cfr","trilateral","bilderberg","wef","wef-ygl","pnac","atlantic","rockefeller",
                 "aei","brookings","heritage","csis","rand","hoover","federalist","americanbar"}

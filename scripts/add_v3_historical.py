@@ -64,7 +64,7 @@ NEW_PERSONS = [
                  off("https://www.cia.gov/legacy/headquarters/allen-w-dulles/")]},
     {"id": "McNamara", "label": "Robert McNamara", "sector": "def",
      "admin": ["kennedy", "lbj"], "networks": ["cfr"],
-     "plays": ["backstop", "rumpelstiltskin"], "actors": ["eagle"],
+     "plays": ["backstop", "bretton"], "actors": ["eagle"],
      "role": "Ford Motor Co. President -> Secretary of Defense 1961-68 -> World Bank President 1968-81",
      "sources": [w("Robert_McNamara"), wd("Q133439"),
                  off("https://history.defense.gov/Multimedia/Biographies/Article-View/Article/571272/robert-strange-mcnamara/")]},

@@ -54,7 +54,7 @@ NEW_PERSONS = [
                  gov("https://www.usaid.gov/who-we-are/organization/administrator/samantha-power")]},
     {"id": "RShah", "label": "Rajiv Shah", "sector": "gov",
      "admin": ["obama"], "networks": [],
-     "plays": ["pipeline", "rumpelstiltskin"], "actors": [],
+     "plays": ["pipeline", "bretton"], "actors": [],
      "role": "Gates Foundation Director of Agricultural Development -> USDA Under Secretary for Research, Education and Economics -> USAID Administrator 2010-15 -> Rockefeller Foundation President 2017-",
      "sources": [w("Rajiv_Shah_(Indian-American)"), wd("Q3416275"),
                  gov("https://www.usaid.gov/who-we-are/organization/administrator/dr-rajiv-shah")]},

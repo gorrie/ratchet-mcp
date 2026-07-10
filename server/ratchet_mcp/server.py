@@ -147,6 +147,43 @@ def apply_cluster(cluster_id: str) -> dict[str, Any]:
 
 
 @mcp.tool()
+def grade_person_texts(person_id: str, backend: str = "cues") -> dict[str, Any]:
+    """Run the Tradecraft TEXT lenses over a dataset person's stored texts.
+
+    The prose counterpart to the graph queries: profiles a person by HOW their
+    own words operate (institutional permeation, cognitive capture, adept
+    speech, inevitability framing, legibility, counterproductivity, distributed
+    accountability) — graded PER LENS, aggregated PER SUBJECT, NEVER blended
+    into one score and NEVER a verdict. Graph lenses (revolving_door,
+    network_brokerage) are excluded here — they score topology, not text.
+
+    Texts live in ``server/data/texts.jsonl`` (see ``texts.README.md`` for the
+    schema); add real, sourced statements to populate it. ``backend="cues"`` is
+    the deterministic offline default; ``"cloud"``/``"local"``/``"auto"`` use a
+    model. Needs the sibling ``tradecraft`` package on the path.
+    """
+    from .texts import grade_person_texts as _grade
+    return _grade(graph(), person_id, backend=backend)
+
+
+@mcp.tool()
+def profile_person(person_id: str, backend: str = "cues") -> dict[str, Any]:
+    """Combined two-lane Tradecraft profile for a dataset person: GRAPH lenses on
+    their network topology AND TEXT lenses on their stored statements.
+
+    The graph lane runs network_brokerage (betweenness / degree / sector-
+    brokerage) and revolving_door (cross-sector affiliation breadth — annotated
+    as breadth, not a time-ordered trajectory, since the edges are untyped). The
+    text lane runs the text lenses on ``texts.jsonl``. Each lens stays on its own
+    axis — the network position and the rhetoric side by side, never blended into
+    one score, never a verdict. ``backend="cues"`` is offline; ``cloud``/``auto``
+    use a model on the text lane. Needs the sibling ``tradecraft`` package.
+    """
+    from .texts import profile_person as _profile
+    return _profile(graph(), person_id, backend=backend)
+
+
+@mcp.tool()
 async def enrich_from_littlesis(query: str, limit: int = 10) -> list[dict[str, Any]]:
     """Search LittleSis (Public Accountability Initiative) for a named
     person or organization and return matching entities.
@@ -167,10 +204,10 @@ async def littlesis_relationships(entity_id: int, limit: int = 20) -> list[dict[
     return await get_relationships(entity_id, limit=limit)
 
 
-def main() -> None:
+def main() -> None:  # pragma: no cover - stdio runner, exercised by running the server
     """Console entry point: run the MCP server over stdio."""
     asyncio.run(mcp.run_stdio_async())
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     main()

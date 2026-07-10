@@ -17,3 +17,6 @@ Thumbs.db
 # Local data dumps / experiments
 *.local.jsonl
 *.scratch.*
+
+# Script working artifacts (scripts write _-prefixed reports/logs: liveness sweep, fix logs)
+scripts/_*

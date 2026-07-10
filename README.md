@@ -13,14 +13,20 @@ queryable.
 
 ## What's in it
 
-- **401 named persons** — every record carries ≥2 primary sources and
+- **454 named persons** — every record carries ≥2 primary sources and
   tags from the closed [plays](docs/PLAYS.md) and
   [actors](docs/ACTORS.md) vocabularies.
-- **351 institutions** — every record carries ≥1 source.
-- **844 edges** — person → institution adjacencies.
-- **MCP server** in Python with 9 tools: `query_cohort`, `get_entity`,
+- **388 institutions** — every record carries ≥1 source.
+- **948 edges** — person → institution adjacencies.
+- **MCP server** in Python with 10 tools: `query_cohort`, `get_entity`,
   `who_connects`, `find_overlap`, `list_plays_for`, `list_players_for`,
-  `find_in_administration`, `enrich_from_littlesis`, `littlesis_relationships`.
+  `find_in_administration`, `grade_person_texts`, `enrich_from_littlesis`,
+  `littlesis_relationships`.
+- **Texts-by-person lane** — `grade_person_texts` runs the
+  [Tradecraft](../../tradecraft) TEXT lenses over a dataset person's stored
+  statements (`server/data/texts.jsonl`; see its `texts.README.md`), profiling
+  *how their own words operate* per lens, aggregated per subject, never blended,
+  never a verdict. The graph half profiles topology; this is the prose half.
 - **Optional web viewer** — D3 force-directed graph at `http://localhost:8088`.
 
 ## Quickstart
@@ -119,13 +125,18 @@ ratchet-mcp/
 
 ## Status
 
-`v0.1` — initial public release (2026-06-09). Dataset at 401 persons /
-351 institutions / 844 edges, covering SCOPE.md cohorts A through F
-plus the foreign-influence / Five Eyes / UK-EU / USAID-DRG / Gulf
-customer / climate-ESG / health-governance / nation-state comparative
-clusters and the historical-ideologues layer. The book *The Ratchet*
-ships shortly; this dataset is the queryable form of its institutional
-infrastructure argument.
+`v0.2` — 2026-07-10. Dataset at 454 persons / 388 institutions / 948 edges.
+New since v0.1: the Watching-the-Watchers eval/statecraft and lab/policy
+wings, the finance/funding layer behind the apparatus (grantmakers →
+evaluators queryable as data), full apparatus reconciliation (all 46
+book/website profiles are now graph nodes), and the `rumpelstiltskin →
+bretton` play rename. v0.1 (2026-06-09) was the initial public release at
+401 / 351 / 844, covering SCOPE.md cohorts A–F plus the foreign-influence /
+Five Eyes / UK-EU / USAID-DRG / Gulf customer / climate-ESG /
+health-governance / nation-state comparative clusters and the
+historical-ideologues layer. The book *The Ratchet* ships shortly; this
+dataset is the queryable form of its institutional infrastructure argument,
+and the release time-series is itself the bias-drift instrument.
 
 **Longitudinal cadence.** Re-sampled periodically. Each cut is tagged
 (`vX.Y.Z`) so peer experimenters can pin a specific version and

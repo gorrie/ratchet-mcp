@@ -53,7 +53,7 @@ Each person record carries five dimension arrays. **The dimensions are closed; t
 | Sector | `sector` (single) | one of the 9 above |
 | Administration(s) served | `admin` (array) | `roosevelt`, `truman`, ..., `trump2`. Any admin in which the person held a sector-relevant position. |
 | Network membership | `networks` (array) | `cfr` (CFR member), `trilateral`, `bilderberg`, `wef-ygl`, `aei`, `pnac`, etc. |
-| Staffing play | `plays` (array) | `vault`, `pulpit`, `cycle`, `acquisition`, `pipeline`, `backstop`, `cousin`, `rumpelstiltskin` (see PROMPTS.md for definitions) |
+| Staffing play | `plays` (array) | `vault`, `pulpit`, `cycle`, `acquisition`, `pipeline`, `backstop`, `cousin`, `bretton` (see PROMPTS.md for definitions) |
 | Control-grid actor touched | `actors` (array) | `flagging`, `algorithm`, `money`, `papers`, `tap`, `watchers`, `backdoor`, `model`, `blueprint`, `embassy`, `eagle` (subset of the 20 ratchet clicks) |
 
 ## Source priors (where the data comes from)
