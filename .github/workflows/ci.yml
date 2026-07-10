@@ -28,8 +28,15 @@ jobs:
         working-directory: server
         run: python tests/audit_citations.py
 
+      - name: Fetch tradecraft (texts-lane dependency)
+        run: |
+          git clone --depth 1 https://github.com/gorrie/tradecraft.git "$RUNNER_TEMP/tradecraft"
+          pip install -r "$RUNNER_TEMP/tradecraft/requirements.txt"
+
       - name: Unit tests + 100% coverage gate
         working-directory: server
+        env:
+          TRADECRAFT_PATH: ${{ runner.temp }}/tradecraft
         run: pytest -q --cov=ratchet_mcp --cov-report=term-missing --cov-fail-under=100
 
   docker-build:
