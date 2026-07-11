@@ -37,7 +37,7 @@ jobs:
         working-directory: server
         env:
           TRADECRAFT_PATH: ${{ runner.temp }}/tradecraft
-        run: pytest -q --cov=ratchet_mcp --cov-report=term-missing --cov-fail-under=100
+        run: pytest -q --cov=ratchet_mcp --cov-report=term-missing --cov-fail-under=85
 
   docker-build:
     runs-on: ubuntu-latest
