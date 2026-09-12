@@ -20,3 +20,6 @@ Thumbs.db
 
 # Script working artifacts (scripts write _-prefixed reports/logs: liveness sweep, fix logs)
 scripts/_*
+# Same convention at repo root (recheck/scratch drops) -- untrack existing with
+# `git rm --cached _recheck.txt`; the file stays on disk.
+/_*

@@ -2,7 +2,7 @@
 
 > **What goes in the graph. What doesn't. How we decide.**
 
-This document is the authoritative scope policy for the Ratchet MCP dataset. It governs both the curated v2 set (~117 named people, expanding toward ~350) and every future contribution. The goal is a dataset that is **defensible against a hostile reviewer** — every record has a primary-source citation, every tag is justified by documented institutional positions, and the scope criterion can be applied mechanically.
+This document is the authoritative scope policy for the Ratchet MCP dataset. It governs the curated set (550 named people as of 2026-08-01, past the ~350 v3 target) and every future contribution. The goal is a dataset that is **defensible against a hostile reviewer** — every record has a primary-source citation, every tag is justified by documented institutional positions, and the scope criterion can be applied mechanically.
 
 ## The single criterion: 2+ sectors
 
@@ -43,6 +43,41 @@ The layer's discipline is stricter, not looser:
 Initial set (11 persons): **Francis Galton** (Eugenics Society); **George Bernard Shaw, Sidney Webb, Beatrice Webb, H. G. Wells** (Fabian Society / LSE); **Cecil Rhodes, Alfred Milner** (Rhodes Trust / Round Table); **Carroll Quigley** (Georgetown — the historian who documented the Rhodes–Milner network from inside the academy); **Ludwig von Mises, Friedrich Hayek** (Mont Pelerin Society); **Lyndon LaRouche** (Schiller Institute).
 
 The anti-tinfoil rule (below) still governs: institutions are the artifact, bloodlines are not, and no edge asserts a *direction* of influence. The layer documents who founded what and who wrote what — nothing more. The CI audit (`server/tests/audit_citations.py`) accepts `historical` as a valid sector value as of 2026-06-04.
+
+## The supranational layer (sector `multi`)
+
+Declared 2026-08-01, documenting tags already in use (22 people, 29 institutions). Like `historical`,
+this is a **layer marker, not a 10th revolving-door sector.** It admits figures whose rotation is
+across *jurisdictions* rather than across sectors within one national stack — a national ministry to
+the European Commission to a UN body — and the supranational institutions themselves (European
+Commission, NATO, UN agencies, WHO programmes, UNFCCC, the Global Fund).
+
+The 2-sector predicate still has to be satisfied; `multi` records the fact that the sectors sit in
+different jurisdictions. Exemplars: **Mario Draghi** (Italian Treasury → Goldman Sachs International
+→ ECB → Italian PM), **Ursula von der Leyen** (German Defence Minister → European Commission
+President), **Mark Malloch Brown** (UNDP → UN Deputy Secretary-General → UK Minister of State).
+
+## The diaspora-advocacy layer (sector `diaspora`)
+
+Declared 2026-08-01, documenting tags already in use (5 people, 18 institutions). Layer marker, not a
+sector. It admits **US-registered political action committees and advocacy organisations organised
+around a bilateral relationship with a named foreign state**, plus their named principals.
+
+The discipline here is tighter than anywhere else in the dataset, because this is the layer most
+easily misread:
+
+- The unit is the **organisation and its documented lobbying or electoral activity** — FEC filings,
+  the organisation's own materials, registered positions. Never an ethnic or religious population.
+- Records name **nation-states, never peoples.** "US–India relations," not a demographic.
+- Membership of a diaspora is **not** a scope criterion and never appears in a record. What is in
+  scope is holding a named office in an organisation that lobbies on a bilateral relationship, on
+  the same 2-sector predicate as everyone else.
+- No edge asserts foreign direction or control. The layer documents who runs which PAC, what it
+  filed, and who it gave to — nothing more.
+
+Exemplars: **Sanjay Puri** (USINPAC founder/chairman, FEC-filed treasurer), **Mauricio
+Claver-Carone** (US-Cuba Democracy PAC founder → NSC Senior Director Western Hemisphere),
+**Edward M. Gabriel** (US Ambassador to Morocco → ATFL President/CEO).
 
 ## The 5 dimensions
 
@@ -283,7 +318,7 @@ This cohort can be expanded to **other allied-foreign individuals** (UK, EU, Fiv
 - **Foreign heads of state without US cabinet / multilateral crossover.** This is a US-centric revolving-door dataset by design. A French politician who attended Davos but never held a sector position outside France: out.
 - **Pure media figures.** Network television hosts, newspaper editors, columnists. Their influence is real but it doesn't satisfy the 2-sector test. Exception: media executives who serve on think-tank or corporate boards (then they're `tech` or `tank`).
 - **Junior staff / fellows / interns / one-off advisors.** Even if they later became famous. The record starts when they hit a senior position.
-- **Private-life claims, motivation imputations, unindicted-allegation reporting.** This is a documented-positions dataset. The 117 entries are public-record. Nothing about who someone slept with, owed, or feared.
+- **Private-life claims, motivation imputations, unindicted-allegation reporting.** This is a documented-positions dataset. The 550 entries are public-record. Nothing about who someone slept with, owed, or feared.
 - **Living vs deceased makes no difference** — defamation safety is the test, not biological status. Same standard applies.
 
 ## Defamation safety
@@ -298,9 +333,14 @@ The whole dataset is published with the assumption that **every named person can
 
 ## Target dataset size
 
-v2 (current): 117 people, 61 institutions, 338 transitions.
+v3 (current, 2026-08-01): **550 people, 486 institutions, 1,243 transitions.** The v3 target below
+was set at ~350 and has been passed; the source pulls it lists are the ones that got us here and
+remain the coverage checklist for v4. Counts in this section are gated by `tools/freshness_gate.py`
+— if you grow the dataset, this line fails the build until it is updated.
 
-v3 (next pass, "reasonable enough" per author): **~350 people** across all 9 sectors. Per the criterion + source priors, this is achievable from:
+v2 (superseded): 117 people, 61 institutions, 338 transitions.
+
+v3 target as originally scoped: **~350 people** across all 9 sectors. Per the criterion + source priors, this was projected from:
 
 - Full Bilderberg attendee history (~1,600 unique attendees since 1954; ~300 satisfy 2-sector test)
 - Full Trilateral Commission roster (~400 historical; ~150 satisfy)

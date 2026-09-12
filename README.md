@@ -13,11 +13,15 @@ queryable.
 
 ## What's in it
 
-- **454 named persons** — every record carries ≥2 primary sources and
+<!-- counts:begin -->
+- **550 named persons** — every record carries ≥2 primary sources and
   tags from the closed [plays](docs/PLAYS.md) and
   [actors](docs/ACTORS.md) vocabularies.
-- **388 institutions** — every record carries ≥1 source.
-- **948 edges** — person → institution adjacencies.
+- **486 institutions** — every record carries ≥1 source.
+- **1,245 edges** — person → institution adjacencies.
+- **328 stored statements** in the texts-by-person lane (`server/data/texts.jsonl`)
+  and **24 receipts** (`server/data/receipts.jsonl`), each a sourced, dated act.
+<!-- counts:end -->
 - **MCP server** in Python with 10 tools: `query_cohort`, `get_entity`,
   `who_connects`, `find_overlap`, `list_plays_for`, `list_players_for`,
   `find_in_administration`, `grade_person_texts`, `enrich_from_littlesis`,

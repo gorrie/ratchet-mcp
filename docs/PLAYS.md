@@ -17,9 +17,12 @@ To add a new play, see [CONTRIBUTING.md](CONTRIBUTING.md#how-to-add-a-new-play).
 | `cousin` | The Cousin | Sustained Bilderberg / WEF / Trilateral attendance while holding a senior US position. The supranational coordination pattern named for the genteel "we're all family" tone of those forums. | Kissinger, Rubin, Paulson, Rice, Clinton, Petraeus, Donilon, Dimon, Sandberg, Fink, Schmidt, Hoffman, Schwarzman, Soros, Schwab, Lagarde |
 | `bretton` | The Bretton Woods | IMF / World Bank pipeline → finance or regulator role. Named for the 1944 Bretton Woods conference that founded the IMF and World Bank — the public multilateral institutions whose senior alumni rotate into (and out of) private capital. | Fischer (IMF→Citi→BoI→Fed→BlackRock), Lagarde (France Fin→IMF→ECB), Zoellick (USTR→State→WB→Goldman), Summers (WB→Treasury→D.E. Shaw), Banga (Citi→Mastercard→WB), Wolfensohn (Salomon→WB→consulting), Malpass (Treasury→Bear Stearns→WB) |
 
+| `bar` | The Bar | Senior DOJ officer → large-firm partnership → senior DOJ or judicial office. The legal revolver; the firm's client list needs the ex-prosecutor, and the ex-prosecutor's next appointment needs the firm's income. Added 2026-08-02. | Holder (DOJ→Covington→AG→Covington), Barr (DOJ OLC→Kirkland→AG twice), TOlson (OLC→Gibson Dunn→SG), Verrilli (Jenner→SG→Munger Tolles), Breuer (Covington→DOJ Criminal Chief→Covington), Yates (Deputy AG→King & Spalding), McGahn (WH Counsel→Jones Day), Rosenstein (Deputy AG→King & Spalding) |
+| `ward` | The Ward | Health regulator → pharmaceutical / payer industry → health regulator or industry board. The medical revolver, distinguished from `bar` by the licence: the returning official approves the products of the firm that paid them. Added 2026-08-02. | Azar (HHS Deputy→Eli Lilly President→HHS Secretary), McClellan (FDA→CMS→J&J + Cigna boards), Gottlieb (FDA Commissioner→Pfizer board), Hahn (FDA Commissioner→Flagship Pioneering), Slaoui (GSK→Operation Warp Speed→Moderna board) |
+
 ## When to use which tag
 
-A person can carry multiple play tags — many of the 117 do. The dataset's filter dimensions are designed to make this useful:
+A person can carry multiple play tags — many of the 550 do. The dataset's filter dimensions are designed to make this useful:
 
 - `query_cohort(play="vault", admin="clinton")` → who ran the Vault under Clinton? (Rubin, Summers, possibly others)
 - `query_cohort(play="cousin", network="bilderberg")` → who's a Cousin via Bilderberg specifically? (overlap question)

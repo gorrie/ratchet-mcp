@@ -55,8 +55,8 @@ def load_texts(person_id: str | None = None) -> list[dict[str, Any]]:
 def _import_tradecraft():
     """Import the sibling ``tradecraft`` package.
 
-    Prefer an installed package; fall back to the dev workspace layout
-    (``tradecraft``) or a ``TRADECRAFT_PATH`` override.
+    Prefer an installed package; fall back to a ``TRADECRAFT_PATH`` override, or to a
+    ``tradecraft/`` directory sitting beside this checkout in a combined workspace.
     Returns the modules needed, or raises ImportError with an actionable hint.
     """
     try:

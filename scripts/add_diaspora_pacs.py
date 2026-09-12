@@ -1,9 +1,10 @@
 """Add the diaspora-pacs cluster + its first 18 institutions, 5 named persons,
 and 5 edges to the Ratchet MCP dataset.
 
-One-shot bootstrap script for the cluster expansion documented in
-`research/research-diaspora-pacs.md`. Idempotent: skips
-records whose ID already exists in the target file.
+One-shot bootstrap script for the diaspora-PAC cluster expansion. The research note it was
+written against is part of the maintainer's working corpus and is not distributed with this
+mirror; every record it adds carries its own sources, which are the citable material.
+Idempotent: skips records whose ID already exists in the target file.
 
 Run from anywhere; uses absolute paths.
 """

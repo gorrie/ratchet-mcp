@@ -111,8 +111,9 @@ def test_load_texts_skips_blank_lines(monkeypatch, tmp_path):
 
 def test_import_tradecraft_env_path(monkeypatch):
     # Force the first import to fail (fresh) so the TRADECRAFT_PATH branch runs, then recover.
-    # Honor a CI-provided TRADECRAFT_PATH (standalone checkout has no dev-workspace sibling);
-    # fall back to the dev-workspace layout (tradecraft) when unset.
+    # Honor a CI-provided TRADECRAFT_PATH (a standalone checkout has no sibling tradecraft/);
+    # fall back to the combined-workspace layout, a `tradecraft/` directory four levels up,
+    # when unset.
     real = os.environ.get("TRADECRAFT_PATH") or str(
         Path(texts.__file__).resolve().parents[4] / "tradecraft"
     )

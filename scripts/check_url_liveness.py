@@ -57,6 +57,17 @@ def collect_urls() -> list[tuple[str, str, str, str]]:
     return urls
 
 
+# 401/403/405/429 mean the SERVER ANSWERED and refused an automated client — the
+# resource EXISTS. Gov/official hosts (justice.gov, congress.gov, nsa.gov,
+# history.state.gov, history.defense.gov, defense.gov, weforum.org, ...) routinely
+# 403 a non-browser client (urllib) while serving fine in a browser. These are
+# ALIVE, NOT dead: a browser-UA curl resolves them. NEVER treat a 403/401 as a dead
+# citation or delete the source on it. Only a real 404/410 (or a persistent network
+# error) is dead — and even then, recover the moved URL or a Wayback snapshot before
+# dropping anything.
+BOT_BLOCKED_ALIVE = {401, 403, 405, 429}
+
+
 def check_url(url: str) -> tuple[int, str]:
     """Return (status_code, note). status_code -1 means network error."""
     for method in ("HEAD", "GET"):  # some hosts 403/405 HEAD but 200 GET
@@ -89,8 +100,8 @@ def main() -> int:
         results.append((rid, kind, stype, url, status, note))
         by_status[status] += 1
         domain = urllib.parse.urlparse(url).netloc
-        if status == 200 or 200 <= status < 400:
-            by_domain[domain]["ok"] += 1
+        if status == 200 or 200 <= status < 400 or status in BOT_BLOCKED_ALIVE:
+            by_domain[domain]["ok"] += 1   # 403/401 = bot-blocked-but-alive, not a failure
         else:
             by_domain[domain]["fail"] += 1
         if i % 25 == 0:
@@ -106,15 +117,23 @@ def main() -> int:
         lines.append(f"| {label} | {by_status[code]} |")
     lines.append("")
 
-    failures = [r for r in results if r[4] != 200 and not (200 <= r[4] < 400)]
+    blocked = [r for r in results if r[4] in BOT_BLOCKED_ALIVE]
+    failures = [r for r in results if r[4] != 200 and not (200 <= r[4] < 400)
+                and r[4] not in BOT_BLOCKED_ALIVE]
+    if blocked:
+        lines.append(f"\n## Bot-blocked but ALIVE ({len(blocked)}) — DO NOT delete; the resource exists (verify via browser-UA curl)\n")
+        lines.append("| Record | Type | URL | Status |")
+        lines.append("|---|---|---|---|")
+        for rid, kind, stype, url, status, note in blocked:
+            lines.append(f"| `{rid}` ({kind}) | {stype} | {url} | {status} |")
     if failures:
-        lines.append(f"\n## Failures ({len(failures)})\n")
+        lines.append(f"\n## Genuinely dead ({len(failures)}) — recover the moved URL or a Wayback snapshot; do not merely delete\n")
         lines.append("| Record | Type | URL | Status | Note |")
         lines.append("|---|---|---|---|---|")
         for rid, kind, stype, url, status, note in failures:
             note_clean = note.replace("|", "/").replace("\n", " ")[:80]
             lines.append(f"| `{rid}` ({kind}) | {stype} | {url} | {status} | {note_clean} |")
-    else:
+    if not blocked and not failures:
         lines.append("\n## All clear\n\nNo failures.")
 
     lines.append("\n## By domain\n\n| Domain | OK | Fail |\n|---|---|---|")

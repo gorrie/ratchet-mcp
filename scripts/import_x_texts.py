@@ -16,7 +16,10 @@ Usage (from ratchet-mcp/):
   python scripts/import_x_texts.py            # bridge every verified subject with a people.jsonl match
 """
 import argparse
+import datetime
 import json
+import re
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -26,6 +29,32 @@ PEOPLE = DATA / "people.jsonl"
 TEXTS = DATA / "texts.jsonl"
 # gorrie is a workspace sibling: ratchet-mcp -> research -> series-workspace -> <workspace>
 DEFAULT_X = RATCHET.parents[2] / "gorrie" / "scripts" / "x"
+
+
+def normalize_date(raw) -> str | None:
+    """Any feed timestamp -> 'YYYY-MM-DD', or None if it cannot be parsed.
+
+    This used to be `(created_at or "")[:10]`, which is correct for ISO feeds and
+    silently destructive for RFC-822 ones: X and every Substack RSS `pubDate`
+    became "Mon, 06 Ap" -- weekday, day, half a month, no year. It corrupted 58
+    of 328 texts before anyone noticed, because the result was still 10
+    characters long and therefore still looked like a date. Never slice a
+    timestamp; parse it. Unparseable returns None rather than a plausible-looking
+    fragment -- a null is visible, a truncation is not.
+    """
+    s = (raw or "").strip()
+    if not s:
+        return None
+    if re.match(r"^\d{4}-\d{2}-\d{2}", s):
+        return s[:10]
+    try:  # RFC-822 / RFC-2822: "Wed, 23 Apr 2025 12:34:56 +0000"
+        return parsedate_to_datetime(s).date().isoformat()
+    except (TypeError, ValueError):
+        pass
+    try:
+        return datetime.datetime.fromisoformat(s.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        return None
 
 
 def load_name_to_id() -> dict:
@@ -93,7 +122,7 @@ def main():
                 "id": txtid,
                 "text": txt,
                 "url": r.get("url") or f"https://x.com/{handle}/status/{tid}",
-                "date": (r.get("created_at") or "")[:10],
+                "date": normalize_date(r.get("created_at")),
             })
             seen.add(txtid)
             added += 1

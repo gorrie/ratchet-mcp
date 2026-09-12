@@ -35,7 +35,9 @@ sys.path.insert(0, str(ROOT / "server"))
 RECEIPTS = ROOT / "server" / "data" / "receipts.jsonl"
 TEXTS = ROOT / "server" / "data" / "texts.jsonl"
 
-ENV = os.path.expanduser("~/.config/tradecraft/.env")
+# Operator-named env file; no default. See the note in lens/lens_server.py — hardcoding the
+# author's credential path published the location of the keys.
+ENV = os.environ.get("RATCHET_MCP_ENV_FILE", "")
 if os.path.exists(ENV):
     for line in open(ENV, encoding="utf-8"):
         line = line.strip()

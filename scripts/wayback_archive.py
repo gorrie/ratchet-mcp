@@ -82,6 +82,36 @@ def wayback_lookup(url: str) -> str | None:
     return None
 
 
+def resolve_final_url(url: str) -> str:
+    """Follow redirects (browser UA) and return the URL actually served.
+
+    KEY FINDING (2026-07-25): justice.gov (and other gov hosts) 301 their press
+    releases to a /archives/... path, and Wayback holds a snapshot of the MOVED
+    url, not the original — so a lookup on the as-cited url returns {} while the
+    receipt exists one redirect away. Returns the input unchanged on failure.
+    Even an Akamai interstitial (HTTP 200 challenge or 403) is served AT the
+    post-redirect url, so geturl()/HTTPError.url still exposes the /archives/ target."""
+    try:
+        with _req(url, method="GET", timeout=25) as resp:
+            return resp.geturl() or url
+    except urllib.error.HTTPError as e:
+        return getattr(e, "url", None) or url
+    except Exception:
+        return url
+
+
+def wayback_lookup_any(url: str) -> str | None:
+    """wayback_lookup that also tries the redirect-resolved final url — catches
+    host-side moves (justice.gov -> justice.gov/archives) the plain lookup misses."""
+    snap = wayback_lookup(url)
+    if snap:
+        return snap
+    final = resolve_final_url(url)
+    if final and final != url:
+        return wayback_lookup(final)
+    return None
+
+
 def wayback_save(url: str) -> str | None:
     """Best-effort SPN2 save; returns snapshot URL or None (often 429 without keys)."""
     try:
@@ -93,7 +123,8 @@ def wayback_save(url: str) -> str | None:
 
 
 def ensure(url: str) -> str | None:
-    return wayback_lookup(url) or wayback_save(url)
+    # lookup (incl. redirect target) first; SPN2 save only as a last resort (429-prone).
+    return wayback_lookup_any(url) or wayback_save(url)
 
 
 def iter_records():
@@ -158,7 +189,7 @@ def main():
                         new_sources.append(s)
                 elif args.annotate:
                     new_sources.append(s)
-                    snap = wayback_lookup(url); time.sleep(args.rate)
+                    snap = wayback_lookup_any(url); time.sleep(args.rate)
                     if snap and not any(x.get("url") == snap for x in r.get("sources", [])):
                         new_sources.append({"type": "wayback", "url": snap})
                         fchanged += 1

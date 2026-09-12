@@ -23,8 +23,11 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "server"))
 
-# Load OpenRouter key (for backend=auto/cloud) from the gitignored env, like the other live tools.
-_ENV = os.path.expanduser("~/.config/tradecraft/.env")
+# Load the OpenRouter key (for backend=auto/cloud) from an env file the OPERATOR names.
+# RATCHET_MCP_ENV_FILE has no default on purpose: this file hardcoded a path to the author's
+# credential store, which told every reader of the public mirror exactly where the keys live.
+# Naming a credential file IS the disclosure, even when the path is home-relative.
+_ENV = os.environ.get("RATCHET_MCP_ENV_FILE", "")
 if os.path.exists(_ENV):
     for _line in open(_ENV, encoding="utf-8"):
         _line = _line.strip()

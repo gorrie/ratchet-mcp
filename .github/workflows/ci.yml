@@ -28,6 +28,21 @@ jobs:
         working-directory: server
         run: python tests/audit_citations.py
 
+      # Derived-artifact drift gate. audit_citations.py guards server/data/*.jsonl;
+      # this guards everything DERIVED from it (the atlas export, the embedded
+      # graph.js dataset, the published leaderboard, counts asserted in prose,
+      # closed-vocab declarations). Skipped automatically in the standalone public
+      # mirror, which has no website/ or tradecraft/ tree to check against.
+      # Path note: this repo lives at <series>/research/ratchet-mcp/, so from the
+      # repo root the series tree is two levels up.
+      - name: Freshness gate (derived artifacts vs source)
+        run: |
+          if [ -f ../../tools/freshness_gate.py ]; then
+            python ../../tools/freshness_gate.py
+          else
+            echo "series tree not present (standalone mirror) -- skipping"
+          fi
+
       - name: Fetch tradecraft (texts-lane dependency)
         run: |
           git clone --depth 1 https://github.com/gorrie/tradecraft.git "$RUNNER_TEMP/tradecraft"

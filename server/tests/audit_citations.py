@@ -30,7 +30,7 @@ DATA = Path(os.environ.get("RATCHET_DATA_DIR") or Path(__file__).resolve().paren
 
 ACCEPTED_SOURCE_TYPES = {
     "littlesis", "wikipedia", "wikidata", "official", "gov-record",
-    "wayback", "academic", "news",
+    "wayback", "academic", "news", "sec-filing",
 }
 
 # Common natural-language synonyms -> canonical type. Contributors shouldn't
@@ -59,6 +59,10 @@ def canonical_source_type(t):
 PLAYS = {
     "vault", "pulpit", "cycle", "acquisition", "pipeline", "backstop",
     "cousin", "bretton",
+    # Added 2026-08-02. `pipeline` had degraded into a catch-all (116 carriers, 36%
+    # with no tech marker at all) because the legal and health revolvers had no name
+    # of their own. See PLAYS.md.
+    "bar", "ward",
 }
 ACTORS = {
     "flagging", "algorithm", "money", "papers", "embassy", "eagle",
@@ -114,7 +118,11 @@ UNSOURCED_ALLEGATION = re.compile(
 )
 PRIVATE_LIFE = re.compile(
     r"\b(divorced|widowed|estranged|mistress|affair with|battling cancer|"
-    r"bankruptcy|gambling debts|alcoholic)\b",
+    r"gambling debts|alcoholic)\b"
+    # Personal insolvency only. A corporate bankruptcy someone bought a company
+    # out of is a business fact, not private-life detail -- "acquired CLEAR out
+    # of bankruptcy 2010" must not trip this lint.
+    r"|\b(?:filed for|declared|personal)\s+bankruptcy\b",
     re.IGNORECASE,
 )
 

@@ -17,6 +17,12 @@ classifiers = [
   "Topic :: Sociology",
 ]
 dependencies = [
+  # Deliberately unbounded again. The `<2` bound existed because mcp 2.0.0 (2026-07-28)
+  # removed `mcp.server.fastmcp`; server.py now imports MCPServer from
+  # mcp.server.mcpserver and falls back to the 1.x class, so BOTH generations work and
+  # neither needs pinning. Verified on 2.0.0 and on 1.x: 58 passed, 100% coverage each.
+  # Keep it open — this package is installed by other people, and a bound we do not need
+  # would drag them back to a superseded SDK.
   "mcp>=1.2",
   "httpx>=0.27",
 ]

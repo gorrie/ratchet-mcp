@@ -16,8 +16,8 @@ serves a single graph.js file that declares an Alpine.js component:
 We rewrite those three array literals only. The surrounding component
 methods are preserved.
 
-After running, preview with hugo (any platform):
-    cd website
+After running, preview with hugo (any platform) from whichever site consumes the
+generated graph data:
     hugo server --buildFuture
 to visually verify the foreign-cluster nodes appear in the right color
 group and that no existing nodes were lost.
@@ -35,7 +35,9 @@ from pathlib import Path
 # otherwise resolve the series root from this script's location (ratchet-mcp is
 # at <series>/research/ratchet-mcp/, so parents[2] is the series dir).
 _here = Path(__file__).resolve()
-SERIES = Path(os.environ["SERIES_ROOT"]) if os.environ.get("SERIES_ROOT") else _here.parents[2]
+# ratchet-mcp lives at <series>/research/ratchet-mcp/scripts/, so the series root is parents[3]
+# (scripts=0, ratchet-mcp=1, research=2, series=3). SERIES_ROOT env var overrides.
+SERIES = Path(os.environ["SERIES_ROOT"]) if os.environ.get("SERIES_ROOT") else _here.parents[3]
 GRAPH_JS = SERIES / "website" / "static" / "tech" / "revolving-door" / "graph.js"
 DATA = _here.parents[1] / "server" / "data"
 
@@ -150,7 +152,7 @@ def main() -> int:
     text = replace_array(text, "links", emit_links(edges))
 
     GRAPH_JS.write_text(text, encoding="utf-8")
-    print(f"Updated {GRAPH_JS.relative_to(WORKSPACE)}")
+    print(f"Updated {GRAPH_JS}")
     print(f"  {len(institutions)} institutions, {len(people)} people, {len(edges)} edges")
     return 0
 

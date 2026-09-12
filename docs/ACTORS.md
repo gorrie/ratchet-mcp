@@ -1,12 +1,12 @@
 # Ratchet MCP — Control-Grid Actors Index
 
-> **The mechanisms.** Each "actor" is a piece of the control-grid infrastructure — one of the 20 Ratchet clicks from the book, encoded as a queryable tag.
+> **The mechanisms.** Each "actor" is a piece of the control-grid infrastructure — one of the Ratchet clicks from the book (23 body chapters; the actor set maps a subset), encoded as a queryable tag.
 
-The actor set is a subset of the 20 Ratchet clicks (see [evilrobots.lol/tech/ratchet-clicks/](https://evilrobots.lol/tech/ratchet-clicks/)). We tag people with the actors their documented institutional positions touched.
+The actor set is a subset of the Ratchet clicks (see [evilrobots.lol/tech/ratchet-clicks/](https://evilrobots.lol/tech/ratchet-clicks/)). We tag people with the actors their documented institutional positions touched.
 
 To propose a new actor, see [CONTRIBUTING.md](CONTRIBUTING.md#how-to-add-a-new-actor).
 
-## The 11 actors (v2 dataset)
+## The 13 actors
 
 | Code | Name | Ratchet click | Definition | Example person-touches |
 |---|---|---|---|---|
@@ -16,6 +16,8 @@ To propose a new actor, see [CONTRIBUTING.md](CONTRIBUTING.md#how-to-add-a-new-a
 | `papers` | The Papers | Click 5 | Digital identity systems, biometric enrollment, identity verification mandates. | Schmidt (NSCAI/digital ID), Banga (Mastercard/India Stack), Khan (FTC privacy), Sandberg (Meta ID systems), Schwab (WEF digital-ID advocacy) |
 | `embassy` | The Embassy | Click 8 | Foreign government operations in US territory; US diplomatic / intel posture abroad. | Most State Dept and CIA chiefs (Kissinger, Albright, Powell, Rice, Clinton, Brennan, Hayden, Pompeo, Blinken, Rubio, etc.) |
 | `eagle` | The Eagle | Click 9 | US extraterritorial enforcement — sanctions, military bases, USAID-conditioned programs. | Kissinger, Acheson, Dulles, Rusk, Rice, Albright, Powell, Clinton, Wolfowitz |
+| `priest` | The Priest | Click 7 | Climate / ESG finance as a compliance regime — disclosure mandates, transition-finance conditionality, net-zero alliances. Declared 2026-08-01; 10 people tagged. | Fink (BlackRock ESG), Carney (GFANZ), Kerry (Special Presidential Envoy for Climate), Yellen, Bloomberg (TCFD), Figueres / Espinosa / Stiell (UNFCCC Executive Secretaries), Mizuno |
+| `hospital` | The Hospital | Click 15 | Global health governance — pandemic instruments, vaccine-financing conditionality, health-surveillance infrastructure. Declared 2026-08-01; 32 people tagged. | Fauci, BGates, Chan (WHO DG), Farrar (Wellcome→WHO), Berkley (Gavi), Suzman (Gates Foundation), Shah (USAID→Rockefeller), Gawande, RFK Jr. |
 | `tap` | The Tap | Click 14 | SIGINT mass collection — NSA, GCHQ, Five Eyes, mass-metadata regimes. | Hayden, Brennan, Clapper, Tenet, Negroponte, William Burns (CIA), Gates, Cheney, Pompeo, Petraeus |
 | `watchers` | The Watchers | Click 15 | Mass-metadata collection programs as distinct from targeted SIGINT — Section 215, Section 702, PRISM, Stellar Wind. | Cheney (architect), Hayden (operator), Clapper, Brennan, Petraeus, Karp (Palantir as contractor) |
 | `backdoor` | The Backdoor | Click 16 | Encryption mandates, lawful-intercept requirements, client-side scanning. | Hayden (NSA, CALEA expansion), Cheney (PATRIOT Section 215), Bolton (encryption-backdoor advocacy as NSA) |
@@ -24,7 +26,7 @@ To propose a new actor, see [CONTRIBUTING.md](CONTRIBUTING.md#how-to-add-a-new-a
 
 ## Multi-actor people (where the thesis lives)
 
-The book's central observation is that control-grid mechanisms aren't operated by different people — they're operated by the *same* cohort, often touching multiple actors in one career. The MCP makes this checkable. From the v2 dataset:
+The book's central observation is that control-grid mechanisms aren't operated by different people — they're operated by the *same* cohort, often touching multiple actors in one career. The MCP makes this checkable. From the dataset (550 people):
 
 - **Cheney**: `tap`, `watchers`, `backdoor`, `embassy` — 4 actors (the densest).
 - **Hayden**: `tap`, `watchers`, `backdoor` — the SIGINT-and-mandate trifecta.
@@ -33,16 +35,15 @@ The book's central observation is that control-grid mechanisms aren't operated b
 - **Khan**: `algorithm`, `blueprint`, `model` — the regulator side of the AI quadrant.
 - **Sandberg**: `algorithm`, `flagging`, `papers` — the platform-side digital-ID trifecta.
 
-`find_overlap(actors=["tap","backdoor"])` → Hayden, Cheney, Bolton (3 of 117). The headline prompt.
+`find_overlap(actors=["tap","backdoor"])` → Dick Cheney, Michael Hayden, Keith Alexander, Christopher Wray, John Yoo, David Addington (6 of 550). The headline prompt.
 
 ## What we explicitly chose to NOT model (yet)
 
-The 20 Ratchet clicks include several that don't yet have a clean person-touches mapping in our dataset:
+The Ratchet clicks include several that don't yet have a clean person-touches mapping in our dataset:
 
 - `killswitch` (Click 3, infrastructure-level deplatforming): names like AWS leadership during the Parler decision are corporate-decision-level; would need separate sourcing.
 - `club` (Click 6, elite invitation forums): partially covered by the `networks` dimension already.
-- `priest` (Click 7, ESG / DEI compliance): names exist in our cohort (Fink → BlackRock ESG); not yet tagged.
-- `car` / `office` / `school` / `hospital` (Clicks 10-13): vehicle / workplace / school / health surveillance. Industry-leader-level mapping needed.
+- `car` / `office` / `school`: vehicle / workplace / school surveillance. Industry-leader-level mapping still needed.
 - `counter` (Click 19) / `cat` (Click 20): structural / counter-argument clicks; not personnel-mapped.
 
 v3 may add some of these. Each requires the same "≥2 exemplars" standard as new plays.

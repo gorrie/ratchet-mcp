@@ -1,309 +1,309 @@
-{"source": "Rubin", "target": "CFR"}
+{"source": "Rubin", "target": "CFR", "rel": "member-of"}
 {"source": "Rubin", "target": "Goldman"}
 {"source": "Rubin", "target": "Treasury"}
 {"source": "Rubin", "target": "Citigroup"}
-{"source": "Rubin", "target": "Bilderberg"}
+{"source": "Rubin", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Paulson", "target": "Goldman"}
 {"source": "Paulson", "target": "Treasury"}
 {"source": "Paulson", "target": "PaulsonInst"}
-{"source": "Paulson", "target": "Bilderberg"}
+{"source": "Paulson", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Geithner", "target": "NYFed"}
 {"source": "Geithner", "target": "Treasury"}
 {"source": "Geithner", "target": "WarburgPincus"}
-{"source": "Geithner", "target": "CFR"}
+{"source": "Geithner", "target": "CFR", "rel": "member-of"}
 {"source": "Lew", "target": "Treasury"}
 {"source": "Lew", "target": "Citigroup"}
-{"source": "Lew", "target": "CFR"}
+{"source": "Lew", "target": "CFR", "rel": "member-of"}
 {"source": "Mnuchin", "target": "Goldman"}
 {"source": "Mnuchin", "target": "Treasury"}
 {"source": "Yellen", "target": "FedReserve"}
 {"source": "Yellen", "target": "Treasury"}
-{"source": "Yellen", "target": "CFR"}
+{"source": "Yellen", "target": "CFR", "rel": "member-of"}
 {"source": "Summers", "target": "WorldBank"}
 {"source": "Summers", "target": "Treasury"}
 {"source": "Summers", "target": "Harvard"}
 {"source": "Summers", "target": "DEShaw"}
 {"source": "Summers", "target": "NSC"}
-{"source": "Summers", "target": "CFR"}
+{"source": "Summers", "target": "CFR", "rel": "member-of"}
 {"source": "Bessent", "target": "Treasury"}
 {"source": "Kissinger", "target": "NSC"}
 {"source": "Kissinger", "target": "State"}
-{"source": "Kissinger", "target": "CFR"}
-{"source": "Kissinger", "target": "Bilderberg"}
-{"source": "Kissinger", "target": "Trilateral"}
-{"source": "Vance", "target": "Trilateral"}
+{"source": "Kissinger", "target": "CFR", "rel": "member-of"}
+{"source": "Kissinger", "target": "Bilderberg", "rel": "member-of"}
+{"source": "Kissinger", "target": "Trilateral", "rel": "member-of"}
+{"source": "Vance", "target": "Trilateral", "rel": "member-of"}
 {"source": "Vance", "target": "State"}
-{"source": "Vance", "target": "CFR"}
+{"source": "Vance", "target": "CFR", "rel": "member-of"}
 {"source": "Haig", "target": "NSC"}
 {"source": "Haig", "target": "State"}
-{"source": "Haig", "target": "CFR"}
+{"source": "Haig", "target": "CFR", "rel": "member-of"}
 {"source": "Haig", "target": "DoD"}
 {"source": "Shultz", "target": "Treasury"}
 {"source": "Shultz", "target": "State"}
 {"source": "Shultz", "target": "Hoover"}
-{"source": "Shultz", "target": "CFR"}
-{"source": "Shultz", "target": "Bilderberg"}
+{"source": "Shultz", "target": "CFR", "rel": "member-of"}
+{"source": "Shultz", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Baker", "target": "Treasury"}
 {"source": "Baker", "target": "State"}
 {"source": "Baker", "target": "Carlyle"}
-{"source": "Baker", "target": "CFR"}
+{"source": "Baker", "target": "CFR", "rel": "member-of"}
 {"source": "Baker", "target": "WhiteHouse"}
 {"source": "Christopher", "target": "State"}
-{"source": "Christopher", "target": "CFR"}
-{"source": "Christopher", "target": "Trilateral"}
+{"source": "Christopher", "target": "CFR", "rel": "member-of"}
+{"source": "Christopher", "target": "Trilateral", "rel": "member-of"}
 {"source": "Albright", "target": "NSC"}
 {"source": "Albright", "target": "State"}
-{"source": "Albright", "target": "CFR"}
+{"source": "Albright", "target": "CFR", "rel": "member-of"}
 {"source": "CPowell", "target": "DoD"}
 {"source": "CPowell", "target": "State"}
-{"source": "CPowell", "target": "CFR"}
+{"source": "CPowell", "target": "CFR", "rel": "member-of"}
 {"source": "CPowell", "target": "NSC"}
 {"source": "Rice", "target": "NSC"}
 {"source": "Rice", "target": "State"}
 {"source": "Rice", "target": "StanfordGSB"}
 {"source": "Rice", "target": "Hoover"}
-{"source": "Rice", "target": "CFR"}
-{"source": "Rice", "target": "Bilderberg"}
+{"source": "Rice", "target": "CFR", "rel": "member-of"}
+{"source": "Rice", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Clinton", "target": "State"}
-{"source": "Clinton", "target": "CFR"}
-{"source": "Clinton", "target": "Bilderberg"}
+{"source": "Clinton", "target": "CFR", "rel": "member-of"}
+{"source": "Clinton", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Kerry", "target": "State"}
-{"source": "Kerry", "target": "CFR"}
+{"source": "Kerry", "target": "CFR", "rel": "member-of"}
 {"source": "Tillerson", "target": "State"}
 {"source": "Pompeo", "target": "CIA"}
 {"source": "Pompeo", "target": "State"}
 {"source": "Blinken", "target": "NSC"}
 {"source": "Blinken", "target": "State"}
-{"source": "Blinken", "target": "CFR"}
-{"source": "Blinken", "target": "WEF"}
+{"source": "Blinken", "target": "CFR", "rel": "member-of"}
+{"source": "Blinken", "target": "WEF", "rel": "member-of"}
 {"source": "Rubio", "target": "State"}
-{"source": "Rubio", "target": "CFR"}
-{"source": "Brzezinski", "target": "Trilateral"}
+{"source": "Rubio", "target": "CFR", "rel": "member-of"}
+{"source": "Brzezinski", "target": "Trilateral", "rel": "member-of"}
 {"source": "Brzezinski", "target": "NSC"}
-{"source": "Brzezinski", "target": "CFR"}
+{"source": "Brzezinski", "target": "CFR", "rel": "member-of"}
 {"source": "McFarlane", "target": "NSC"}
-{"source": "McFarlane", "target": "CFR"}
+{"source": "McFarlane", "target": "CFR", "rel": "member-of"}
 {"source": "Scowcroft", "target": "NSC"}
-{"source": "Scowcroft", "target": "CFR"}
+{"source": "Scowcroft", "target": "CFR", "rel": "member-of"}
 {"source": "Berger", "target": "NSC"}
-{"source": "Berger", "target": "CFR"}
+{"source": "Berger", "target": "CFR", "rel": "member-of"}
 {"source": "Rumsfeld", "target": "DoD"}
-{"source": "Rumsfeld", "target": "CFR"}
+{"source": "Rumsfeld", "target": "CFR", "rel": "member-of"}
 {"source": "Cheney", "target": "DoD"}
 {"source": "Cheney", "target": "WhiteHouse"}
-{"source": "Cheney", "target": "CFR"}
+{"source": "Cheney", "target": "CFR", "rel": "member-of"}
 {"source": "Cheney", "target": "AEI"}
 {"source": "Wolfowitz", "target": "State"}
 {"source": "Wolfowitz", "target": "DoD"}
 {"source": "Wolfowitz", "target": "WorldBank"}
-{"source": "Wolfowitz", "target": "CFR"}
+{"source": "Wolfowitz", "target": "CFR", "rel": "member-of"}
 {"source": "Wolfowitz", "target": "AEI"}
 {"source": "Petraeus", "target": "DoD"}
 {"source": "Petraeus", "target": "CIA"}
-{"source": "Petraeus", "target": "CFR"}
-{"source": "Petraeus", "target": "Bilderberg"}
+{"source": "Petraeus", "target": "CFR", "rel": "member-of"}
+{"source": "Petraeus", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Brennan", "target": "CIA"}
-{"source": "Brennan", "target": "CFR"}
+{"source": "Brennan", "target": "CFR", "rel": "member-of"}
 {"source": "Clapper", "target": "DNI"}
-{"source": "Clapper", "target": "CFR"}
+{"source": "Clapper", "target": "CFR", "rel": "member-of"}
 {"source": "Hayden", "target": "NSA"}
 {"source": "Hayden", "target": "CIA"}
-{"source": "Hayden", "target": "CFR"}
+{"source": "Hayden", "target": "CFR", "rel": "member-of"}
 {"source": "Gates", "target": "CIA"}
 {"source": "Gates", "target": "DoD"}
-{"source": "Gates", "target": "CFR"}
+{"source": "Gates", "target": "CFR", "rel": "member-of"}
 {"source": "Dimon", "target": "Citigroup"}
 {"source": "Dimon", "target": "JPMorgan"}
-{"source": "Dimon", "target": "Bilderberg"}
-{"source": "Dimon", "target": "WEF"}
+{"source": "Dimon", "target": "Bilderberg", "rel": "member-of"}
+{"source": "Dimon", "target": "WEF", "rel": "member-of"}
 {"source": "Fink", "target": "BlackRock"}
-{"source": "Fink", "target": "WEF"}
+{"source": "Fink", "target": "WEF", "rel": "member-of"}
 {"source": "Blankfein", "target": "Goldman"}
-{"source": "Blankfein", "target": "CFR"}
-{"source": "Schwarzman", "target": "WEF"}
+{"source": "Blankfein", "target": "CFR", "rel": "member-of"}
+{"source": "Schwarzman", "target": "WEF", "rel": "member-of"}
 {"source": "Rubenstein", "target": "WhiteHouse"}
 {"source": "Rubenstein", "target": "Carlyle"}
-{"source": "Rubenstein", "target": "CFR"}
+{"source": "Rubenstein", "target": "CFR", "rel": "member-of"}
 {"source": "Rubenstein", "target": "Brookings"}
 {"source": "Volcker", "target": "Treasury"}
 {"source": "Volcker", "target": "NYFed"}
 {"source": "Volcker", "target": "FedReserve"}
-{"source": "Volcker", "target": "Trilateral"}
-{"source": "Volcker", "target": "CFR"}
+{"source": "Volcker", "target": "Trilateral", "rel": "member-of"}
+{"source": "Volcker", "target": "CFR", "rel": "member-of"}
 {"source": "Greenspan", "target": "FedReserve"}
-{"source": "Greenspan", "target": "CFR"}
+{"source": "Greenspan", "target": "CFR", "rel": "member-of"}
 {"source": "Bernanke", "target": "FedReserve"}
 {"source": "Bernanke", "target": "Brookings"}
-{"source": "Bernanke", "target": "CFR"}
+{"source": "Bernanke", "target": "CFR", "rel": "member-of"}
 {"source": "Powell", "target": "Treasury"}
 {"source": "Powell", "target": "Carlyle"}
 {"source": "Powell", "target": "FedReserve"}
-{"source": "Powell", "target": "CFR"}
+{"source": "Powell", "target": "CFR", "rel": "member-of"}
 {"source": "Fischer", "target": "IMF"}
 {"source": "Fischer", "target": "Citigroup"}
 {"source": "Fischer", "target": "FedReserve"}
 {"source": "Fischer", "target": "BlackRock"}
-{"source": "Fischer", "target": "CFR"}
+{"source": "Fischer", "target": "CFR", "rel": "member-of"}
 {"source": "Lagarde", "target": "IMF"}
 {"source": "Lagarde", "target": "ECB"}
-{"source": "Lagarde", "target": "CFR"}
-{"source": "Lagarde", "target": "Bilderberg"}
+{"source": "Lagarde", "target": "CFR", "rel": "member-of"}
+{"source": "Lagarde", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Georgieva", "target": "WorldBank"}
 {"source": "Georgieva", "target": "IMF"}
-{"source": "Georgieva", "target": "WEF"}
+{"source": "Georgieva", "target": "WEF", "rel": "member-of"}
 {"source": "Zoellick", "target": "USTR"}
 {"source": "Zoellick", "target": "State"}
 {"source": "Zoellick", "target": "WorldBank"}
 {"source": "Zoellick", "target": "Goldman"}
-{"source": "Zoellick", "target": "CFR"}
+{"source": "Zoellick", "target": "CFR", "rel": "member-of"}
 {"source": "Kim", "target": "WorldBank"}
-{"source": "Kim", "target": "WEF"}
+{"source": "Kim", "target": "WEF", "rel": "member-of"}
 {"source": "Banga", "target": "Citigroup"}
 {"source": "Banga", "target": "Mastercard"}
 {"source": "Banga", "target": "WorldBank"}
-{"source": "Banga", "target": "CFR"}
+{"source": "Banga", "target": "CFR", "rel": "member-of"}
 {"source": "Haass", "target": "State"}
-{"source": "Haass", "target": "CFR"}
+{"source": "Haass", "target": "CFR", "rel": "member-of"}
 {"source": "Froman", "target": "USTR"}
 {"source": "Froman", "target": "Mastercard"}
-{"source": "Froman", "target": "CFR"}
-{"source": "Froman", "target": "WEF"}
+{"source": "Froman", "target": "CFR", "rel": "member-of"}
+{"source": "Froman", "target": "WEF", "rel": "member-of"}
 {"source": "Schmidt", "target": "Google"}
 {"source": "Schmidt", "target": "DoD"}
-{"source": "Schmidt", "target": "CFR"}
-{"source": "Schmidt", "target": "Bilderberg"}
-{"source": "Schmidt", "target": "WEF"}
+{"source": "Schmidt", "target": "CFR", "rel": "member-of"}
+{"source": "Schmidt", "target": "Bilderberg", "rel": "member-of"}
+{"source": "Schmidt", "target": "WEF", "rel": "member-of"}
 {"source": "Karp", "target": "Palantir"}
 {"source": "Thiel", "target": "Palantir"}
-{"source": "Thiel", "target": "Bilderberg"}
+{"source": "Thiel", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Thiel", "target": "a16z"}
-{"source": "JDVance", "target": "WhiteHouse"}
-{"source": "JDVance", "target": "Senate"}
+{"source": "JVance", "target": "WhiteHouse"}
+{"source": "JVance", "target": "Senate"}
 {"source": "Stettinius", "target": "State"}
-{"source": "Stettinius", "target": "CFR"}
+{"source": "Stettinius", "target": "CFR", "rel": "member-of"}
 {"source": "Stettinius", "target": "UN"}
 {"source": "Acheson", "target": "State"}
 {"source": "Acheson", "target": "Treasury"}
-{"source": "Acheson", "target": "CFR"}
+{"source": "Acheson", "target": "CFR", "rel": "member-of"}
 {"source": "Dulles", "target": "State"}
-{"source": "Dulles", "target": "CFR"}
+{"source": "Dulles", "target": "CFR", "rel": "member-of"}
 {"source": "Herter", "target": "State"}
-{"source": "Herter", "target": "CFR"}
+{"source": "Herter", "target": "CFR", "rel": "member-of"}
 {"source": "Rusk", "target": "State"}
-{"source": "Rusk", "target": "CFR"}
+{"source": "Rusk", "target": "CFR", "rel": "member-of"}
 {"source": "Rogers", "target": "State"}
-{"source": "Rogers", "target": "CFR"}
+{"source": "Rogers", "target": "CFR", "rel": "member-of"}
 {"source": "Muskie", "target": "State"}
 {"source": "Muskie", "target": "Senate"}
-{"source": "Muskie", "target": "CFR"}
+{"source": "Muskie", "target": "CFR", "rel": "member-of"}
 {"source": "HBrown", "target": "DoD"}
-{"source": "HBrown", "target": "Trilateral"}
-{"source": "HBrown", "target": "CFR"}
+{"source": "HBrown", "target": "Trilateral", "rel": "member-of"}
+{"source": "HBrown", "target": "CFR", "rel": "member-of"}
 {"source": "Blumenthal", "target": "Treasury"}
-{"source": "Blumenthal", "target": "Trilateral"}
-{"source": "Blumenthal", "target": "CFR"}
+{"source": "Blumenthal", "target": "Trilateral", "rel": "member-of"}
+{"source": "Blumenthal", "target": "CFR", "rel": "member-of"}
 {"source": "AYoung", "target": "UN"}
-{"source": "AYoung", "target": "Trilateral"}
+{"source": "AYoung", "target": "Trilateral", "rel": "member-of"}
 {"source": "Huntington", "target": "NSC"}
-{"source": "Huntington", "target": "Trilateral"}
-{"source": "Huntington", "target": "CFR"}
+{"source": "Huntington", "target": "Trilateral", "rel": "member-of"}
+{"source": "Huntington", "target": "CFR", "rel": "member-of"}
 {"source": "Huntington", "target": "Harvard"}
 {"source": "DRockefeller", "target": "Citigroup"}
-{"source": "DRockefeller", "target": "Trilateral"}
-{"source": "DRockefeller", "target": "CFR"}
-{"source": "DRockefeller", "target": "Bilderberg"}
+{"source": "DRockefeller", "target": "Trilateral", "rel": "member-of"}
+{"source": "DRockefeller", "target": "CFR", "rel": "member-of"}
+{"source": "DRockefeller", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Camdessus", "target": "IMF"}
-{"source": "Camdessus", "target": "Bilderberg"}
+{"source": "Camdessus", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Kohler", "target": "IMF"}
-{"source": "Kohler", "target": "CFR"}
+{"source": "Kohler", "target": "CFR", "rel": "member-of"}
 {"source": "Rato", "target": "IMF"}
 {"source": "StraussKahn", "target": "IMF"}
-{"source": "StraussKahn", "target": "Bilderberg"}
+{"source": "StraussKahn", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Wolfensohn", "target": "WorldBank"}
-{"source": "Wolfensohn", "target": "CFR"}
-{"source": "Wolfensohn", "target": "Bilderberg"}
+{"source": "Wolfensohn", "target": "CFR", "rel": "member-of"}
+{"source": "Wolfensohn", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Malpass", "target": "Treasury"}
 {"source": "Malpass", "target": "WorldBank"}
-{"source": "Malpass", "target": "CFR"}
+{"source": "Malpass", "target": "CFR", "rel": "member-of"}
 {"source": "Burns", "target": "FedReserve"}
 {"source": "Burns", "target": "CEA"}
-{"source": "Burns", "target": "CFR"}
+{"source": "Burns", "target": "CFR", "rel": "member-of"}
 {"source": "Martin", "target": "Treasury"}
 {"source": "Martin", "target": "FedReserve"}
-{"source": "Martin", "target": "CFR"}
+{"source": "Martin", "target": "CFR", "rel": "member-of"}
 {"source": "Connally", "target": "Treasury"}
 {"source": "ORneill", "target": "OMB"}
 {"source": "ORneill", "target": "Treasury"}
-{"source": "ORneill", "target": "CFR"}
+{"source": "ORneill", "target": "CFR", "rel": "member-of"}
 {"source": "Snow", "target": "Treasury"}
-{"source": "Snow", "target": "CFR"}
+{"source": "Snow", "target": "CFR", "rel": "member-of"}
 {"source": "Bentsen", "target": "Senate"}
 {"source": "Bentsen", "target": "Treasury"}
-{"source": "Bentsen", "target": "CFR"}
+{"source": "Bentsen", "target": "CFR", "rel": "member-of"}
 {"source": "Donilon", "target": "State"}
 {"source": "Donilon", "target": "NSC"}
 {"source": "Donilon", "target": "BlackRock"}
-{"source": "Donilon", "target": "CFR"}
-{"source": "Donilon", "target": "Bilderberg"}
+{"source": "Donilon", "target": "CFR", "rel": "member-of"}
+{"source": "Donilon", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Hadley", "target": "NSC"}
-{"source": "Hadley", "target": "CFR"}
+{"source": "Hadley", "target": "CFR", "rel": "member-of"}
 {"source": "JJones", "target": "DoD"}
 {"source": "JJones", "target": "NSC"}
-{"source": "JJones", "target": "CFR"}
+{"source": "JJones", "target": "CFR", "rel": "member-of"}
 {"source": "Bolton", "target": "State"}
 {"source": "Bolton", "target": "UN"}
 {"source": "Bolton", "target": "NSC"}
-{"source": "Bolton", "target": "CFR"}
+{"source": "Bolton", "target": "CFR", "rel": "member-of"}
 {"source": "Bolton", "target": "AEI"}
 {"source": "JSullivan", "target": "State"}
 {"source": "JSullivan", "target": "NSC"}
-{"source": "JSullivan", "target": "CFR"}
-{"source": "JSullivan", "target": "WEF"}
+{"source": "JSullivan", "target": "CFR", "rel": "member-of"}
+{"source": "JSullivan", "target": "WEF", "rel": "member-of"}
 {"source": "Waltz", "target": "NSC"}
 {"source": "Tenet", "target": "CIA"}
 {"source": "Tenet", "target": "Senate"}
-{"source": "Tenet", "target": "CFR"}
+{"source": "Tenet", "target": "CFR", "rel": "member-of"}
 {"source": "Goss", "target": "CIA"}
 {"source": "WBurns", "target": "State"}
 {"source": "WBurns", "target": "CIA"}
-{"source": "WBurns", "target": "CFR"}
+{"source": "WBurns", "target": "CFR", "rel": "member-of"}
 {"source": "Ratcliffe", "target": "DNI"}
 {"source": "Ratcliffe", "target": "CIA"}
 {"source": "Haines", "target": "NSC"}
 {"source": "Haines", "target": "CIA"}
 {"source": "Haines", "target": "DNI"}
-{"source": "Haines", "target": "CFR"}
+{"source": "Haines", "target": "CFR", "rel": "member-of"}
 {"source": "Negroponte", "target": "UN"}
 {"source": "Negroponte", "target": "State"}
 {"source": "Negroponte", "target": "DNI"}
-{"source": "Negroponte", "target": "CFR"}
+{"source": "Negroponte", "target": "CFR", "rel": "member-of"}
 {"source": "Hagel", "target": "Senate"}
 {"source": "Hagel", "target": "DoD"}
-{"source": "Hagel", "target": "CFR"}
+{"source": "Hagel", "target": "CFR", "rel": "member-of"}
 {"source": "Mattis", "target": "DoD"}
 {"source": "Esper", "target": "DoD"}
 {"source": "Austin", "target": "DoD"}
-{"source": "Austin", "target": "CFR"}
+{"source": "Austin", "target": "CFR", "rel": "member-of"}
 {"source": "Hegseth", "target": "DoD"}
 {"source": "Quayle", "target": "Senate"}
 {"source": "Quayle", "target": "WhiteHouse"}
 {"source": "Quayle", "target": "Carlyle"}
 {"source": "Gore", "target": "Senate"}
 {"source": "Gore", "target": "WhiteHouse"}
-{"source": "Gore", "target": "Bilderberg"}
+{"source": "Gore", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Gore", "target": "Google"}
 {"source": "Biden", "target": "Senate"}
 {"source": "Biden", "target": "WhiteHouse"}
-{"source": "Biden", "target": "CFR"}
+{"source": "Biden", "target": "CFR", "rel": "member-of"}
 {"source": "Pence", "target": "WhiteHouse"}
 {"source": "Harris", "target": "Senate"}
 {"source": "Harris", "target": "WhiteHouse"}
-{"source": "Harris", "target": "CFR"}
+{"source": "Harris", "target": "CFR", "rel": "member-of"}
 {"source": "Corzine", "target": "Goldman"}
 {"source": "Corzine", "target": "Senate"}
-{"source": "Corzine", "target": "Bilderberg"}
+{"source": "Corzine", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Weill", "target": "Citigroup"}
-{"source": "Weill", "target": "CFR"}
+{"source": "Weill", "target": "CFR", "rel": "member-of"}
 {"source": "Pandit", "target": "MorganStanley"}
 {"source": "Pandit", "target": "Citigroup"}
 {"source": "Lewis", "target": "BankAmerica"}
@@ -311,7 +311,7 @@
 {"source": "Buffett", "target": "Goldman"}
 {"source": "Soros", "target": "SorosFund"}
 {"source": "Soros", "target": "OpenSociety"}
-{"source": "Soros", "target": "Bilderberg"}
+{"source": "Soros", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Khan", "target": "FTC"}
 {"source": "Khan", "target": "Columbia"}
 {"source": "Andreessen", "target": "a16z"}
@@ -319,9 +319,9 @@
 {"source": "Hoffman", "target": "LinkedIn"}
 {"source": "Hoffman", "target": "OpenAI"}
 {"source": "Hoffman", "target": "Inflection"}
-{"source": "Hoffman", "target": "Bilderberg"}
+{"source": "Hoffman", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Altman", "target": "OpenAI"}
-{"source": "Altman", "target": "WEF"}
+{"source": "Altman", "target": "WEF", "rel": "member-of"}
 {"source": "Hassabis", "target": "DeepMind"}
 {"source": "Hassabis", "target": "Google"}
 {"source": "Suleyman", "target": "DeepMind"}
@@ -329,13 +329,13 @@
 {"source": "Suleyman", "target": "Microsoft"}
 {"source": "Amodei", "target": "OpenAI"}
 {"source": "Amodei", "target": "Anthropic"}
-{"source": "Schwab", "target": "WEF"}
-{"source": "Schwab", "target": "Bilderberg"}
+{"source": "Schwab", "target": "WEF", "rel": "member-of"}
+{"source": "Schwab", "target": "Bilderberg", "rel": "member-of"}
 {"source": "Sandberg", "target": "Treasury"}
 {"source": "Sandberg", "target": "Google"}
 {"source": "Sandberg", "target": "Meta"}
-{"source": "Sandberg", "target": "Bilderberg"}
-{"source": "Sandberg", "target": "WEF"}
+{"source": "Sandberg", "target": "Bilderberg", "rel": "member-of"}
+{"source": "Sandberg", "target": "WEF", "rel": "member-of"}
 {"source": "Kissinger", "target": "BoaoForum", "influence_type": "documented_attendance"}
 {"source": "Kissinger", "target": "Tsinghua", "influence_type": "honorary_role"}
 {"source": "Kissinger", "target": "CDF", "influence_type": "documented_attendance"}
@@ -363,8 +363,6 @@
 {"source": "Musk", "target": "X_Corp"}
 {"source": "Musk", "target": "xAI"}
 {"source": "Musk", "target": "DOGE"}
-{"source": "JVance", "target": "Senate"}
-{"source": "JVance", "target": "WhiteHouse"}
 {"source": "Lutnick", "target": "WhiteHouse"}
 {"source": "Sacks", "target": "WhiteHouse"}
 {"source": "Srinivasan", "target": "EightVC"}
@@ -380,8 +378,8 @@
 {"source": "KAlexander", "target": "NSA"}
 {"source": "Wray", "target": "CIA"}
 {"source": "Hills", "target": "USTR"}
-{"source": "Hills", "target": "CFR"}
-{"source": "Hills", "target": "Trilateral"}
+{"source": "Hills", "target": "CFR", "rel": "member-of"}
+{"source": "Hills", "target": "Trilateral", "rel": "member-of"}
 {"source": "Mueller", "target": "WilmerHale"}
 {"source": "Mueller", "target": "CIA"}
 {"source": "Holder", "target": "Covington"}
@@ -410,20 +408,20 @@
 {"source": "Marshall", "target": "DoD"}
 {"source": "Marshall", "target": "WarDept"}
 {"source": "ADulles", "target": "CIA"}
-{"source": "ADulles", "target": "CFR"}
+{"source": "ADulles", "target": "CFR", "rel": "member-of"}
 {"source": "McNamara", "target": "DoD"}
 {"source": "Stimson", "target": "WarDept"}
-{"source": "Stimson", "target": "CFR"}
+{"source": "Stimson", "target": "CFR", "rel": "member-of"}
 {"source": "Forrestal", "target": "DoD"}
 {"source": "MBundy", "target": "NSC"}
-{"source": "MBundy", "target": "CFR"}
+{"source": "MBundy", "target": "CFR", "rel": "member-of"}
 {"source": "Rostow", "target": "NSC"}
-{"source": "Rostow", "target": "CFR"}
+{"source": "Rostow", "target": "CFR", "rel": "member-of"}
 {"source": "Harriman", "target": "State"}
-{"source": "Harriman", "target": "CFR"}
+{"source": "Harriman", "target": "CFR", "rel": "member-of"}
 {"source": "Lovett", "target": "DoD"}
 {"source": "Lovett", "target": "State"}
-{"source": "Lovett", "target": "CFR"}
+{"source": "Lovett", "target": "CFR", "rel": "member-of"}
 {"source": "Lodge", "target": "UN"}
 {"source": "Lodge", "target": "State"}
 {"source": "Stevenson", "target": "UN"}
@@ -434,7 +432,7 @@
 {"source": "PHoffman", "target": "USAID"}
 {"source": "Ball", "target": "State"}
 {"source": "Ball", "target": "UN"}
-{"source": "Ball", "target": "CFR"}
+{"source": "Ball", "target": "CFR", "rel": "member-of"}
 {"source": "Symington", "target": "DoD"}
 {"source": "Symington", "target": "Senate"}
 {"source": "Roberts", "target": "SCOTUS"}
@@ -549,7 +547,7 @@
 {"source": "VonDerLeyen", "target": "EC"}
 {"source": "Draghi", "target": "ECB"}
 {"source": "Draghi", "target": "Goldman"}
-{"source": "Freeland", "target": "WEF"}
+{"source": "Freeland", "target": "WEF", "rel": "member-of"}
 {"source": "Rutte", "target": "NATO"}
 {"source": "Netanyahu", "target": "Knesset"}
 {"source": "Nilekani", "target": "Infosys"}
@@ -598,7 +596,7 @@
 {"source": "MalloochBrown", "target": "OSF"}
 {"source": "MalloochBrown", "target": "UN"}
 {"source": "Bloomberg", "target": "BloombergLP"}
-{"source": "Munger", "target": "BerkshireHathaway"}
+{"source": "Munger", "target": "Berkshire"}
 {"source": "Munger", "target": "MungerTolles"}
 {"source": "YRoth", "target": "X_Corp"}
 {"source": "YRoth", "target": "Match"}
@@ -612,12 +610,12 @@
 {"source": "MMoritz", "target": "Sequoia"}
 {"source": "RonConway", "target": "SVAngel"}
 {"source": "JTrudeau", "target": "CanadaGov"}
-{"source": "JTrudeau", "target": "WEF"}
+{"source": "JTrudeau", "target": "WEF", "rel": "member-of"}
 {"source": "Ardern", "target": "NZGov"}
-{"source": "Ardern", "target": "WEF"}
+{"source": "Ardern", "target": "WEF", "rel": "member-of"}
 {"source": "Macron", "target": "FranceGov"}
-{"source": "Macron", "target": "WEF"}
-{"source": "Kurz", "target": "WEF"}
+{"source": "Macron", "target": "WEF", "rel": "member-of"}
+{"source": "Kurz", "target": "WEF", "rel": "member-of"}
 {"source": "Albanese", "target": "AUGov"}
 {"source": "Luxon", "target": "NZGov"}
 {"source": "Kishida", "target": "JPGov"}
@@ -669,7 +667,7 @@
 {"source": "Warner", "target": "Senate"}
 {"source": "Cotton", "target": "Senate"}
 {"source": "Cantwell", "target": "Senate"}
-{"source": "Brende", "target": "WEF"}
+{"source": "Brende", "target": "WEF", "rel": "member-of"}
 {"source": "Neier", "target": "OSF"}
 {"source": "ASoros", "target": "OSF"}
 {"source": "Truss", "target": "UKGov"}
@@ -689,7 +687,7 @@
 {"source": "SPower", "target": "USAID"}
 {"source": "SPower", "target": "UN"}
 {"source": "SPower", "target": "NSC"}
-{"source": "SPower", "target": "CFR"}
+{"source": "SPower", "target": "CFR", "rel": "member-of"}
 {"source": "RShah", "target": "USAID"}
 {"source": "RShah", "target": "RockefellerFoundation"}
 {"source": "RShah", "target": "GatesFoundation"}
@@ -853,7 +851,7 @@
 {"source": "Makanju", "target": "OpenAI"}
 {"source": "Makanju", "target": "Meta"}
 {"source": "Makanju", "target": "NSC"}
-{"source": "Makanju", "target": "StateDept"}
+{"source": "Makanju", "target": "State"}
 {"source": "Makanju", "target": "DoD"}
 {"source": "Downs", "target": "Google"}
 {"source": "Downs", "target": "YouTube"}
@@ -946,3 +944,302 @@
 {"source": "MichaelSellitto", "target": "Anthropic"}
 {"source": "SarahHeck", "target": "Anthropic"}
 {"source": "VictoriaKrakovna", "target": "Google"}
+{"source": "WHO", "target": "GatesFoundation", "rel": "funded-by"}
+{"source": "OpenAI", "target": "FMF", "rel": "founded"}
+{"source": "Anthropic", "target": "FMF", "rel": "founded"}
+{"source": "Google", "target": "FMF", "rel": "founded"}
+{"source": "Microsoft", "target": "FMF", "rel": "founded"}
+{"source": "METR", "target": "CAISI", "rel": "revolving_door"}
+{"source": "ApolloResearch", "target": "CAISI", "rel": "revolving_door"}
+{"source": "Anthropic", "target": "CAISI", "rel": "mou_model_access"}
+{"source": "OpenAI", "target": "CAISI", "rel": "mou_model_access"}
+{"source": "SixteenThirty", "target": "Arabella", "rel": "member-of"}
+{"source": "WHO", "target": "Germany", "rel": "funded-by"}
+{"source": "WHO", "target": "Gavi", "rel": "funded-by"}
+{"source": "Google", "target": "EUAIOffice", "rel": "lobbying"}
+{"source": "Microsoft", "target": "EUAIOffice", "rel": "lobbying"}
+{"source": "OkonjoIweala", "target": "WorldBank", "rel": "employed-by"}
+{"source": "OkonjoIweala", "target": "WTO", "rel": "appointed-by"}
+{"source": "Nishtar", "target": "Gavi", "rel": "appointed-by"}
+{"source": "Tedros", "target": "WHO", "rel": "appointed-by"}
+{"source": "Veneman", "target": "USDA", "rel": "appointed-by"}
+{"source": "Azevedo", "target": "WTO", "rel": "appointed-by"}
+{"source": "Lamy", "target": "WTO", "rel": "appointed-by"}
+{"source": "Lighthizer", "target": "USTR", "rel": "appointed-by"}
+{"source": "Lighthizer", "target": "Skadden", "rel": "employed-by"}
+{"source": "Barshefsky", "target": "USTR", "rel": "appointed-by"}
+{"source": "Barshefsky", "target": "WilmerHale", "rel": "employed-by"}
+{"source": "DesmondHellmann", "target": "GatesFoundation", "rel": "employed-by"}
+{"source": "Sands", "target": "GlobalFund", "rel": "appointed-by"}
+{"source": "Veneman", "target": "UNICEF", "rel": "appointed-by"}
+{"source": "Veneman", "target": "Nestle", "rel": "member-of"}
+{"source": "Azevedo", "target": "PepsiCo", "rel": "employed-by"}
+{"source": "Lamy", "target": "EC", "rel": "appointed-by"}
+{"source": "DesmondHellmann", "target": "Genentech", "rel": "employed-by"}
+{"source": "DesmondHellmann", "target": "Pfizer", "rel": "member-of"}
+{"source": "Sands", "target": "StandardChartered", "rel": "employed-by"}
+{"source": "HClark", "target": "UNDP", "rel": "appointed-by"}
+{"source": "SPLC", "target": "OpenSociety", "rel": "funded-by"}
+{"source": "CSET", "target": "OpenPhil", "rel": "funded-by"}
+{"source": "GovAI", "target": "OpenPhil", "rel": "funded-by"}
+{"source": "RAND", "target": "OpenPhil", "rel": "funded-by"}
+{"source": "ElizabethKelly", "target": "NIST", "rel": "employed-by"}
+{"source": "ElizabethKelly", "target": "CAISI", "rel": "appointed-by"}
+{"source": "ElizabethKelly", "target": "WhiteHouse", "rel": "employed-by"}
+{"source": "IanHogarth", "target": "WhiteHouse", "rel": "advisory"}
+{"source": "IanHogarth", "target": "UKAISI", "rel": "appointed-by"}
+{"source": "GinaRaimondo", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "GinaRaimondo", "target": "USDeptCommerce", "rel": "appointed-by"}
+{"source": "MichaelKratsios", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "MichaelKratsios", "target": "Scale", "rel": "employed-by"}
+{"source": "SriramKrishnan", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "SriramKrishnan", "target": "a16z", "rel": "employed-by"}
+{"source": "AratiPrabhakar", "target": "NIST", "rel": "employed-by"}
+{"source": "AratiPrabhakar", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "AratiPrabhakar", "target": "DARPA", "rel": "employed-by"}
+{"source": "TinoCuellar", "target": "Carnegie", "rel": "employed-by"}
+{"source": "TinoCuellar", "target": "Anthropic", "rel": "member-of"}
+{"source": "TinoCuellar", "target": "Inflection", "rel": "member-of"}
+{"source": "RummanChowdhury", "target": "State", "rel": "appointed-by"}
+{"source": "RummanChowdhury", "target": "HumaneIntelligence", "rel": "employed-by"}
+{"source": "BenBuchanan", "target": "CSET", "rel": "employed-by"}
+{"source": "BenBuchanan", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "MilesBrundage", "target": "OpenAI", "rel": "employed-by"}
+{"source": "MilesBrundage", "target": "CNAS", "rel": "employed-by"}
+{"source": "NewVentureFund", "target": "Arabella", "rel": "member-of"}
+{"source": "HopewellFund", "target": "Arabella", "rel": "member-of"}
+{"source": "WindwardFund", "target": "Arabella", "rel": "member-of"}
+{"source": "NorthFund", "target": "Arabella", "rel": "member-of"}
+{"source": "DonorsTrust", "target": "The85Fund", "rel": "funded-by"}
+{"source": "CenterSecurityPolicy", "target": "DonorsTrust", "rel": "funded-by"}
+{"source": "DavidHorowitzFreedomCenter", "target": "DonorsTrust", "rel": "funded-by"}
+{"source": "OpenAI", "target": "Microsoft", "rel": "funded-by"}
+{"source": "Anthropic", "target": "Amazon", "rel": "funded-by"}
+{"source": "Anthropic", "target": "Google", "rel": "funded-by"}
+{"source": "METR", "target": "OpenPhil", "rel": "funded-by"}
+{"source": "ApolloResearch", "target": "OpenPhil", "rel": "funded-by"}
+{"source": "Gavi", "target": "GatesFoundation", "rel": "funded-by"}
+{"source": "CEPI", "target": "GatesFoundation", "rel": "funded-by"}
+{"source": "MRogers", "target": "NSA", "rel": "appointed-by"}
+{"source": "MRogers", "target": "DoD", "rel": "appointed-by"}
+{"source": "MRogers", "target": "CyberCube", "rel": "member-of"}
+{"source": "SGordon", "target": "CIA", "rel": "appointed-by"}
+{"source": "SGordon", "target": "DNI", "rel": "appointed-by"}
+{"source": "SGordon", "target": "CACI", "rel": "member-of"}
+{"source": "CInglis", "target": "NSA", "rel": "appointed-by"}
+{"source": "CInglis", "target": "WestExec", "rel": "member-of"}
+{"source": "CInglis", "target": "PaladinCapital", "rel": "member-of"}
+{"source": "GGerstell", "target": "NSA", "rel": "appointed-by"}
+{"source": "GGerstell", "target": "CSIS", "rel": "member-of"}
+{"source": "GGerstell", "target": "CFR", "rel": "member-of"}
+{"source": "RJoyce", "target": "NSA", "rel": "appointed-by"}
+{"source": "RJoyce", "target": "BeaconGlobal", "rel": "member-of"}
+{"source": "MMorell", "target": "CIA", "rel": "appointed-by"}
+{"source": "MMorell", "target": "BeaconGlobal", "rel": "member-of"}
+{"source": "DCohen", "target": "Treasury", "rel": "appointed-by"}
+{"source": "DCohen", "target": "CIA", "rel": "appointed-by"}
+{"source": "DCohen", "target": "WilmerHale", "rel": "employed-by"}
+{"source": "DCohen", "target": "Harvard", "rel": "member-of"}
+{"source": "JBash", "target": "CIA", "rel": "appointed-by"}
+{"source": "JBash", "target": "DoD", "rel": "appointed-by"}
+{"source": "JBash", "target": "BeaconGlobal", "rel": "founded"}
+{"source": "JBash", "target": "PaladinCapital", "rel": "member-of"}
+{"source": "MChertoff", "target": "DHS", "rel": "appointed-by"}
+{"source": "MChertoff", "target": "ChertoffGroup", "rel": "founded"}
+{"source": "SOSullivan", "target": "CIA", "rel": "appointed-by"}
+{"source": "SOSullivan", "target": "DNI", "rel": "appointed-by"}
+{"source": "SOSullivan", "target": "HuntingtonIngalls", "rel": "member-of"}
+{"source": "KAlexander", "target": "IronNet", "rel": "founded"}
+{"source": "Hayden", "target": "ChertoffGroup", "rel": "member-of"}
+{"source": "Haines", "target": "WestExec", "rel": "member-of"}
+{"source": "NinaJankowicz", "target": "DHS", "rel": "appointed-by"}
+{"source": "NinaJankowicz", "target": "WilsonCenter", "rel": "member-of"}
+{"source": "NinaJankowicz", "target": "AmericanSunlightProject", "rel": "founded"}
+{"source": "NathanielGleicher", "target": "NSC", "rel": "appointed-by"}
+{"source": "NathanielGleicher", "target": "Meta", "rel": "member-of"}
+{"source": "KatieHarbath", "target": "Meta", "rel": "member-of"}
+{"source": "KatieHarbath", "target": "AtlanticCouncil", "rel": "member-of"}
+{"source": "KatieHarbath", "target": "AnchorChange", "rel": "founded"}
+{"source": "ClintWatts", "target": "FBI", "rel": "appointed-by"}
+{"source": "ClintWatts", "target": "FPRI", "rel": "member-of"}
+{"source": "ClintWatts", "target": "AllianceForSecuringDemocracy", "rel": "member-of"}
+{"source": "ClintWatts", "target": "Microsoft", "rel": "member-of"}
+{"source": "EmersonBrooking", "target": "CFR", "rel": "member-of"}
+{"source": "EmersonBrooking", "target": "AtlanticCouncil", "rel": "member-of"}
+{"source": "EmersonBrooking", "target": "DoD", "rel": "appointed-by"}
+{"source": "JenEasterly", "target": "NSC", "rel": "appointed-by"}
+{"source": "JenEasterly", "target": "CISA", "rel": "appointed-by"}
+{"source": "NickPickles", "target": "X_Corp", "rel": "member-of"}
+{"source": "NickPickles", "target": "BigBrotherWatch", "rel": "member-of"}
+{"source": "NickPickles", "target": "ToolsForHumanity", "rel": "member-of"}
+{"source": "LauraRosenberger", "target": "State", "rel": "appointed-by"}
+{"source": "LauraRosenberger", "target": "NSC", "rel": "appointed-by"}
+{"source": "LauraRosenberger", "target": "AllianceForSecuringDemocracy", "rel": "founded"}
+{"source": "LauraRosenberger", "target": "CFR", "rel": "member-of"}
+{"source": "ChrisKrebs", "target": "DHS", "rel": "appointed-by"}
+{"source": "ChrisKrebs", "target": "CISA", "rel": "appointed-by"}
+{"source": "ChrisKrebs", "target": "Microsoft", "rel": "member-of"}
+{"source": "JenEasterly", "target": "MorganStanley", "rel": "employed-by"}
+{"source": "Gottlieb", "target": "FDA", "rel": "appointed-by"}
+{"source": "Gottlieb", "target": "Pfizer", "rel": "member-of"}
+{"source": "Gottlieb", "target": "UnitedHealth", "rel": "member-of"}
+{"source": "Hahn", "target": "FDA", "rel": "appointed-by"}
+{"source": "Hahn", "target": "FlagshipPioneering", "rel": "employed-by"}
+{"source": "McClellan", "target": "FDA", "rel": "appointed-by"}
+{"source": "McClellan", "target": "CMS", "rel": "appointed-by"}
+{"source": "McClellan", "target": "JohnsonJohnson", "rel": "member-of"}
+{"source": "McClellan", "target": "Cigna", "rel": "member-of"}
+{"source": "McClellan", "target": "Brookings", "rel": "member-of"}
+{"source": "Gerberding", "target": "CDC", "rel": "appointed-by"}
+{"source": "Gerberding", "target": "Merck", "rel": "employed-by"}
+{"source": "Azar", "target": "HHS", "rel": "appointed-by"}
+{"source": "Azar", "target": "EliLilly", "rel": "employed-by"}
+{"source": "Califf", "target": "FDA", "rel": "appointed-by"}
+{"source": "Califf", "target": "Alphabet", "rel": "employed-by"}
+{"source": "Slavitt", "target": "CMS", "rel": "appointed-by"}
+{"source": "Slavitt", "target": "UnitedHealth", "rel": "employed-by"}
+{"source": "EFowler", "target": "CMS", "rel": "appointed-by"}
+{"source": "EFowler", "target": "JohnsonJohnson", "rel": "employed-by"}
+{"source": "Woodcock", "target": "FDA", "rel": "employed-by"}
+{"source": "Frazier", "target": "Merck", "rel": "employed-by"}
+{"source": "AshCarter", "target": "DoD", "rel": "employed-by"}
+{"source": "AshCarter", "target": "GE", "rel": "member-of"}
+{"source": "Work", "target": "CNAS", "rel": "employed-by"}
+{"source": "Work", "target": "DoD", "rel": "employed-by"}
+{"source": "Work", "target": "RTX", "rel": "member-of"}
+{"source": "Work", "target": "Govini", "rel": "appointed-by"}
+{"source": "Shyu", "target": "RTX", "rel": "employed-by"}
+{"source": "Shyu", "target": "DoD", "rel": "employed-by"}
+{"source": "Lord", "target": "Textron", "rel": "employed-by"}
+{"source": "Lord", "target": "DoD", "rel": "employed-by"}
+{"source": "Flournoy", "target": "DoD", "rel": "employed-by"}
+{"source": "Flournoy", "target": "CNAS", "rel": "founded"}
+{"source": "Flournoy", "target": "WestExec", "rel": "founded"}
+{"source": "Flournoy", "target": "BoozAllen", "rel": "member-of"}
+{"source": "Deutch", "target": "DoD", "rel": "employed-by"}
+{"source": "Deutch", "target": "CIA", "rel": "employed-by"}
+{"source": "Deutch", "target": "RTX", "rel": "member-of"}
+{"source": "Perry", "target": "DoD", "rel": "employed-by"}
+{"source": "Vickers", "target": "DoD", "rel": "employed-by"}
+{"source": "Vickers", "target": "CIA", "rel": "employed-by"}
+{"source": "Vickers", "target": "BAESystems", "rel": "member-of"}
+{"source": "TraeStephens", "target": "Palantir", "rel": "employed-by"}
+{"source": "TraeStephens", "target": "Anduril", "rel": "founded"}
+{"source": "TraeStephens", "target": "FoundersFund", "rel": "employed-by"}
+{"source": "TraeStephens", "target": "DoD", "rel": "member-of"}
+{"source": "Dugan", "target": "DARPA", "rel": "employed-by"}
+{"source": "Dugan", "target": "Google", "rel": "employed-by"}
+{"source": "Dugan", "target": "Meta", "rel": "employed-by"}
+{"source": "Brennan", "target": "MSNBC", "rel": "member-of"}
+{"source": "Clapper", "target": "CNN", "rel": "member-of"}
+{"source": "Hayden", "target": "CNN", "rel": "member-of"}
+{"source": "MMorell", "target": "CBSNews", "rel": "member-of"}
+{"source": "ClintWatts", "target": "NBCNews", "rel": "member-of"}
+{"source": "JBash", "target": "NBCNews", "rel": "member-of"}
+{"source": "Petraeus", "target": "KKR", "rel": "member-of"}
+{"source": "Comey", "target": "Lockheed", "rel": "employed-by"}
+{"source": "Comey", "target": "Bridgewater", "rel": "employed-by"}
+{"source": "Comey", "target": "DOJ", "rel": "appointed-by"}
+{"source": "ChrisMeserole", "target": "FMF", "rel": "employed-by"}
+{"source": "Horowitz", "target": "a16z", "rel": "founded"}
+{"source": "MChan", "target": "WHO", "rel": "appointed-by"}
+{"source": "RebeccaFinlay", "target": "PartnershipOnAI", "rel": "employed-by"}
+{"source": "Navaroli", "target": "Columbia", "rel": "employed-by"}
+{"source": "Panetta", "target": "CIA", "rel": "appointed-by"}
+{"source": "Panetta", "target": "DoD", "rel": "appointed-by"}
+{"source": "Panetta", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "Panetta", "target": "PanettaInstitute", "rel": "founded"}
+{"source": "Panetta", "target": "BeaconGlobal", "rel": "member-of"}
+{"source": "Stavridis", "target": "DoD", "rel": "appointed-by"}
+{"source": "Stavridis", "target": "NATO", "rel": "appointed-by"}
+{"source": "Stavridis", "target": "FletcherSchool", "rel": "member-of"}
+{"source": "Stavridis", "target": "Carlyle", "rel": "employed-by"}
+{"source": "Stavridis", "target": "RockefellerFoundation", "rel": "member-of"}
+{"source": "McRaven", "target": "DoD", "rel": "appointed-by"}
+{"source": "McRaven", "target": "UTSystem", "rel": "member-of"}
+{"source": "McCabe", "target": "FBI", "rel": "appointed-by"}
+{"source": "McCabe", "target": "CNN", "rel": "member-of"}
+{"source": "SRice", "target": "UN", "rel": "appointed-by"}
+{"source": "SRice", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "SRice", "target": "Netflix", "rel": "member-of"}
+{"source": "McDonough", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "McDonough", "target": "Markle", "rel": "member-of"}
+{"source": "McDonough", "target": "VA", "rel": "appointed-by"}
+{"source": "Nakasone", "target": "NSA", "rel": "appointed-by"}
+{"source": "Nakasone", "target": "DoD", "rel": "appointed-by"}
+{"source": "Nakasone", "target": "OpenAI", "rel": "member-of"}
+{"source": "McMaster", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "McMaster", "target": "DoD", "rel": "appointed-by"}
+{"source": "McMaster", "target": "Hoover", "rel": "member-of"}
+{"source": "McMaster", "target": "Zoom", "rel": "member-of"}
+{"source": "JGorelick", "target": "DOJ", "rel": "appointed-by"}
+{"source": "JGorelick", "target": "WilmerHale", "rel": "employed-by"}
+{"source": "JGorelick", "target": "Amazon", "rel": "member-of"}
+{"source": "PBharara", "target": "DOJ", "rel": "appointed-by"}
+{"source": "PBharara", "target": "WilmerHale", "rel": "employed-by"}
+{"source": "NKatyal", "target": "OSG", "rel": "appointed-by"}
+{"source": "NKatyal", "target": "Georgetown", "rel": "employed-by"}
+{"source": "NKatyal", "target": "HoganLovells", "rel": "employed-by"}
+{"source": "PClement", "target": "OSG", "rel": "appointed-by"}
+{"source": "PClement", "target": "KirklandEllis", "rel": "employed-by"}
+{"source": "PClement", "target": "KingSpalding", "rel": "employed-by"}
+{"source": "PClement", "target": "Bancroft", "rel": "employed-by"}
+{"source": "SWaxman", "target": "OSG", "rel": "appointed-by"}
+{"source": "SWaxman", "target": "WilmerHale", "rel": "employed-by"}
+{"source": "VDinh", "target": "DOJ", "rel": "appointed-by"}
+{"source": "VDinh", "target": "KirklandEllis", "rel": "employed-by"}
+{"source": "VDinh", "target": "Bancroft", "rel": "employed-by"}
+{"source": "VDinh", "target": "FoxCorp", "rel": "member-of"}
+{"source": "KRuemmler", "target": "DOJ", "rel": "appointed-by"}
+{"source": "KRuemmler", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "KRuemmler", "target": "LathamWatkins", "rel": "employed-by"}
+{"source": "KRuemmler", "target": "Goldman", "rel": "member-of"}
+{"source": "EFlood", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "EFlood", "target": "WilliamsConnolly", "rel": "employed-by"}
+{"source": "LThompson", "target": "DOJ", "rel": "appointed-by"}
+{"source": "LThompson", "target": "KingSpalding", "rel": "employed-by"}
+{"source": "LThompson", "target": "PepsiCo", "rel": "member-of"}
+{"source": "FCollins", "target": "NIH", "rel": "employed-by"}
+{"source": "Zerhouni", "target": "NIH", "rel": "employed-by"}
+{"source": "Varmus", "target": "NIH", "rel": "employed-by"}
+{"source": "Bollinger", "target": "Columbia", "rel": "employed-by"}
+{"source": "FCollins", "target": "BioLogos", "rel": "founded"}
+{"source": "Lander", "target": "BroadInstitute", "rel": "founded"}
+{"source": "Zerhouni", "target": "Sanofi", "rel": "employed-by"}
+{"source": "Varmus", "target": "SloanKettering", "rel": "employed-by"}
+{"source": "Varmus", "target": "PLOS", "rel": "founded"}
+{"source": "Daszak", "target": "EcoHealth", "rel": "employed-by"}
+{"source": "Horton", "target": "Lancet", "rel": "employed-by"}
+{"source": "Gutmann", "target": "Penn", "rel": "employed-by"}
+{"source": "FCollins", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "Lander", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "Gutmann", "target": "State", "rel": "appointed-by"}
+{"source": "Gutmann", "target": "WhiteHouse", "rel": "appointed-by"}
+{"source": "Bollinger", "target": "NYFed", "rel": "member-of"}
+{"source": "Bratton", "target": "NYPD", "rel": "appointed-by"}
+{"source": "Bratton", "target": "MotorolaSolutions", "rel": "member-of"}
+{"source": "Rosekind", "target": "NTSB", "rel": "appointed-by"}
+{"source": "Rosekind", "target": "NHTSA", "rel": "appointed-by"}
+{"source": "Rosekind", "target": "Zoox", "rel": "employed-by"}
+{"source": "SeidmanBecker", "target": "ClearSecure", "rel": "employed-by"}
+{"source": "SeidmanBecker", "target": "NYFed", "rel": "member-of"}
+{"source": "Sankar", "target": "Palantir", "rel": "employed-by"}
+{"source": "Sankar", "target": "USArmyReserve", "rel": "appointed-by"}
+{"source": "BlakeHall", "target": "IDme", "rel": "founded"}
+{"source": "BlakeHall", "target": "USArmyReserve", "rel": "appointed-by"}
+{"source": "Carmona", "target": "HHS", "rel": "appointed-by"}
+{"source": "Carmona", "target": "Axon", "rel": "member-of"}
+{"source": "JeriWilliams", "target": "Axon", "rel": "member-of"}
+{"source": "KTodt", "target": "DHS", "rel": "employed-by"}
+{"source": "KTodt", "target": "Verkada", "rel": "member-of"}
+{"source": "TSzymanski", "target": "DoD", "rel": "employed-by"}
+{"source": "TSzymanski", "target": "Verkada", "rel": "member-of"}
+{"source": "DMathews", "target": "Verkada", "rel": "member-of"}
+{"source": "Morial", "target": "SoundThinking", "rel": "member-of"}
+{"source": "RJacobson", "target": "State", "rel": "employed-by"}
+{"source": "RJacobson", "target": "SoundThinking", "rel": "member-of"}
+{"source": "OWest", "target": "DoD", "rel": "appointed-by"}
+{"source": "OWest", "target": "Clearview", "rel": "member-of"}
+{"source": "Bratton", "target": "SoundThinking", "rel": "member-of"}
+{"source": "Mueller", "target": "SpecialCounsel", "rel": "employed-by"}
+{"source": "Weissmann", "target": "SpecialCounsel", "rel": "employed-by"}

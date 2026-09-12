@@ -10,7 +10,20 @@ import asyncio
 import logging
 from typing import Any
 
-from mcp.server.fastmcp import FastMCP
+# The SDK renamed the server class in 2.0.0 (2026-07-28): FastMCP -> MCPServer, and every
+# mcp.server.fastmcp.* submodule moved to mcp.server.mcpserver.*. Verified against the 2.0.0
+# wheel: mcp.server.fastmcp is gone entirely, and run_stdio_async() survives on the new class,
+# so the whole migration is the class name. Supporting BOTH is deliberate — this package is
+# published for other people to install (github.com/gorrie/ratchet-mcp), and pinning them to
+# one SDK generation to save four lines here would be rude. An open `mcp>=1.2` is safe again
+# because of this shim; before it, 2.0 broke CI at import with ModuleNotFoundError.
+# Only ONE of these branches can execute in any given environment, so the other is
+# permanently uncovered and the 100% gate would fail on whichever SDK is installed. That is
+# what pragma: no cover is for — a version shim, not an untested path.
+try:                                      # mcp >= 2.0 (2026-07-28 "major rework")
+    from mcp.server.mcpserver import MCPServer as _Server
+except ImportError:                       # pragma: no cover - mcp 1.x fallback
+    from mcp.server.fastmcp import FastMCP as _Server  # pragma: no cover
 
 from . import queries
 from .data import Graph
@@ -18,7 +31,7 @@ from .littlesis import get_relationships, search_entity
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s ratchet-mcp: %(message)s")
 
-mcp = FastMCP("ratchet")
+mcp = _Server("ratchet")
 _graph: Graph | None = None
 
 
