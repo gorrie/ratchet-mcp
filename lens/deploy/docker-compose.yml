@@ -11,7 +11,7 @@ services:
 
   lens:
     build:
-      context: ../../../..            # series-workspace root
+      context: ../../../..            # evil-robots-series root
       dockerfile: research/ratchet-mcp/lens/deploy/Dockerfile
     ports: ["8770:8770"]
     environment:

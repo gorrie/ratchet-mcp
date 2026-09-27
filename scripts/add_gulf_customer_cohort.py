@@ -45,7 +45,7 @@ NEW_INSTITUTIONS = [
      "sources": [w("Politics_of_Saudi_Arabia"), off("https://www.saudiembassy.net/")]},
     # UAE
     {"id": "SSA_UAE", "label": "State Security Department (UAE)", "sector": "intel",
-     "sources": [w("State_Security_(United_Arab_Emirates)"),
+     "sources": [
                  acad("https://citizenlab.ca/research/")]},
     {"id": "ADIA", "label": "Abu Dhabi Investment Authority", "sector": "fin",
      "sources": [w("Abu_Dhabi_Investment_Authority"), off("https://www.adia.ae/")]},
@@ -71,7 +71,7 @@ NEW_INSTITUTIONS = [
     {"id": "QIA", "label": "Qatar Investment Authority", "sector": "fin",
      "sources": [w("Qatar_Investment_Authority"), off("https://www.qia.qa/")]},
     {"id": "NCSA_Qatar", "label": "National Cyber Security Agency (Qatar)", "sector": "intel",
-     "sources": [w("National_Cyber_Security_Agency_(Qatar)"), off("https://www.ncsa.gov.qa/en")]},
+     "sources": [off("https://www.ncsa.gov.qa/en")]},
     {"id": "AlJazeera", "label": "Al Jazeera Media Network", "sector": "tech",
      "sources": [w("Al_Jazeera"), off("https://www.aljazeera.com/")]},
     {"id": "QatarGov", "label": "Government of Qatar", "sector": "gov",

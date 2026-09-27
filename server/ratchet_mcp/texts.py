@@ -67,7 +67,7 @@ def _import_tradecraft():
         env = os.environ.get("TRADECRAFT_PATH")
         if env:
             candidates.append(Path(env))
-        # texts.py -> ratchet_mcp -> server -> ratchet-mcp -> research -> series-workspace
+        # texts.py -> ratchet_mcp -> server -> ratchet-mcp -> research -> evil-robots-series
         series_root = Path(__file__).resolve().parents[4]
         candidates.append(series_root / "tradecraft")
         for c in candidates:

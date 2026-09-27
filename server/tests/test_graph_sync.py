@@ -25,7 +25,7 @@ from pathlib import Path
 import pytest
 
 # .../research/ratchet-mcp/server/tests/test_graph_sync.py
-#   parents[2] = ratchet-mcp   parents[4] = series-workspace
+#   parents[2] = ratchet-mcp   parents[4] = evil-robots-series
 _HERE = Path(__file__).resolve()
 DATA = Path(os.environ.get("RATCHET_DATA_DIR") or _HERE.parents[2] / "server" / "data")
 SERIES = Path(os.environ.get("SERIES_ROOT") or _HERE.parents[4])

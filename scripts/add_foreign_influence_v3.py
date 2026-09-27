@@ -91,7 +91,7 @@ RUSSIA_INSTITUTIONS = [
     {"id": "GRU", "label": "Russian Military Intelligence (GRU)",
      "sector": "russia-state",
      "sources": [
-         {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/GRU"},
+         {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/GRU_(Russian_Federation)"},
      ]},
     {"id": "SVR", "label": "Russian Foreign Intelligence (SVR)",
      "sector": "russia-state",

@@ -27,7 +27,7 @@ RATCHET = HERE.parent
 DATA = RATCHET / "server" / "data"
 PEOPLE = DATA / "people.jsonl"
 TEXTS = DATA / "texts.jsonl"
-# gorrie is a workspace sibling: ratchet-mcp -> research -> series-workspace -> <workspace>
+# gorrie is a workspace sibling: ratchet-mcp -> research -> evil-robots-series -> <workspace>
 DEFAULT_X = RATCHET.parents[2] / "gorrie" / "scripts" / "x"
 
 

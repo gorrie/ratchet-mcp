@@ -1,4 +1,4 @@
-# Tradecraft Lens backend — /grade-text + serves the UI. Build context = series-workspace root
+# Tradecraft Lens backend — /grade-text + serves the UI. Build context = evil-robots-series root
 # (needs the tradecraft engine + the ratchet_mcp package + the lens).
 FROM python:3.12-slim
 WORKDIR /app

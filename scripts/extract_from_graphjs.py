@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-# Website-bridge script: needs the series-workspace working copy (the public
+# Website-bridge script: needs the evil-robots-series working copy (the public
 # standalone ratchet-mcp repo has no website/ tree). Resolve the series root
 # from SERIES_ROOT, else from this script's location — ratchet-mcp lives at
 # <series>/research/ratchet-mcp/, so parents[2] is the series dir. No hard-coded

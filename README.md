@@ -145,6 +145,13 @@ ratchet-mcp/
 
 ## Status
 
+`v0.3` — 2026-09-26. Dataset at 550 persons / 486 institutions / 1,245 edges.
+Every Wikidata identifier re-checked against the Wikidata API by label, description and
+instance-of, and every Wikipedia title against the MediaWiki API: identifiers that pointed at
+the wrong item are corrected or removed, and titles that never existed or named a different
+subject are replaced. Records that cite a Wikidata ID or a Wikipedia page from v0.2 or earlier
+should be re-pinned to this tag.
+
 `v0.2` — 2026-07-10. Dataset at 454 persons / 388 institutions / 948 edges.
 New since v0.1: the Watching-the-Watchers eval/statecraft and lab/policy
 wings, the finance/funding layer behind the apparatus (grantmakers →

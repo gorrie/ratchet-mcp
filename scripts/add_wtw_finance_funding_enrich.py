@@ -29,8 +29,7 @@ EDGES = DATA / "edges.jsonl"
 
 INSTITUTIONS = [
     {"id": "FMF", "label": "Frontier Model Forum", "sector": "tank",
-     "sources": [{"type": "official", "url": "https://www.frontiermodelforum.org/"},
-                 {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Frontier_Model_Forum"}], "kind": "institution"},
+     "sources": [{"type": "official", "url": "https://www.frontiermodelforum.org/"}], "kind": "institution"},
     {"id": "FLI", "label": "Future of Life Institute", "sector": "tank",
      "sources": [{"type": "official", "url": "https://futureoflife.org/"},
                  {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Future_of_Life_Institute"}], "kind": "institution"},

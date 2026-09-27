@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-// Website-bridge script: needs the series-workspace working copy. Resolve the
+// Website-bridge script: needs the evil-robots-series working copy. Resolve the
 // series root from SERIES_ROOT, else from this script's location (ratchet-mcp is
 // at <series>/research/ratchet-mcp/, so three levels up is the series dir). No
 // hard-coded user path.
