@@ -1,0 +1,3154 @@
+{
+ "Q192": {
+  "record": "Cameron",
+  "file": "people.jsonl",
+  "record_label": "David Cameron",
+  "wikidata_label": null,
+  "enwiki": "David Cameron",
+  "desc": "Prime Minister of the United Kingdom from 2010 to 2016"
+ },
+ "Q607": {
+  "record": "Bloomberg",
+  "file": "people.jsonl",
+  "record_label": "Michael Bloomberg",
+  "wikidata_label": "Michael Bloomberg",
+  "enwiki": "Michael Bloomberg",
+  "desc": "American businessman and politician; 108th Mayor of New York City"
+ },
+ "Q2542": {
+  "record": "Kohler",
+  "file": "people.jsonl",
+  "record_label": "Horst Köhler",
+  "wikidata_label": "Horst Köhler",
+  "enwiki": "Horst Köhler",
+  "desc": "German politician (CDU); president of Germany, 2004–2010"
+ },
+ "Q4934": {
+  "record": "Page",
+  "file": "people.jsonl",
+  "record_label": "Larry Page",
+  "wikidata_label": "Larry Page",
+  "enwiki": "Larry Page",
+  "desc": "American computer scientist and Internet entrepreneur (born 1973)"
+ },
+ "Q5284": {
+  "record": "BGates",
+  "file": "people.jsonl",
+  "record_label": "Bill Gates",
+  "wikidata_label": "Bill Gates",
+  "enwiki": "Bill Gates",
+  "desc": "American businessman, investor, and philanthropist (born 1955)"
+ },
+ "Q6279": {
+  "record": "Biden",
+  "file": "people.jsonl",
+  "record_label": "Joe Biden",
+  "wikidata_label": "Joe Biden",
+  "enwiki": "Joe Biden",
+  "desc": "46th President of the United States (2021–2025)"
+ },
+ "Q6294": {
+  "record": "Clinton",
+  "file": "people.jsonl",
+  "record_label": "Hillary Clinton",
+  "wikidata_label": null,
+  "enwiki": "Hillary Clinton",
+  "desc": "American politician and diplomat (born 1947)"
+ },
+ "Q9545": {
+  "record": "Blair",
+  "file": "people.jsonl",
+  "record_label": "Tony Blair",
+  "wikidata_label": "Tony Blair",
+  "enwiki": "Tony Blair",
+  "desc": "Prime Minister of the United Kingdom from 1997 to 2007"
+ },
+ "Q11105": {
+  "record": "Kagan",
+  "file": "people.jsonl",
+  "record_label": "Elena Kagan",
+  "wikidata_label": "Elena Kagan",
+  "enwiki": "Elena Kagan",
+  "desc": "Associate Justice of the Supreme Court of the United States since 2010"
+ },
+ "Q11107": {
+  "record": "Sotomayor",
+  "file": "people.jsonl",
+  "record_label": "Sonia Sotomayor",
+  "wikidata_label": "Sonia Sotomayor",
+  "enwiki": "Sonia Sotomayor",
+  "desc": "US Supreme Court justice since 2009"
+ },
+ "Q11138": {
+  "record": "Alito",
+  "file": "people.jsonl",
+  "record_label": "Samuel Alito",
+  "wikidata_label": "Samuel Alito",
+  "enwiki": "Samuel Alito",
+  "desc": "Associate Justice of the Supreme Court of the United States since 2006"
+ },
+ "Q11142": {
+  "record": "Thomas",
+  "file": "people.jsonl",
+  "record_label": "Clarence Thomas",
+  "wikidata_label": "Clarence Thomas",
+  "enwiki": "Clarence Thomas",
+  "desc": "Associate Justice of the Supreme Court of the United States since 1991"
+ },
+ "Q11153": {
+  "record": "Roberts",
+  "file": "people.jsonl",
+  "record_label": "John Roberts",
+  "wikidata_label": "John Roberts",
+  "enwiki": "John Roberts",
+  "desc": "Chief Justice of the Supreme Court of the United States since 2005"
+ },
+ "Q11239": {
+  "record": "DRockefeller",
+  "file": "people.jsonl",
+  "record_label": "David Rockefeller",
+  "wikidata_label": "David Rockefeller",
+  "enwiki": "David Rockefeller",
+  "desc": "American banker and philanthropist (1915–2017)"
+ },
+ "Q11668": {
+  "record": "NHaley",
+  "file": "people.jsonl",
+  "record_label": "Nikki Haley",
+  "wikidata_label": "Nikki Haley",
+  "enwiki": "Nikki Haley",
+  "desc": "American politician and diplomat (born 1972)"
+ },
+ "Q12908": {
+  "record": "Soros",
+  "file": "people.jsonl",
+  "record_label": "George Soros",
+  "wikidata_label": "George Soros",
+  "enwiki": "George Soros",
+  "desc": "Hungarian-American investor and philanthropist (born 1930)"
+ },
+ "Q19074": {
+  "record": "Huntington",
+  "file": "people.jsonl",
+  "record_label": "Samuel Huntington",
+  "wikidata_label": "Samuel P. Huntington",
+  "enwiki": "Samuel P. Huntington",
+  "desc": "American political scientist (1927–2008)"
+ },
+ "Q19673": {
+  "record": "Gore",
+  "file": "people.jsonl",
+  "record_label": "Al Gore",
+  "wikidata_label": "Al Gore",
+  "enwiki": "Al Gore",
+  "desc": "Vice President of the United States from 1993 to 2001 (born 1948)"
+ },
+ "Q19837": {
+  "record": "SJobs",
+  "file": "people.jsonl",
+  "record_label": "Steve Jobs",
+  "wikidata_label": "Steve Jobs",
+  "enwiki": "Steve Jobs",
+  "desc": "American entrepreneur; co-founder of Apple Inc. (1955–2011)"
+ },
+ "Q22250": {
+  "record": "Cantwell",
+  "file": "people.jsonl",
+  "record_label": "Maria Cantwell",
+  "wikidata_label": "Maria Cantwell",
+  "enwiki": "Maria Cantwell",
+  "desc": "American politician and businesswoman (born 1958)"
+ },
+ "Q22316": {
+  "record": "Kerry",
+  "file": "people.jsonl",
+  "record_label": "John Kerry",
+  "wikidata_label": "John Kerry",
+  "enwiki": "John Kerry",
+  "desc": "American politician and diplomat (born 1943)"
+ },
+ "Q24313": {
+  "record": "Pence",
+  "file": "people.jsonl",
+  "record_label": "Mike Pence",
+  "wikidata_label": "Mike Pence",
+  "enwiki": "Mike Pence",
+  "desc": "Vice President of the United States from 2017 to 2021"
+ },
+ "Q28591": {
+  "record": "Petraeus",
+  "file": "people.jsonl",
+  "record_label": "David Petraeus",
+  "wikidata_label": "David Petraeus",
+  "enwiki": "David Petraeus",
+  "desc": "U.S. Army general and public official (born 1952)"
+ },
+ "Q32620": {
+  "record": "Gabbard",
+  "file": "people.jsonl",
+  "record_label": "Tulsi Gabbard",
+  "wikidata_label": "Tulsi Gabbard",
+  "enwiki": "Tulsi Gabbard",
+  "desc": "American politician (born 1981)"
+ },
+ "Q36215": {
+  "record": "Zuckerberg",
+  "file": "people.jsonl",
+  "record_label": "Mark Zuckerberg",
+  "wikidata_label": "Mark Zuckerberg",
+  "enwiki": "Mark Zuckerberg",
+  "desc": "American Internet entrepreneur"
+ },
+ "Q39318": {
+  "record": "Bennett",
+  "file": "people.jsonl",
+  "record_label": "Naftali Bennett",
+  "wikidata_label": "Naftali Bennett",
+  "enwiki": "Naftali Bennett",
+  "desc": "Prime Minister of Israel from 2021 to 2022"
+ },
+ "Q41564": {
+  "record": "DJohnston",
+  "file": "people.jsonl",
+  "record_label": "David Johnston",
+  "wikidata_label": "David Johnston",
+  "enwiki": "David Johnston (governor general)",
+  "desc": "Governor General of Canada from 2010 to 2017"
+ },
+ "Q43135": {
+  "record": "Rudd",
+  "file": "people.jsonl",
+  "record_label": "Kevin Rudd",
+  "wikidata_label": "Kevin Rudd",
+  "enwiki": "Kevin Rudd",
+  "desc": "26th Prime Minister of Australia"
+ },
+ "Q43723": {
+  "record": "Netanyahu",
+  "file": "people.jsonl",
+  "record_label": "Benjamin Netanyahu",
+  "wikidata_label": "Benjamin Netanyahu",
+  "enwiki": "Benjamin Netanyahu",
+  "desc": "Prime Minister of Israel (born 1949), (1996–1999; 2009–2021; 2022–present)"
+ },
+ "Q46089": {
+  "record": "Berger",
+  "file": "people.jsonl",
+  "record_label": "Sandy Berger",
+  "wikidata_label": "Sandy Berger",
+  "enwiki": "Sandy Berger",
+  "desc": "US National Security Advisor (1945–2015)"
+ },
+ "Q47213": {
+  "record": "Buffett",
+  "file": "people.jsonl",
+  "record_label": "Warren Buffett",
+  "wikidata_label": "Warren Buffett",
+  "enwiki": "Warren Buffett",
+  "desc": "American investor, entrepreneur and businessman"
+ },
+ "Q47216": {
+  "record": "Rice",
+  "file": "people.jsonl",
+  "record_label": "Condoleezza Rice",
+  "wikidata_label": "Condoleezza Rice",
+  "enwiki": "Condoleezza Rice",
+  "desc": "American diplomat and political scientist (born 1954)"
+ },
+ "Q48259": {
+  "record": "Cheney",
+  "file": "people.jsonl",
+  "record_label": "Dick Cheney",
+  "wikidata_label": null,
+  "enwiki": "Dick Cheney",
+  "desc": "Vice President of the United States from 2001 to 2009 (1941–2025)"
+ },
+ "Q49214": {
+  "record": "Quayle",
+  "file": "people.jsonl",
+  "record_label": "Dan Quayle",
+  "wikidata_label": "Dan Quayle",
+  "enwiki": "Dan Quayle",
+  "desc": "vice president of the United States from 1989 to 1993"
+ },
+ "Q53944": {
+  "record": "RMurdoch",
+  "file": "people.jsonl",
+  "record_label": "Rupert Murdoch",
+  "wikidata_label": "Rupert Murdoch",
+  "enwiki": "Rupert Murdoch",
+  "desc": "American businessman"
+ },
+ "Q55183": {
+  "record": "Wojcicki",
+  "file": "people.jsonl",
+  "record_label": "Susan Wojcicki",
+  "wikidata_label": "Susan Wojcicki",
+  "enwiki": "Susan Wojcicki",
+  "desc": "American business executive (1968–2024)"
+ },
+ "Q57792": {
+  "record": "Rutte",
+  "file": "people.jsonl",
+  "record_label": "Mark Rutte",
+  "wikidata_label": "Mark Rutte",
+  "enwiki": "Mark Rutte",
+  "desc": "Secretary General of NATO since 2024 and former Prime Minister of the Netherlands (2010–2024)"
+ },
+ "Q58082": {
+  "record": "Espinosa",
+  "file": "people.jsonl",
+  "record_label": "Patricia Espinosa",
+  "wikidata_label": "Patricia Espinosa",
+  "enwiki": "Patricia Espinosa",
+  "desc": "Mexican diplomat"
+ },
+ "Q58792": {
+  "record": "FSB",
+  "file": "institutions.jsonl",
+  "record_label": "Russian Federal Security Service (FSB)",
+  "wikidata_label": "Federal Security Service",
+  "enwiki": "Federal Security Service",
+  "desc": "principal security agency of Russia (FSB)"
+ },
+ "Q60772": {
+  "record": "VonDerLeyen",
+  "file": "people.jsonl",
+  "record_label": "Ursula von der Leyen",
+  "wikidata_label": "Ursula von der Leyen",
+  "enwiki": "Ursula von der Leyen",
+  "desc": "President of the European Commission since 2019"
+ },
+ "Q62882": {
+  "record": "Andreessen",
+  "file": "people.jsonl",
+  "record_label": "Marc Andreessen",
+  "wikidata_label": "Marc Andreessen",
+  "enwiki": "Marc Andreessen",
+  "desc": "American entrepreneur, investor, and software engineer"
+ },
+ "Q62988": {
+  "record": "Blumenthal",
+  "file": "people.jsonl",
+  "record_label": "W. Michael Blumenthal",
+  "wikidata_label": "W. Michael Blumenthal",
+  "enwiki": "W. Michael Blumenthal",
+  "desc": "former U.S. Secretary of the Treasury"
+ },
+ "Q76793": {
+  "record": "Schwab",
+  "file": "people.jsonl",
+  "record_label": "Klaus Schwab",
+  "wikidata_label": "Klaus Schwab",
+  "enwiki": "Klaus Schwab",
+  "desc": "German economist, founder of World Economic Forum"
+ },
+ "Q92747": {
+  "record": "Schmidt",
+  "file": "people.jsonl",
+  "record_label": "Eric Schmidt",
+  "wikidata_label": "Eric Schmidt",
+  "enwiki": "Eric Schmidt",
+  "desc": "software engineer, businessman, former Google CEO"
+ },
+ "Q92764": {
+  "record": "Brin",
+  "file": "people.jsonl",
+  "record_label": "Sergey Brin",
+  "wikidata_label": "Sergey Brin",
+  "enwiki": "Sergey Brin",
+  "desc": "American billionaire businessman (born 1973)"
+ },
+ "Q92894": {
+  "record": "GeoffreyHinton",
+  "file": "people.jsonl",
+  "record_label": "Geoffrey Hinton",
+  "wikidata_label": "Geoffrey Hinton",
+  "enwiki": "Geoffrey Hinton",
+  "desc": "British-Canadian computer scientist and psychologist"
+ },
+ "Q93181": {
+  "record": "Olmert",
+  "file": "people.jsonl",
+  "record_label": "Ehud Olmert",
+  "wikidata_label": "Ehud Olmert",
+  "enwiki": "Ehud Olmert",
+  "desc": "Prime Minister of Israel from 2006 to 2009"
+ },
+ "Q107957": {
+  "record": "Haig",
+  "file": "people.jsonl",
+  "record_label": "Alexander Haig",
+  "wikidata_label": "Alexander Haig",
+  "enwiki": "Alexander Haig",
+  "desc": "former U.S. Secretary of State and U.S. Army general (1924-2010)"
+ },
+ "Q125731": {
+  "record": "Barak",
+  "file": "people.jsonl",
+  "record_label": "Ehud Barak",
+  "wikidata_label": "Ehud Barak",
+  "enwiki": "Ehud Barak",
+  "desc": "10th Prime Minister of Israel"
+ },
+ "Q132345": {
+  "record": "Abe",
+  "file": "people.jsonl",
+  "record_label": "Shinzo Abe",
+  "wikidata_label": "Shinzō Abe",
+  "enwiki": "Shinzo Abe",
+  "desc": "Prime Minister of Japan from 2006–2007 and 2012–2020 (1954–2022)"
+ },
+ "Q138048": {
+  "record": "Park",
+  "file": "people.jsonl",
+  "record_label": "Park Geun-hye",
+  "wikidata_label": "Park Geun-hye",
+  "enwiki": "Park Geun-hye",
+  "desc": "President of South Korea from 2013 to 2017"
+ },
+ "Q150851": {
+  "record": "CPowell",
+  "file": "people.jsonl",
+  "record_label": "Colin Powell",
+  "wikidata_label": "Colin Powell",
+  "enwiki": "Colin Powell",
+  "desc": "American general and diplomat (1937–2021)"
+ },
+ "Q151414": {
+  "record": "Marshall",
+  "file": "people.jsonl",
+  "record_label": "George Marshall",
+  "wikidata_label": "George Marshall",
+  "enwiki": "George C. Marshall",
+  "desc": "American army officer and statesman (1880–1959)"
+ },
+ "Q151796": {
+  "record": "Livni",
+  "file": "people.jsonl",
+  "record_label": "Tzipi Livni",
+  "wikidata_label": "Tzipi Livni",
+  "enwiki": "Tzipi Livni",
+  "desc": "Israeli politician, former Israeli Foreign Minister and former leader of the Coalition: Zionist Union together with Isaac Herzog from 2015 to 2019"
+ },
+ "Q154743": {
+  "record": "TOlson",
+  "file": "people.jsonl",
+  "record_label": "Theodore Olson",
+  "wikidata_label": "Theodore Olson",
+  "enwiki": "Theodore Olson",
+  "desc": "American lawyer (1940–2024)"
+ },
+ "Q167607": {
+  "record": "Comey",
+  "file": "people.jsonl",
+  "record_label": "James Comey",
+  "wikidata_label": "James Comey",
+  "enwiki": "James Comey",
+  "desc": "American lawyer and 7th director of the Federal Bureau of Investigation (born 1960)"
+ },
+ "Q168041": {
+  "record": "Brzezinski",
+  "file": "people.jsonl",
+  "record_label": "Zbigniew Brzezinski",
+  "wikidata_label": "Zbigniew Brzezinski",
+  "enwiki": "Zbigniew Brzezinski",
+  "desc": "Polish-American diplomat and political scientist (1928–2017)"
+ },
+ "Q174438": {
+  "record": "Albright",
+  "file": "people.jsonl",
+  "record_label": "Madeleine Albright",
+  "wikidata_label": "Madeleine Albright",
+  "enwiki": "Madeleine Albright",
+  "desc": "United States Secretary of State from 1997 to 2001"
+ },
+ "Q180589": {
+  "record": "BJohnson",
+  "file": "people.jsonl",
+  "record_label": "Boris Johnson",
+  "wikidata_label": "Boris Johnson",
+  "enwiki": "Boris Johnson",
+  "desc": "Prime Minister of the United Kingdom from 2019 to 2022"
+ },
+ "Q184650": {
+  "record": "Rumsfeld",
+  "file": "people.jsonl",
+  "record_label": "Donald Rumsfeld",
+  "wikidata_label": "Donald Rumsfeld",
+  "enwiki": "Donald Rumsfeld",
+  "desc": "American politician and diplomat (1932–2021)"
+ },
+ "Q191999": {
+  "record": "McNamara",
+  "file": "people.jsonl",
+  "record_label": "Robert McNamara",
+  "wikidata_label": "Robert McNamara",
+  "enwiki": "Robert McNamara",
+  "desc": "American businessman and Secretary of Defense (1916-2009)"
+ },
+ "Q192533": {
+  "record": "Carney",
+  "file": "people.jsonl",
+  "record_label": "Mark Carney",
+  "wikidata_label": "Mark Carney",
+  "enwiki": "Mark Carney",
+  "desc": "24th prime minister of Canada since 2025"
+ },
+ "Q193635": {
+  "record": "Greenspan",
+  "file": "people.jsonl",
+  "record_label": "Alan Greenspan",
+  "wikidata_label": "Alan Greenspan",
+  "enwiki": "Alan Greenspan",
+  "desc": "American economist and financial advisor (1926–2026)"
+ },
+ "Q201430": {
+  "record": "Tenet",
+  "file": "people.jsonl",
+  "record_label": "George Tenet",
+  "wikidata_label": "George Tenet",
+  "enwiki": "George Tenet",
+  "desc": "American Central Intelligence Agency Director (born 1953)"
+ },
+ "Q201795": {
+  "record": "Bernanke",
+  "file": "people.jsonl",
+  "record_label": "Ben Bernanke",
+  "wikidata_label": "Ben Bernanke",
+  "enwiki": "Ben Bernanke",
+  "desc": "American economist (born 1953)"
+ },
+ "Q211098": {
+  "record": "Hoffman",
+  "file": "people.jsonl",
+  "record_label": "Reid Hoffman",
+  "wikidata_label": "Reid Hoffman",
+  "enwiki": "Reid Hoffman",
+  "desc": "American co-founder of LinkedIn, venture capitalist, and author"
+ },
+ "Q212979": {
+  "record": "Gates",
+  "file": "people.jsonl",
+  "record_label": "Robert Gates",
+  "wikidata_label": "Robert Gates",
+  "enwiki": "Robert Gates",
+  "desc": "CIA director, U.S. Secretary of Defense, and university president"
+ },
+ "Q214758": {
+  "record": "Acheson",
+  "file": "people.jsonl",
+  "record_label": "Dean Acheson",
+  "wikidata_label": "Dean Acheson",
+  "enwiki": "Dean Acheson",
+  "desc": "American statesman and lawyer (1893-1971)"
+ },
+ "Q219861": {
+  "record": "Wolfowitz",
+  "file": "people.jsonl",
+  "record_label": "Paul Wolfowitz",
+  "wikidata_label": "Paul Wolfowitz",
+  "enwiki": "Paul Wolfowitz",
+  "desc": "American politician and diplomat (born 1943)"
+ },
+ "Q223151": {
+  "record": "Baker",
+  "file": "people.jsonl",
+  "record_label": "James Baker",
+  "wikidata_label": "James Baker",
+  "enwiki": "James Baker",
+  "desc": "American lawyer and statesman (born 1930)"
+ },
+ "Q223677": {
+  "record": "Dulles",
+  "file": "people.jsonl",
+  "record_label": "John Foster Dulles",
+  "wikidata_label": "John Foster Dulles",
+  "enwiki": "John Foster Dulles",
+  "desc": "United States Secretary of State (1888-1959)"
+ },
+ "Q230744": {
+  "record": "AWintour",
+  "file": "people.jsonl",
+  "record_label": "Anna Wintour",
+  "wikidata_label": "Anna Wintour",
+  "enwiki": "Anna Wintour",
+  "desc": "English magazine editor"
+ },
+ "Q233905": {
+  "record": "McMahon",
+  "file": "people.jsonl",
+  "record_label": "Linda McMahon",
+  "wikidata_label": "Linda McMahon",
+  "enwiki": "Linda McMahon",
+  "desc": "United States Secretary of Education since 2025"
+ },
+ "Q234653": {
+  "record": "Sandberg",
+  "file": "people.jsonl",
+  "record_label": "Sheryl Sandberg",
+  "wikidata_label": "Sheryl Sandberg",
+  "enwiki": "Sheryl Sandberg",
+  "desc": "American technology executive, activist, and author"
+ },
+ "Q240274": {
+  "record": "Herter",
+  "file": "people.jsonl",
+  "record_label": "Christian Herter",
+  "wikidata_label": "Christian Herter",
+  "enwiki": "Christian Herter",
+  "desc": "American politician (1895–1966)"
+ },
+ "Q263725": {
+  "record": "Yellen",
+  "file": "people.jsonl",
+  "record_label": "Janet Yellen",
+  "wikidata_label": "Janet Yellen",
+  "enwiki": "Janet Yellen",
+  "desc": "78th United States Secretary of the Treasury"
+ },
+ "Q265277": {
+  "record": "Georgieva",
+  "file": "people.jsonl",
+  "record_label": "Kristalina Georgieva",
+  "wikidata_label": "Kristalina Georgieva",
+  "enwiki": "Kristalina Georgieva",
+  "desc": "Bulgarian economist and CEO"
+ },
+ "Q265852": {
+  "record": "Cook",
+  "file": "people.jsonl",
+  "record_label": "Tim Cook",
+  "wikidata_label": "Tim Cook",
+  "enwiki": "Tim Cook",
+  "desc": "American business executive, former Apple executive chairman"
+ },
+ "Q267902": {
+  "record": "Mattis",
+  "file": "people.jsonl",
+  "record_label": "James Mattis",
+  "wikidata_label": "Jim Mattis",
+  "enwiki": "Jim Mattis",
+  "desc": "United States 26th Secretary of Defense"
+ },
+ "Q270650": {
+  "record": "MChan",
+  "file": "people.jsonl",
+  "record_label": "Margaret Chan",
+  "wikidata_label": "Margaret Chan",
+  "enwiki": "Margaret Chan",
+  "desc": "Chinese-Canadian physician (born 1947)"
+ },
+ "Q270820": {
+  "record": "Vestager",
+  "file": "people.jsonl",
+  "record_label": "Margrethe Vestager",
+  "wikidata_label": "Margrethe Vestager",
+  "enwiki": "Margrethe Vestager",
+  "desc": "Danish politician (born 1968)"
+ },
+ "Q272201": {
+  "record": "Truss",
+  "file": "people.jsonl",
+  "record_label": "Liz Truss",
+  "wikidata_label": null,
+  "enwiki": "Liz Truss",
+  "desc": "Prime Minister of the United Kingdom in 2022"
+ },
+ "Q284230": {
+  "record": "Burns",
+  "file": "people.jsonl",
+  "record_label": "Arthur Burns",
+  "wikidata_label": "Arthur Frank Burns",
+  "enwiki": "Arthur F. Burns",
+  "desc": "American economist and diplomat (1904-1987)"
+ },
+ "Q294358": {
+  "record": "Christopher",
+  "file": "people.jsonl",
+  "record_label": "Warren Christopher",
+  "wikidata_label": "Warren Christopher",
+  "enwiki": "Warren Christopher",
+  "desc": "U.S. Secretary of State (1925-2011)"
+ },
+ "Q294460": {
+  "record": "Draghi",
+  "file": "people.jsonl",
+  "record_label": "Mario Draghi",
+  "wikidata_label": "Mario Draghi",
+  "enwiki": "Mario Draghi",
+  "desc": "Italian economist, academic, banker and politician; former prime minister of Italy"
+ },
+ "Q296661": {
+  "record": "Vance",
+  "file": "people.jsonl",
+  "record_label": "Cyrus Vance",
+  "wikidata_label": "Cyrus Vance",
+  "enwiki": "Cyrus Vance",
+  "desc": "United States Secretary of State from 1977 to 1980 (1917–2002)"
+ },
+ "Q298793": {
+  "record": "Westmoreland",
+  "file": "people.jsonl",
+  "record_label": "William Westmoreland",
+  "wikidata_label": "William Westmoreland",
+  "enwiki": "William Westmoreland",
+  "desc": "United States Army general (1914-2005)"
+ },
+ "Q311269": {
+  "record": "Bolton",
+  "file": "people.jsonl",
+  "record_label": "John Bolton",
+  "wikidata_label": "John Bolton",
+  "enwiki": "John Bolton",
+  "desc": "American lawyer and diplomat (born 1948)"
+ },
+ "Q311293": {
+  "record": "Connally",
+  "file": "people.jsonl",
+  "record_label": "John Connally",
+  "wikidata_label": "John Connally",
+  "enwiki": "John Connally",
+  "desc": "American politician (1917–1993)"
+ },
+ "Q311719": {
+  "record": "Stevenson",
+  "file": "people.jsonl",
+  "record_label": "Adlai Stevenson II",
+  "wikidata_label": "Adlai Stevenson II",
+  "enwiki": "Adlai Stevenson II",
+  "desc": "American politician and diplomat (1900–1965); 31st governor of Illinois from 1949 to 1953 (1900–1965)"
+ },
+ "Q312556": {
+  "record": "Bezos",
+  "file": "people.jsonl",
+  "record_label": "Jeff Bezos",
+  "wikidata_label": "Jeff Bezos",
+  "enwiki": "Jeff Bezos",
+  "desc": "American business magnate (born 1964)"
+ },
+ "Q312644": {
+  "record": "Holder",
+  "file": "people.jsonl",
+  "record_label": "Eric Holder",
+  "wikidata_label": "Eric Holder",
+  "enwiki": "Eric Holder",
+  "desc": "United States Attorney General from 2009 to 2015"
+ },
+ "Q312724": {
+  "record": "Zoellick",
+  "file": "people.jsonl",
+  "record_label": "Robert Zoellick",
+  "wikidata_label": "Robert Zoellick",
+  "enwiki": "Robert Zoellick",
+  "desc": "11th President of the World Bank Group"
+ },
+ "Q312901": {
+  "record": "JBorrell",
+  "file": "people.jsonl",
+  "record_label": "Josep Borrell",
+  "wikidata_label": "Josep Borrell",
+  "enwiki": "Josep Borrell",
+  "desc": "Catalan-Spanish diplomat and politician (born 1947)"
+ },
+ "Q313258": {
+  "record": "Rusk",
+  "file": "people.jsonl",
+  "record_label": "Dean Rusk",
+  "wikidata_label": "Dean Rusk",
+  "enwiki": "Dean Rusk",
+  "desc": "United States Secretary of State (1909-1994)"
+ },
+ "Q313297": {
+  "record": "Kim",
+  "file": "people.jsonl",
+  "record_label": "Jim Yong Kim",
+  "wikidata_label": "Jim Yong Kim",
+  "enwiki": "Jim Yong Kim",
+  "desc": "South Korean-American physician and anthropologist, 12th President of the World Bank"
+ },
+ "Q313411": {
+  "record": "Shultz",
+  "file": "people.jsonl",
+  "record_label": "George Shultz",
+  "wikidata_label": "George Shultz",
+  "enwiki": "George Shultz",
+  "desc": "American politician (1920–2021)"
+ },
+ "Q314826": {
+  "record": "Stimson",
+  "file": "people.jsonl",
+  "record_label": "Henry Stimson",
+  "wikidata_label": "Henry L. Stimson",
+  "enwiki": "Henry L. Stimson",
+  "desc": "United States Secretary of War (1867-1950)"
+ },
+ "Q317243": {
+  "record": "ADulles",
+  "file": "people.jsonl",
+  "record_label": "Allen Dulles",
+  "wikidata_label": "Allen Dulles",
+  "enwiki": "Allen Dulles",
+  "desc": "first civilian and longest-serving Director of Central Intelligence (DCI)"
+ },
+ "Q317521": {
+  "record": "Musk",
+  "file": "people.jsonl",
+  "record_label": "Elon Musk",
+  "wikidata_label": "Elon Musk",
+  "enwiki": "Elon Musk",
+  "desc": "American businessman (born 1971)"
+ },
+ "Q317953": {
+  "record": "Summers",
+  "file": "people.jsonl",
+  "record_label": "Larry Summers",
+  "wikidata_label": "Lawrence Summers",
+  "enwiki": "Larry Summers",
+  "desc": "American economist and government official (born 1954)"
+ },
+ "Q319867": {
+  "record": "Muskie",
+  "file": "people.jsonl",
+  "record_label": "Edmund Muskie",
+  "wikidata_label": "Edmund Muskie",
+  "enwiki": "Edmund Muskie",
+  "desc": "American politician (1914–1996)"
+ },
+ "Q323671": {
+  "record": "Sweeney",
+  "file": "people.jsonl",
+  "record_label": "Tim Sweeney",
+  "wikidata_label": "Tim Sweeney",
+  "enwiki": "Tim Sweeney",
+  "desc": "American game developer (born 1970)"
+ },
+ "Q324546": {
+  "record": "Rubio",
+  "file": "people.jsonl",
+  "record_label": "Marco Rubio",
+  "wikidata_label": "Marco Rubio",
+  "enwiki": "Marco Rubio",
+  "desc": "72nd United States Secretary of State since 2025"
+ },
+ "Q331401": {
+  "record": "Tillerson",
+  "file": "people.jsonl",
+  "record_label": "Rex Tillerson",
+  "wikidata_label": "Rex Tillerson",
+  "enwiki": "Rex Tillerson",
+  "desc": "69th United States Secretary of State"
+ },
+ "Q332413": {
+  "record": "McFarlane",
+  "file": "people.jsonl",
+  "record_label": "Robert McFarlane",
+  "wikidata_label": "Robert McFarlane",
+  "enwiki": "Robert McFarlane (American government official)",
+  "desc": "American Marine Corps officer and National Security Advisor (1937–2022)"
+ },
+ "Q335552": {
+  "record": "Dorsey",
+  "file": "people.jsonl",
+  "record_label": "Jack Dorsey",
+  "wikidata_label": "Jack Dorsey",
+  "enwiki": "Jack Dorsey",
+  "desc": "American computer scientist, entrepreneur and co-founder of Twitter"
+ },
+ "Q335697": {
+  "record": "Albanese",
+  "file": "people.jsonl",
+  "record_label": "Anthony Albanese",
+  "wikidata_label": "Anthony Albanese",
+  "enwiki": "Anthony Albanese",
+  "desc": "31st prime minister of Australia"
+ },
+ "Q336213": {
+  "record": "MalloochBrown",
+  "file": "people.jsonl",
+  "record_label": "Mark Malloch Brown",
+  "wikidata_label": "Mark Malloch Brown, Baron Malloch-Brown",
+  "enwiki": "Mark Malloch Brown",
+  "desc": "president of Open Society Foundations and former British Labour politician and United Nations Deputy Secretary-General"
+ },
+ "Q345531": {
+  "record": "Harriman",
+  "file": "people.jsonl",
+  "record_label": "W. Averell Harriman",
+  "wikidata_label": "W. Averell Harriman",
+  "enwiki": "W. Averell Harriman",
+  "desc": "American businessman, politician and diplomat (1891–1986)"
+ },
+ "Q348577": {
+  "record": "TAbbott",
+  "file": "people.jsonl",
+  "record_label": "Tony Abbott",
+  "wikidata_label": "Tony Abbott",
+  "enwiki": "Tony Abbott",
+  "desc": "Prime Minister of Australia from 2013 to 2015"
+ },
+ "Q349785": {
+  "record": "Volcker",
+  "file": "people.jsonl",
+  "record_label": "Paul Volcker",
+  "wikidata_label": "Paul Volcker",
+  "enwiki": "Paul Volcker",
+  "desc": "American economist (1927-2019)"
+ },
+ "Q358443": {
+  "record": "Sessions",
+  "file": "people.jsonl",
+  "record_label": "Jeff Sessions",
+  "wikidata_label": "Jeff Sessions",
+  "enwiki": "Jeff Sessions",
+  "desc": "American politician and lawyer (born 1946)"
+ },
+ "Q359480": {
+  "record": "Kishida",
+  "file": "people.jsonl",
+  "record_label": "Fumio Kishida",
+  "wikidata_label": "Fumio Kishida",
+  "enwiki": "Fumio Kishida",
+  "desc": "Prime Minister of Japan from 2021 to 2024"
+ },
+ "Q359560": {
+  "record": "Rostow",
+  "file": "people.jsonl",
+  "record_label": "Walt Rostow",
+  "wikidata_label": "Walt Whitman Rostow",
+  "enwiki": "Walt Rostow",
+  "desc": "American economist, political theorist and government official (1916–2003)"
+ },
+ "Q362118": {
+  "record": "Stettinius",
+  "file": "people.jsonl",
+  "record_label": "Edward Stettinius",
+  "wikidata_label": "Edward Reilly Stettinius, Jr.",
+  "enwiki": "Edward Stettinius Jr.",
+  "desc": "American diplomat, ran Lend Lease (1900-1949)"
+ },
+ "Q380570": {
+  "record": "Corzine",
+  "file": "people.jsonl",
+  "record_label": "Jon Corzine",
+  "wikidata_label": "Jon Corzine",
+  "enwiki": "Jon Corzine",
+  "desc": "American politician in New Jersey (born 1947)"
+ },
+ "Q381670": {
+  "record": "Hagel",
+  "file": "people.jsonl",
+  "record_label": "Chuck Hagel",
+  "wikidata_label": "Chuck Hagel",
+  "enwiki": "Chuck Hagel",
+  "desc": "American soldier and politician"
+ },
+ "Q382485": {
+  "record": "Haass",
+  "file": "people.jsonl",
+  "record_label": "Richard Haass",
+  "wikidata_label": "Richard N. Haass",
+  "enwiki": "Richard N. Haass",
+  "desc": "American diplomat"
+ },
+ "Q385437": {
+  "record": "StraussKahn",
+  "file": "people.jsonl",
+  "record_label": "Dominique Strauss-Kahn",
+  "wikidata_label": "Dominique Strauss-Kahn",
+  "enwiki": "Dominique Strauss-Kahn",
+  "desc": "French economist"
+ },
+ "Q433180": {
+  "record": "Rogers",
+  "file": "people.jsonl",
+  "record_label": "William Rogers",
+  "wikidata_label": "William P. Rogers",
+  "enwiki": "William P. Rogers",
+  "desc": "American politician (1913–2001)"
+ },
+ "Q447236": {
+  "record": "Fischer",
+  "file": "people.jsonl",
+  "record_label": "Stanley Fischer",
+  "wikidata_label": "Stanley Fischer",
+  "enwiki": "Stanley Fischer",
+  "desc": "Israeli-American economist"
+ },
+ "Q449604": {
+  "record": "Hayden",
+  "file": "people.jsonl",
+  "record_label": "Michael Hayden",
+  "wikidata_label": "Michael Hayden",
+  "enwiki": "Michael Hayden (general)",
+  "desc": "United States Air Force four-star general"
+ },
+ "Q449689": {
+  "record": "Snow",
+  "file": "people.jsonl",
+  "record_label": "John Snow",
+  "wikidata_label": "John W. Snow",
+  "enwiki": "John W. Snow",
+  "desc": "73rd United States Secretary of the Treasury"
+ },
+ "Q450628": {
+  "record": "Catz",
+  "file": "people.jsonl",
+  "record_label": "Safra Catz",
+  "wikidata_label": "Safra Catz",
+  "enwiki": "Safra Catz",
+  "desc": "Israeli-American business executive"
+ },
+ "Q450984": {
+  "record": "Lodge",
+  "file": "people.jsonl",
+  "record_label": "Henry Cabot Lodge Jr.",
+  "wikidata_label": "Henry Cabot Lodge Jr.",
+  "enwiki": "Henry Cabot Lodge Jr.",
+  "desc": "American politician (1902–1985)"
+ },
+ "Q451791": {
+  "record": "Meloni",
+  "file": "people.jsonl",
+  "record_label": "Giorgia Meloni",
+  "wikidata_label": "Giorgia Meloni",
+  "enwiki": "Giorgia Meloni",
+  "desc": "Prime Minister of Italy since 2022"
+ },
+ "Q453868": {
+  "record": "Negroponte",
+  "file": "people.jsonl",
+  "record_label": "John Negroponte",
+  "wikidata_label": "John Negroponte",
+  "enwiki": "John Negroponte",
+  "desc": "American diplomat"
+ },
+ "Q453893": {
+  "record": "Warner",
+  "file": "people.jsonl",
+  "record_label": "Mark Warner",
+  "wikidata_label": "Mark Warner",
+  "enwiki": "Mark Warner",
+  "desc": "United States Senator from Virginia"
+ },
+ "Q454970": {
+  "record": "SPower",
+  "file": "people.jsonl",
+  "record_label": "Samantha Power",
+  "wikidata_label": "Samantha Power",
+  "enwiki": "Samantha Power",
+  "desc": "Irish-American academic, author and diplomat"
+ },
+ "Q455401": {
+  "record": "Bentsen",
+  "file": "people.jsonl",
+  "record_label": "Lloyd Bentsen",
+  "wikidata_label": "Lloyd Bentsen",
+  "enwiki": "Lloyd Bentsen",
+  "desc": "American politician (1921–2006)"
+ },
+ "Q455698": {
+  "record": "Goss",
+  "file": "people.jsonl",
+  "record_label": "Porter Goss",
+  "wikidata_label": "Porter Goss",
+  "enwiki": "Porter Goss",
+  "desc": "American politician and first Director of the Central Intelligence Agency"
+ },
+ "Q455748": {
+  "record": "Rato",
+  "file": "people.jsonl",
+  "record_label": "Rodrigo Rato",
+  "wikidata_label": "Rodrigo Rato",
+  "enwiki": "Rodrigo Rato",
+  "desc": "Spanish politician"
+ },
+ "Q456921": {
+  "record": "ORneill",
+  "file": "people.jsonl",
+  "record_label": "Paul O'Neill",
+  "wikidata_label": "Paul H. O'Neill",
+  "enwiki": "Paul H. O'Neill",
+  "desc": "American politician (1935-2020)"
+ },
+ "Q457445": {
+  "record": "Hills",
+  "file": "people.jsonl",
+  "record_label": "Carla Hills",
+  "wikidata_label": "Carla Anderson Hills",
+  "enwiki": "Carla Anderson Hills",
+  "desc": "American lawyer and Secretary of Housing"
+ },
+ "Q460475": {
+  "record": "NickBostrom",
+  "file": "people.jsonl",
+  "record_label": "Nick Bostrom",
+  "wikidata_label": "Nick Bostrom",
+  "enwiki": "Nick Bostrom",
+  "desc": "philosopher and writer (born 1973)"
+ },
+ "Q463385": {
+  "record": "Forrestal",
+  "file": "people.jsonl",
+  "record_label": "James Forrestal",
+  "wikidata_label": "James Forrestal",
+  "enwiki": "James Forrestal",
+  "desc": "United States Navy officer and civil servant, Undersecretary of the Navy (1892-1949)"
+ },
+ "Q467451": {
+  "record": "JJones",
+  "file": "people.jsonl",
+  "record_label": "James L. Jones",
+  "wikidata_label": "James L. Jones",
+  "enwiki": "James L. Jones",
+  "desc": "United States Marine Corps Commandant and National Security Advisor"
+ },
+ "Q473239": {
+  "record": "Pompeo",
+  "file": "people.jsonl",
+  "record_label": "Mike Pompeo",
+  "wikidata_label": "Mike Pompeo",
+  "enwiki": "Mike Pompeo",
+  "desc": "American politician, United States Secretary of State"
+ },
+ "Q484605": {
+  "record": "Lagarde",
+  "file": "people.jsonl",
+  "record_label": "Christine Lagarde",
+  "wikidata_label": "Christine Lagarde",
+  "enwiki": "Christine Lagarde",
+  "desc": "President of the European Central Bank"
+ },
+ "Q504387": {
+  "record": "Wolfensohn",
+  "file": "people.jsonl",
+  "record_label": "James Wolfensohn",
+  "wikidata_label": "James Wolfensohn",
+  "enwiki": "James Wolfensohn",
+  "desc": "President of the World Bank (1933–2020)"
+ },
+ "Q510653": {
+  "record": "Sarkeesian",
+  "file": "people.jsonl",
+  "record_label": "Anita Sarkeesian",
+  "wikidata_label": "Anita Sarkeesian",
+  "enwiki": "Anita Sarkeesian",
+  "desc": "American blogger (born 1983)"
+ },
+ "Q518828": {
+  "record": "Figueres",
+  "file": "people.jsonl",
+  "record_label": "Christiana Figueres",
+  "wikidata_label": "Christiana Figueres",
+  "enwiki": "Christiana Figueres",
+  "desc": "Costa Rican diplomat engaged in UN"
+ },
+ "Q539791": {
+  "record": "Perry",
+  "file": "people.jsonl",
+  "record_label": "William Perry",
+  "wikidata_label": "William Perry",
+  "enwiki": "William J. Perry",
+  "desc": "American mathematician and businessman, former Secretary of Defense"
+ },
+ "Q551363": {
+  "record": "Camdessus",
+  "file": "people.jsonl",
+  "record_label": "Michel Camdessus",
+  "wikidata_label": "Michel Camdessus",
+  "enwiki": "Michel Camdessus",
+  "desc": "French economist"
+ },
+ "Q552465": {
+  "record": "Schwarzman",
+  "file": "people.jsonl",
+  "record_label": "Stephen Schwarzman",
+  "wikidata_label": "Stephen A. Schwarzman",
+  "enwiki": "Stephen A. Schwarzman",
+  "desc": "American businessman and investor"
+ },
+ "Q552916": {
+  "record": "HBrown",
+  "file": "people.jsonl",
+  "record_label": "Harold Brown",
+  "wikidata_label": "Harold Brown",
+  "enwiki": "Harold Brown (secretary of defense)",
+  "desc": "U.S. Secretary of Defense (1927-2019)"
+ },
+ "Q573246": {
+  "record": "Fauci",
+  "file": "people.jsonl",
+  "record_label": "Anthony Fauci",
+  "wikidata_label": "Anthony Fauci",
+  "enwiki": "Anthony Fauci",
+  "desc": "5th Director of the National Institute of Allergy and Infectious Diseases from 1984 to 2022"
+ },
+ "Q574896": {
+  "record": "Reeves",
+  "file": "people.jsonl",
+  "record_label": "Rachel Reeves",
+  "wikidata_label": "Rachel Reeves",
+  "enwiki": "Rachel Reeves",
+  "desc": "British politician and Chancellor of the Exchequer from 2024 to 2026 (born 1979)"
+ },
+ "Q590212": {
+  "record": "SCohen",
+  "file": "people.jsonl",
+  "record_label": "Steven A. Cohen",
+  "wikidata_label": "Steven A. Cohen",
+  "enwiki": "Steve Cohen (businessman)",
+  "desc": "American hedge fund manager and philanthropist"
+ },
+ "Q615356": {
+  "record": "JAllen",
+  "file": "people.jsonl",
+  "record_label": "John R. Allen",
+  "wikidata_label": "John R. Allen",
+  "enwiki": "John R. Allen",
+  "desc": "United States Marine Corps general, think tank executive"
+ },
+ "Q618727": {
+  "record": "Donilon",
+  "file": "people.jsonl",
+  "record_label": "Tom Donilon",
+  "wikidata_label": "Thomas E. Donilon",
+  "enwiki": "Thomas E. Donilon",
+  "desc": "American National Security Advisor"
+ },
+ "Q622219": {
+  "record": "Flournoy",
+  "file": "people.jsonl",
+  "record_label": "Michele Flournoy",
+  "wikidata_label": "Michèle Flournoy",
+  "enwiki": "Michèle Flournoy",
+  "desc": "American defense policy advisor"
+ },
+ "Q656511": {
+  "record": "Scowcroft",
+  "file": "people.jsonl",
+  "record_label": "Brent Scowcroft",
+  "wikidata_label": "Brent Scowcroft",
+  "enwiki": "Brent Scowcroft",
+  "desc": "9th & 17th United States National Security Advisor (1925-2020)"
+ },
+ "Q698907": {
+  "record": "Hadley",
+  "file": "people.jsonl",
+  "record_label": "Stephen Hadley",
+  "wikidata_label": "Stephen Hadley",
+  "enwiki": "Stephen Hadley",
+  "desc": "American attorney and senior government official (born 1947)"
+ },
+ "Q704195": {
+  "record": "EliezerYudkowsky",
+  "file": "people.jsonl",
+  "record_label": "Eliezer Yudkowsky",
+  "wikidata_label": "Eliezer Yudkowsky",
+  "enwiki": "Eliezer Yudkowsky",
+  "desc": "American AI researcher and writer (born 1979)"
+ },
+ "Q705525": {
+  "record": "Thiel",
+  "file": "people.jsonl",
+  "record_label": "Peter Thiel",
+  "wikidata_label": "Peter Thiel",
+  "enwiki": "Peter Thiel",
+  "desc": "German-American entrepreneur and venture capitalist (born 1967)"
+ },
+ "Q706631": {
+  "record": "Brende",
+  "file": "people.jsonl",
+  "record_label": "Borge Brende",
+  "wikidata_label": "Børge Brende",
+  "enwiki": "Børge Brende",
+  "desc": "Norwegian politician"
+ },
+ "Q709641": {
+  "record": "Meese",
+  "file": "people.jsonl",
+  "record_label": "Edwin Meese III",
+  "wikidata_label": "Edwin Meese",
+  "enwiki": "Edwin Meese",
+  "desc": "75th United States Attorney General (born 1931)"
+ },
+ "Q715156": {
+  "record": "Mueller",
+  "file": "people.jsonl",
+  "record_label": "Robert Mueller",
+  "wikidata_label": "Robert Mueller",
+  "enwiki": "Robert Mueller",
+  "desc": "American attorney and sixth director of the FBI (1944–2026)"
+ },
+ "Q719808": {
+  "record": "Richardson",
+  "file": "people.jsonl",
+  "record_label": "Elliot Richardson",
+  "wikidata_label": "Elliot Richardson",
+  "enwiki": "Elliot Richardson",
+  "desc": "American lawyer and politician (1920-1999)"
+ },
+ "Q723917": {
+  "record": "WBarr",
+  "file": "people.jsonl",
+  "record_label": "William Barr",
+  "wikidata_label": "William Barr",
+  "enwiki": "William Barr",
+  "desc": "77th & 85th United States Attorney General (born 1950)"
+ },
+ "Q738005": {
+  "record": "Khosla",
+  "file": "people.jsonl",
+  "record_label": "Vinod Khosla",
+  "wikidata_label": "Vinod Khosla",
+  "enwiki": "Vinod Khosla",
+  "desc": "Indian-American businessman"
+ },
+ "Q918630": {
+  "record": "Munger",
+  "file": "people.jsonl",
+  "record_label": "Charlie Munger",
+  "wikidata_label": "Charlie Munger",
+  "enwiki": "Charlie Munger",
+  "desc": "American businessman (1924–2023)"
+ },
+ "Q922169": {
+  "record": "Dimon",
+  "file": "people.jsonl",
+  "record_label": "Jamie Dimon",
+  "wikidata_label": "Jamie Dimon",
+  "enwiki": "Jamie Dimon",
+  "desc": "American banking executive"
+ },
+ "Q927550": {
+  "record": "Turnbull",
+  "file": "people.jsonl",
+  "record_label": "Malcolm Turnbull",
+  "wikidata_label": "Malcolm Turnbull",
+  "enwiki": "Malcolm Turnbull",
+  "desc": "Prime Minister of Australia from 2015 to 2018"
+ },
+ "Q933721": {
+  "record": "HKravis",
+  "file": "people.jsonl",
+  "record_label": "Henry Kravis",
+  "wikidata_label": "Henry Kravis",
+  "enwiki": "Henry Kravis",
+  "desc": "American businessman"
+ },
+ "Q941013": {
+  "record": "Austin",
+  "file": "people.jsonl",
+  "record_label": "Lloyd Austin",
+  "wikidata_label": "Lloyd J. Austin III",
+  "enwiki": "Lloyd Austin",
+  "desc": "United States 28th Secretary of Defense"
+ },
+ "Q959635": {
+  "record": "AYoung",
+  "file": "people.jsonl",
+  "record_label": "Andrew Young",
+  "wikidata_label": "Andrew Young",
+  "enwiki": "Andrew Young",
+  "desc": "American politician, diplomat, activist and pastor"
+ },
+ "Q962660": {
+  "record": "Symington",
+  "file": "people.jsonl",
+  "record_label": "Stuart Symington",
+  "wikidata_label": "Stuart Symington",
+  "enwiki": "Stuart Symington",
+  "desc": "American politician (1901-1988)"
+ },
+ "Q984191": {
+  "record": "Brennan",
+  "file": "people.jsonl",
+  "record_label": "John Brennan",
+  "wikidata_label": "John Owen Brennan",
+  "enwiki": "John O. Brennan",
+  "desc": "Director of the Central Intelligence Agency from 2013 to 2017"
+ },
+ "Q997635": {
+  "record": "Ball",
+  "file": "people.jsonl",
+  "record_label": "George Ball",
+  "wikidata_label": "George Ball",
+  "enwiki": "George Ball (diplomat)",
+  "desc": "American diplomat (1909-1994)"
+ },
+ "Q1176453": {
+  "record": "Addington",
+  "file": "people.jsonl",
+  "record_label": "David Addington",
+  "wikidata_label": "David Addington",
+  "enwiki": "David Addington",
+  "desc": "American lawyer"
+ },
+ "Q1240436": {
+  "record": "Verrilli",
+  "file": "people.jsonl",
+  "record_label": "Donald Verrilli Jr.",
+  "wikidata_label": "Donald Verrilli Jr.",
+  "enwiki": "Donald B. Verrilli Jr.",
+  "desc": "United States Solicitor General"
+ },
+ "Q1274250": {
+  "record": "RShah",
+  "file": "people.jsonl",
+  "record_label": "Rajiv Shah",
+  "wikidata_label": "Rajiv Shah",
+  "enwiki": "Rajiv Shah",
+  "desc": "American government official (born 1973)"
+ },
+ "Q1276563": {
+  "record": "WBurns",
+  "file": "people.jsonl",
+  "record_label": "William Burns",
+  "wikidata_label": "William J. Burns",
+  "enwiki": "William J. Burns (diplomat)",
+  "desc": "American diplomat (born 1956)"
+ },
+ "Q1349310": {
+  "record": "Martin",
+  "file": "people.jsonl",
+  "record_label": "William McChesney Martin",
+  "wikidata_label": "William McChesney Martin",
+  "enwiki": "William McChesney Martin",
+  "desc": "chairman of the United States Federal Reserve Bank from 1951 to 1970"
+ },
+ "Q1352872": {
+  "record": "RFKJr",
+  "file": "people.jsonl",
+  "record_label": "Robert F. Kennedy Jr.",
+  "wikidata_label": "Robert F. Kennedy Jr.",
+  "enwiki": "Robert F. Kennedy Jr.",
+  "desc": "26th United States Secretary of Health and Human Services since 2025"
+ },
+ "Q1359151": {
+  "record": "Blankfein",
+  "file": "people.jsonl",
+  "record_label": "Lloyd Blankfein",
+  "wikidata_label": "Lloyd Blankfein",
+  "enwiki": "Lloyd Blankfein",
+  "desc": "American business executive"
+ },
+ "Q1360488": {
+  "record": "KAlexander",
+  "file": "people.jsonl",
+  "record_label": "Keith Alexander",
+  "wikidata_label": "Keith B. Alexander",
+  "enwiki": "Keith B. Alexander",
+  "desc": "United States Army general and former head of the National Security Agency"
+ },
+ "Q1369015": {
+  "record": "Deutch",
+  "file": "people.jsonl",
+  "record_label": "John M. Deutch",
+  "wikidata_label": "John M. Deutch",
+  "enwiki": "John M. Deutch",
+  "desc": "American physical chemist and civil servant"
+ },
+ "Q1380459": {
+  "record": "JDoerr",
+  "file": "people.jsonl",
+  "record_label": "John Doerr",
+  "wikidata_label": "John Doerr",
+  "enwiki": "John Doerr",
+  "desc": "American businessman"
+ },
+ "Q1391255": {
+  "record": "Nilekani",
+  "file": "people.jsonl",
+  "record_label": "Nandan Nilekani",
+  "wikidata_label": "Nandan Nilekani",
+  "enwiki": "Nandan Nilekani",
+  "desc": "Indian businessman"
+ },
+ "Q1397622": {
+  "record": "Pandit",
+  "file": "people.jsonl",
+  "record_label": "Vikram Pandit",
+  "wikidata_label": "Vikram S. Pandit",
+  "enwiki": "Vikram Pandit",
+  "desc": "Banker"
+ },
+ "Q1508188": {
+  "record": "GRoberts",
+  "file": "people.jsonl",
+  "record_label": "George R. Roberts",
+  "wikidata_label": "George R. Roberts",
+  "enwiki": "George R. Roberts",
+  "desc": "American businessman"
+ },
+ "Q1575845": {
+  "record": "MBundy",
+  "file": "people.jsonl",
+  "record_label": "McGeorge Bundy",
+  "wikidata_label": "McGeorge Bundy",
+  "enwiki": "McGeorge Bundy",
+  "desc": "American National Security Advisor (1919-1996)"
+ },
+ "Q1655453": {
+  "record": "Motegi",
+  "file": "people.jsonl",
+  "record_label": "Toshimitsu Motegi",
+  "wikidata_label": "Toshimitsu Motegi",
+  "enwiki": "Toshimitsu Motegi",
+  "desc": "Japanese politician (born 1955)"
+ },
+ "Q1677579": {
+  "record": "Lew",
+  "file": "people.jsonl",
+  "record_label": "Jack Lew",
+  "wikidata_label": "Jack Lew",
+  "enwiki": "Jack Lew",
+  "desc": "American lawyer and diplomat"
+ },
+ "Q1681008": {
+  "record": "Clapper",
+  "file": "people.jsonl",
+  "record_label": "James Clapper",
+  "wikidata_label": "James R. Clapper",
+  "enwiki": "James Clapper",
+  "desc": "US government official (born 1941)"
+ },
+ "Q1700630": {
+  "record": "Lewis",
+  "file": "people.jsonl",
+  "record_label": "Ken Lewis",
+  "wikidata_label": "Ken Lewis",
+  "enwiki": "Ken Lewis (executive)",
+  "desc": "American businessman"
+ },
+ "Q1709949": {
+  "record": "Dugan",
+  "file": "people.jsonl",
+  "record_label": "Regina Dugan",
+  "wikidata_label": "Regina E. Dugan",
+  "enwiki": "Regina E. Dugan",
+  "desc": "American businesswoman, inventor, and technology developer"
+ },
+ "Q1802453": {
+  "record": "Hamre",
+  "file": "people.jsonl",
+  "record_label": "John Hamre",
+  "wikidata_label": "John Hamre",
+  "enwiki": "John Hamre",
+  "desc": "American academic"
+ },
+ "Q1902537": {
+  "record": "Eccles",
+  "file": "people.jsonl",
+  "record_label": "Marriner Eccles",
+  "wikidata_label": "Marriner Stoddard Eccles",
+  "enwiki": "Marriner S. Eccles",
+  "desc": "American economist and banker (1890–1977)"
+ },
+ "Q1922011": {
+  "record": "Garland",
+  "file": "people.jsonl",
+  "record_label": "Merrick Garland",
+  "wikidata_label": "Merrick Garland",
+  "enwiki": "Merrick Garland",
+  "desc": "86th United States Attorney General"
+ },
+ "Q2063424": {
+  "record": "Lovett",
+  "file": "people.jsonl",
+  "record_label": "Robert Lovett",
+  "wikidata_label": "Robert Abercrombie Lovett",
+  "enwiki": "Robert A. Lovett",
+  "desc": "politician and United States Navy officer (1895–1986)"
+ },
+ "Q2142823": {
+  "record": "Breton",
+  "file": "people.jsonl",
+  "record_label": "Thierry Breton",
+  "wikidata_label": "Thierry Breton",
+  "enwiki": "Thierry Breton",
+  "desc": "French businessman and politician"
+ },
+ "Q2157733": {
+  "record": "Sawers",
+  "file": "people.jsonl",
+  "record_label": "John Sawers",
+  "wikidata_label": "John Sawers",
+  "enwiki": "John Sawers",
+  "desc": "British intelligence officer, diplomat and civil servant"
+ },
+ "Q2221592": {
+  "record": "Weill",
+  "file": "people.jsonl",
+  "record_label": "Sandy Weill",
+  "wikidata_label": "Sanford I. Weill",
+  "enwiki": "Sanford I. Weill",
+  "desc": "American banker and philanthropist (born 1933)"
+ },
+ "Q2262885": {
+  "record": "Kurz",
+  "file": "people.jsonl",
+  "record_label": "Sebastian Kurz",
+  "wikidata_label": "Sebastian Kurz",
+  "enwiki": "Sebastian Kurz",
+  "desc": "Chancellor of Austria (2017–2019, 2020–2021)"
+ },
+ "Q2751383": {
+  "record": "Gawande",
+  "file": "people.jsonl",
+  "record_label": "Atul Gawande",
+  "wikidata_label": "Atul Gawande",
+  "enwiki": "Atul Gawande",
+  "desc": "American surgeon"
+ },
+ "Q2899445": {
+  "record": "BBadre",
+  "file": "people.jsonl",
+  "record_label": "Bertrand Badre",
+  "wikidata_label": "Bertrand Badré",
+  "enwiki": "Bertrand Badré",
+  "desc": "French private banker"
+ },
+ "Q3018737": {
+  "record": "Rubenstein",
+  "file": "people.jsonl",
+  "record_label": "David Rubenstein",
+  "wikidata_label": "David Rubenstein",
+  "enwiki": "David Rubenstein",
+  "desc": "American businessman (born 1949)"
+ },
+ "Q3022141": {
+  "record": "Hassabis",
+  "file": "people.jsonl",
+  "record_label": "Demis Hassabis",
+  "wikidata_label": "Demis Hassabis",
+  "enwiki": "Demis Hassabis",
+  "desc": "British artificial intelligence researcher (born 1976)"
+ },
+ "Q3052772": {
+  "record": "Macron",
+  "file": "people.jsonl",
+  "record_label": "Emmanuel Macron",
+  "wikidata_label": null,
+  "enwiki": "Emmanuel Macron",
+  "desc": "President of France and Co-Prince of Andorra since 2017"
+ },
+ "Q3090307": {
+  "record": "Cotton",
+  "file": "people.jsonl",
+  "record_label": "Tom Cotton",
+  "wikidata_label": "Tom Cotton",
+  "enwiki": "Tom Cotton",
+  "desc": "American politician and army officer (born 1977)"
+ },
+ "Q3099714": {
+  "record": "JTrudeau",
+  "file": "people.jsonl",
+  "record_label": "Justin Trudeau",
+  "wikidata_label": "Justin Trudeau",
+  "enwiki": "Justin Trudeau",
+  "desc": "23rd prime minister of Canada from 2015 to 2025"
+ },
+ "Q3124567": {
+  "record": "MMoritz",
+  "file": "people.jsonl",
+  "record_label": "Michael Moritz",
+  "wikidata_label": "Michael Moritz",
+  "enwiki": "Michael Moritz",
+  "desc": "British businessman"
+ },
+ "Q3182794": {
+  "record": "Yoo",
+  "file": "people.jsonl",
+  "record_label": "John Yoo",
+  "wikidata_label": "John Yoo",
+  "enwiki": "John Yoo",
+  "desc": "American attorney"
+ },
+ "Q3195170": {
+  "record": "Griffin",
+  "file": "people.jsonl",
+  "record_label": "Ken Griffin",
+  "wikidata_label": "Kenneth C. Griffin",
+  "enwiki": "Ken Griffin (businessman)",
+  "desc": "American billionaire hedge fund manager (born 1968)"
+ },
+ "Q3215817": {
+  "record": "LMurdoch",
+  "file": "people.jsonl",
+  "record_label": "Lachlan Murdoch",
+  "wikidata_label": "Lachlan Murdoch",
+  "enwiki": "Lachlan Murdoch",
+  "desc": "British-American-Australian businessman (born 1971)"
+ },
+ "Q3218045": {
+  "record": "LDiamond",
+  "file": "people.jsonl",
+  "record_label": "Larry Diamond",
+  "wikidata_label": "Larry J. Diamond",
+  "enwiki": "Larry Diamond",
+  "desc": "American political scientist and sociologist"
+ },
+ "Q3218882": {
+  "record": "Fink",
+  "file": "people.jsonl",
+  "record_label": "Larry Fink",
+  "wikidata_label": "Larry Fink",
+  "enwiki": "Larry Fink",
+  "desc": "American Billionaire Business Person and Board Member, Chairman and CEO of BlackRock"
+ },
+ "Q3482398": {
+  "record": "SMenon",
+  "file": "people.jsonl",
+  "record_label": "Shivshankar Menon",
+  "wikidata_label": "Shivshankar Menon",
+  "enwiki": "Shivshankar Menon",
+  "desc": "Indian diplomat"
+ },
+ "Q3503829": {
+  "record": "Pichai",
+  "file": "people.jsonl",
+  "record_label": "Sundar Pichai",
+  "wikidata_label": "Sundar Pichai",
+  "enwiki": "Sundar Pichai",
+  "desc": "Indian-American business executive, CEO of Google LLC & Alphabet Inc."
+ },
+ "Q3571662": {
+  "record": "LeCun",
+  "file": "people.jsonl",
+  "record_label": "Yann LeCun",
+  "wikidata_label": "Yann LeCun",
+  "enwiki": "Yann LeCun",
+  "desc": "American-French computer scientist (born 1960)"
+ },
+ "Q3606816": {
+  "record": "Ardern",
+  "file": "people.jsonl",
+  "record_label": "Jacinda Ardern",
+  "wikidata_label": "Jacinda Ardern",
+  "enwiki": "Jacinda Ardern",
+  "desc": "Prime Minister of New Zealand (2017–2023)"
+ },
+ "Q3656334": {
+  "record": "StuartRussell",
+  "file": "people.jsonl",
+  "record_label": "Stuart Russell",
+  "wikidata_label": "Stuart J. Russell",
+  "enwiki": "Stuart J. Russell",
+  "desc": "British computer scientist (1962-)"
+ },
+ "Q3813333": {
+  "record": "Starbird",
+  "file": "people.jsonl",
+  "record_label": "Kate Starbird",
+  "wikidata_label": "Kate Starbird",
+  "enwiki": "Kate Starbird",
+  "desc": "American computer scientist and basketball player"
+ },
+ "Q3898068": {
+  "record": "PHoffman",
+  "file": "people.jsonl",
+  "record_label": "Paul G. Hoffman",
+  "wikidata_label": "Paul G. Hoffman",
+  "enwiki": "Paul G. Hoffman",
+  "desc": "American businessman (1891–1974)"
+ },
+ "Q4110970": {
+  "record": "Vickers",
+  "file": "people.jsonl",
+  "record_label": "Michael G. Vickers",
+  "wikidata_label": "Michael G. Vickers",
+  "enwiki": "Michael G. Vickers",
+  "desc": "American warfare theorist"
+ },
+ "Q4213050": {
+  "record": "JKaplan",
+  "file": "people.jsonl",
+  "record_label": "Joel Kaplan",
+  "wikidata_label": "Joel Kaplan",
+  "enwiki": "Joel Kaplan",
+  "desc": "American political advisor and lobbyist"
+ },
+ "Q4492815": {
+  "record": "Freeland",
+  "file": "people.jsonl",
+  "record_label": "Chrystia Freeland",
+  "wikidata_label": "Chrystia Freeland",
+  "enwiki": "Chrystia Freeland",
+  "desc": "Canadian politician and journalist (born 1968)"
+ },
+ "Q4699676": {
+  "record": "Banga",
+  "file": "people.jsonl",
+  "record_label": "Ajay Banga",
+  "wikidata_label": "Ajaypal Singh Banga",
+  "enwiki": "Ajay Banga",
+  "desc": "Indian American business executive"
+ },
+ "Q4699784": {
+  "record": "Doval",
+  "file": "people.jsonl",
+  "record_label": "Ajit Doval",
+  "wikidata_label": "Ajit Kumar Doval",
+  "enwiki": "Ajit Doval",
+  "desc": "Indian, National security advisor of India"
+ },
+ "Q4720120": {
+  "record": "ASoros",
+  "file": "people.jsonl",
+  "record_label": "Alex Soros",
+  "wikidata_label": "Alexander Soros",
+  "enwiki": "Alexander Soros",
+  "desc": "American investor and philanthropist"
+ },
+ "Q4721504": {
+  "record": "Ohanian",
+  "file": "people.jsonl",
+  "record_label": "Alexis Ohanian",
+  "wikidata_label": "Alexis Ohanian",
+  "enwiki": "Alexis Ohanian",
+  "desc": "American businessman"
+ },
+ "Q4802687": {
+  "record": "Neier",
+  "file": "people.jsonl",
+  "record_label": "Aryeh Neier",
+  "wikidata_label": "Aryeh Neier",
+  "enwiki": "Aryeh Neier",
+  "desc": "American activist"
+ },
+ "Q4806029": {
+  "record": "AshCarter",
+  "file": "people.jsonl",
+  "record_label": "Ash Carter",
+  "wikidata_label": "Ash Carter",
+  "enwiki": "Ash Carter",
+  "desc": "25th United States Secretary of Defense"
+ },
+ "Q4885859": {
+  "record": "Horowitz",
+  "file": "people.jsonl",
+  "record_label": "Ben Horowitz",
+  "wikidata_label": "Ben Horowitz",
+  "enwiki": "Ben Horowitz",
+  "desc": "American businessman"
+ },
+ "Q4962244": {
+  "record": "Kavanaugh",
+  "file": "people.jsonl",
+  "record_label": "Brett Kavanaugh",
+  "wikidata_label": "Brett Kavanaugh",
+  "enwiki": "Brett Kavanaugh",
+  "desc": "U.S. Supreme Court justice since 2018 (born 1965)"
+ },
+ "Q4970379": {
+  "record": "Novakovic",
+  "file": "people.jsonl",
+  "record_label": "Phebe Novakovic",
+  "wikidata_label": "Phebe Novakovic",
+  "enwiki": "Phebe Novakovic",
+  "desc": "American businesswoman and former intelligence officer"
+ },
+ "Q4974117": {
+  "record": "BMaddox",
+  "file": "people.jsonl",
+  "record_label": "Bronwen Maddox",
+  "wikidata_label": "Bronwen Maddox",
+  "enwiki": "Bronwen Maddox",
+  "desc": "British journalist"
+ },
+ "Q4994314": {
+  "record": "Tribe",
+  "file": "people.jsonl",
+  "record_label": "Laurence Tribe",
+  "wikidata_label": "Laurence Tribe",
+  "enwiki": "Laurence Tribe",
+  "desc": "American lawyer and Harvard Law School professor"
+ },
+ "Q5040214": {
+  "record": "Gershman",
+  "file": "people.jsonl",
+  "record_label": "Carl Gershman",
+  "wikidata_label": "Carl Gershman",
+  "enwiki": "Carl Gershman",
+  "desc": "President of the National Endowment for Democracy"
+ },
+ "Q5107159": {
+  "record": "Kubasik",
+  "file": "people.jsonl",
+  "record_label": "Chris Kubasik",
+  "wikidata_label": "Chris Kubasik",
+  "enwiki": "Chris Kubasik",
+  "desc": "American businessman"
+ },
+ "Q5131959": {
+  "record": "CMitchell",
+  "file": "people.jsonl",
+  "record_label": "Cleta Mitchell",
+  "wikidata_label": "Cleta Mitchell",
+  "enwiki": "Cleta Mitchell",
+  "desc": "American lawyer, politician and conservative activist"
+ },
+ "Q5212898": {
+  "record": "DWilson",
+  "file": "people.jsonl",
+  "record_label": "Damon Wilson",
+  "wikidata_label": "Damon Wilson",
+  "enwiki": "Damon Wilson",
+  "desc": "American foreign policy adviser"
+ },
+ "Q5218659": {
+  "record": "Loeb",
+  "file": "people.jsonl",
+  "record_label": "Daniel S. Loeb",
+  "wikidata_label": "Daniel S. Loeb",
+  "enwiki": "Daniel S. Loeb",
+  "desc": "American hedge fund manager"
+ },
+ "Q5237086": {
+  "record": "Malpass",
+  "file": "people.jsonl",
+  "record_label": "David Malpass",
+  "wikidata_label": "David Malpass",
+  "enwiki": "David Malpass",
+  "desc": "American economist"
+ },
+ "Q5238174": {
+  "record": "Sacks",
+  "file": "people.jsonl",
+  "record_label": "David Sacks",
+  "wikidata_label": "David Sacks",
+  "enwiki": "David Sacks",
+  "desc": "South African-American entrepreneur and investor"
+ },
+ "Q5290463": {
+  "record": "Barton",
+  "file": "people.jsonl",
+  "record_label": "Dominic Barton",
+  "wikidata_label": "Dominic Barton",
+  "enwiki": "Dominic Barton",
+  "desc": "Canadian academic"
+ },
+ "Q5294332": {
+  "record": "McGahn",
+  "file": "people.jsonl",
+  "record_label": "Don McGahn",
+  "wikidata_label": "Donald F. McGahn II",
+  "enwiki": "Don McGahn",
+  "desc": "American government official (born 1968)"
+ },
+ "Q5387417": {
+  "record": "Rosengren",
+  "file": "people.jsonl",
+  "record_label": "Eric Rosengren",
+  "wikidata_label": "Eric S. Rosengren",
+  "enwiki": "Eric S. Rosengren",
+  "desc": "American economist"
+ },
+ "Q5578461": {
+  "record": "LBlack",
+  "file": "people.jsonl",
+  "record_label": "Leon Black",
+  "wikidata_label": "Leon Black",
+  "enwiki": "Leon Black",
+  "desc": "American billionaire businessman, MoMa Chairman, art collector (born 1951)"
+ },
+ "Q5650904": {
+  "record": "VonSpakovsky",
+  "file": "people.jsonl",
+  "record_label": "Hans von Spakovsky",
+  "wikidata_label": "Hans von Spakovsky",
+  "enwiki": "Hans von Spakovsky",
+  "desc": "American politician"
+ },
+ "Q5698964": {
+  "record": "Shyu",
+  "file": "people.jsonl",
+  "record_label": "Heidi Shyu",
+  "wikidata_label": "Heidi Shyu",
+  "enwiki": "Heidi Shyu",
+  "desc": "American engineer"
+ },
+ "Q6128020": {
+  "record": "JBaker",
+  "file": "people.jsonl",
+  "record_label": "James A. Baker (FBI)",
+  "wikidata_label": "James A. Baker",
+  "enwiki": "James A. Baker (government attorney)",
+  "desc": "American lawyer"
+ },
+ "Q6144747": {
+  "record": "Okazaki",
+  "file": "people.jsonl",
+  "record_label": "Hisahiko Okazaki",
+  "wikidata_label": "Hisahiko Okazaki",
+  "enwiki": "Hisahiko Okazaki",
+  "desc": "Japanese diplomat, diplomatic critic"
+ },
+ "Q6166451": {
+  "record": "Bybee",
+  "file": "people.jsonl",
+  "record_label": "Jay Bybee",
+  "wikidata_label": "Jay Bybee",
+  "enwiki": "Jay Bybee",
+  "desc": "American judge"
+ },
+ "Q6176439": {
+  "record": "JJohnson",
+  "file": "people.jsonl",
+  "record_label": "Jeh Johnson",
+  "wikidata_label": "Jeh C. Johnson",
+  "enwiki": "Jeh Johnson",
+  "desc": "4th United States Secretary of Homeland Security (born 1957)"
+ },
+ "Q6182718": {
+  "record": "Powell",
+  "file": "people.jsonl",
+  "record_label": "Jerome Powell",
+  "wikidata_label": "Jerome Powell",
+  "enwiki": "Jerome Powell",
+  "desc": "American financier (born 1953)"
+ },
+ "Q6210988": {
+  "record": "Lonsdale",
+  "file": "people.jsonl",
+  "record_label": "Joe Lonsdale",
+  "wikidata_label": "Joe Lonsdale",
+  "enwiki": "Joe Lonsdale",
+  "desc": "American entrepreneur and venture capitalist"
+ },
+ "Q6230524": {
+  "record": "Durham",
+  "file": "people.jsonl",
+  "record_label": "John Durham",
+  "wikidata_label": "John Durham",
+  "enwiki": "John Durham",
+  "desc": "American federal prosecutor"
+ },
+ "Q6273264": {
+  "record": "Greenblatt",
+  "file": "people.jsonl",
+  "record_label": "Jonathan Greenblatt",
+  "wikidata_label": "Jonathan Greenblatt",
+  "enwiki": "Jonathan Greenblatt",
+  "desc": "American entrepreneur and executive"
+ },
+ "Q6376911": {
+  "record": "KSullivan",
+  "file": "people.jsonl",
+  "record_label": "Kathleen Sullivan",
+  "wikidata_label": "Kathleen Sullivan",
+  "enwiki": "Kathleen Sullivan (lawyer)",
+  "desc": "American lawyer, scholar"
+ },
+ "Q6383803": {
+  "record": "Starmer",
+  "file": "people.jsonl",
+  "record_label": "Keir Starmer",
+  "wikidata_label": "Keir Starmer",
+  "enwiki": "Keir Starmer",
+  "desc": "Prime Minister of the United Kingdom from 2024 to 2026"
+ },
+ "Q6384918": {
+  "record": "Rabois",
+  "file": "people.jsonl",
+  "record_label": "Keith Rabois",
+  "wikidata_label": "Keith Rabois",
+  "enwiki": "Keith Rabois",
+  "desc": "American businessman"
+ },
+ "Q6395324": {
+  "record": "KJackson",
+  "file": "people.jsonl",
+  "record_label": "Ketanji Brown Jackson",
+  "wikidata_label": "Ketanji Brown Jackson",
+  "enwiki": "Ketanji Brown Jackson",
+  "desc": "American lawyer and jurist (born 1970)"
+ },
+ "Q6456472": {
+  "record": "Crovitz",
+  "file": "people.jsonl",
+  "record_label": "L. Gordon Crovitz",
+  "wikidata_label": null,
+  "enwiki": "L. Gordon Crovitz",
+  "desc": "American journalist"
+ },
+ "Q6487267": {
+  "record": "Breuer",
+  "file": "people.jsonl",
+  "record_label": "Lanny Breuer",
+  "wikidata_label": "Lanny A. Breuer",
+  "enwiki": "Lanny A. Breuer",
+  "desc": "American lawyer"
+ },
+ "Q6511841": {
+  "record": "Singer",
+  "file": "people.jsonl",
+  "record_label": "Paul Singer",
+  "wikidata_label": "Paul Singer",
+  "enwiki": "Paul Singer",
+  "desc": "American businessman"
+ },
+ "Q6525494": {
+  "record": "Leo",
+  "file": "people.jsonl",
+  "record_label": "Leonard Leo",
+  "wikidata_label": "Leonard Leo",
+  "enwiki": "Leonard Leo",
+  "desc": "American lawyer (born 1965)"
+ },
+ "Q6558280": {
+  "record": "Monaco",
+  "file": "people.jsonl",
+  "record_label": "Lisa Monaco",
+  "wikidata_label": "Lisa Monaco",
+  "enwiki": "Lisa Monaco",
+  "desc": "American attorney (born 1968)"
+ },
+ "Q6680965": {
+  "record": "LLynch",
+  "file": "people.jsonl",
+  "record_label": "Loretta Lynch",
+  "wikidata_label": "Loretta Lynch",
+  "enwiki": "Loretta Lynch",
+  "desc": "American attorney (born 1959)"
+ },
+ "Q6712556": {
+  "record": "Whelan",
+  "file": "people.jsonl",
+  "record_label": "Ed Whelan",
+  "wikidata_label": "M. Edward Whelan III",
+  "enwiki": "Edward Whelan (American lawyer)",
+  "desc": "American lawyer"
+ },
+ "Q6755536": {
+  "record": "Elias",
+  "file": "people.jsonl",
+  "record_label": "Marc Elias",
+  "wikidata_label": "Marc Elias",
+  "enwiki": "Marc Elias",
+  "desc": "American lawyer"
+ },
+ "Q6761526": {
+  "record": "Ressa",
+  "file": "people.jsonl",
+  "record_label": "Maria Ressa",
+  "wikidata_label": "Maria Ressa",
+  "enwiki": "Maria Ressa",
+  "desc": "Filipino journalist"
+ },
+ "Q6769365": {
+  "record": "Dybul",
+  "file": "people.jsonl",
+  "record_label": "Mark Dybul",
+  "wikidata_label": "Mark R. Dybul",
+  "enwiki": "Mark R. Dybul",
+  "desc": "American physician and diplomat"
+ },
+ "Q6790538": {
+  "record": "Whitaker",
+  "file": "people.jsonl",
+  "record_label": "Matthew Whitaker",
+  "wikidata_label": "Matthew Whitaker",
+  "enwiki": "Matthew Whitaker",
+  "desc": "American lawyer and politician"
+ },
+ "Q6830434": {
+  "record": "Froman",
+  "file": "people.jsonl",
+  "record_label": "Michael Froman",
+  "wikidata_label": "Michael Froman",
+  "enwiki": "Michael Froman",
+  "desc": "American businessperson and board member, Vice Chairman and President, Strategic Growth at Mastercard Incorporated and former US Trade representative"
+ },
+ "Q7128915": {
+  "record": "Bondi",
+  "file": "people.jsonl",
+  "record_label": "Pam Bondi",
+  "wikidata_label": "Pam Bondi",
+  "enwiki": "Pam Bondi",
+  "desc": "American attorney and politician (born 1965)"
+ },
+ "Q7146556": {
+  "record": "Gaspard",
+  "file": "people.jsonl",
+  "record_label": "Patrick Gaspard",
+  "wikidata_label": "Patrick Gaspard",
+  "enwiki": "Patrick Gaspard",
+  "desc": "president of the Open Society Foundations"
+ },
+ "Q7172014": {
+  "record": "Hegseth",
+  "file": "people.jsonl",
+  "record_label": "Pete Hegseth",
+  "wikidata_label": "Pete Hegseth",
+  "enwiki": "Pete Hegseth",
+  "desc": "United States Secretary of Defense"
+ },
+ "Q7184119": {
+  "record": "PHoward",
+  "file": "people.jsonl",
+  "record_label": "Philip N. Howard",
+  "wikidata_label": "Philip N. Howard",
+  "enwiki": "Philip N. Howard",
+  "desc": "Canadian sociologist"
+ },
+ "Q7297378": {
+  "record": "Dalio",
+  "file": "people.jsonl",
+  "record_label": "Ray Dalio",
+  "wikidata_label": "Ray Dalio",
+  "enwiki": "Ray Dalio",
+  "desc": "American billionaire hedge fund manager"
+ },
+ "Q7341941": {
+  "record": "Bauer",
+  "file": "people.jsonl",
+  "record_label": "Robert Bauer",
+  "wikidata_label": "Robert Bauer",
+  "enwiki": "Robert Bauer",
+  "desc": "American lawyer"
+ },
+ "Q7348126": {
+  "record": "Work",
+  "file": "people.jsonl",
+  "record_label": "Robert O. Work",
+  "wikidata_label": "Robert O. Work",
+  "enwiki": "Robert O. Work",
+  "desc": "American marine, military strategist and politician"
+ },
+ "Q7352687": {
+  "record": "Niblett",
+  "file": "people.jsonl",
+  "record_label": "Robin Niblett",
+  "wikidata_label": "Robin Niblett",
+  "enwiki": "Robin Niblett",
+  "desc": "British scholar"
+ },
+ "Q7356240": {
+  "record": "Rosenstein",
+  "file": "people.jsonl",
+  "record_label": "Rod Rosenstein",
+  "wikidata_label": "Rod J. Rosenstein",
+  "enwiki": "Rod Rosenstein",
+  "desc": "American lawyer"
+ },
+ "Q7363644": {
+  "record": "RonConway",
+  "file": "people.jsonl",
+  "record_label": "Ron Conway",
+  "wikidata_label": "Ron Conway",
+  "enwiki": "Ron Conway",
+  "desc": "American businessman"
+ },
+ "Q7407093": {
+  "record": "Altman",
+  "file": "people.jsonl",
+  "record_label": "Sam Altman",
+  "wikidata_label": "Sam Altman",
+  "enwiki": "Sam Altman",
+  "desc": "American venture capitalist"
+ },
+ "Q7426870": {
+  "record": "Nadella",
+  "file": "people.jsonl",
+  "record_label": "Satya Nadella",
+  "wikidata_label": "Satya Nadella",
+  "enwiki": "Satya Nadella",
+  "desc": "Indian-American business executive and CEO of Microsoft"
+ },
+ "Q7435987": {
+  "record": "Bessent",
+  "file": "people.jsonl",
+  "record_label": "Scott Bessent",
+  "wikidata_label": "Scott Bessent",
+  "enwiki": "Scott Bessent",
+  "desc": "United States Secretary of the Treasury"
+ },
+ "Q7456439": {
+  "record": "Berkley",
+  "file": "people.jsonl",
+  "record_label": "Seth Berkley",
+  "wikidata_label": "Seth Berkley",
+  "enwiki": "Seth Berkley",
+  "desc": "CEO of Gavi, The Vaccine Alliance"
+ },
+ "Q7612894": {
+  "record": "Huffman",
+  "file": "people.jsonl",
+  "record_label": "Steve Huffman",
+  "wikidata_label": "Steve Huffman",
+  "enwiki": "Steve Huffman",
+  "desc": "American businessman"
+ },
+ "Q7614513": {
+  "record": "SBrill",
+  "file": "people.jsonl",
+  "record_label": "Steven Brill",
+  "wikidata_label": "Steven Brill",
+  "enwiki": "Steven Brill (journalist)",
+  "desc": "American writer, publisher and entrepreneur"
+ },
+ "Q7614726": {
+  "record": "Calabresi",
+  "file": "people.jsonl",
+  "record_label": "Steven Calabresi",
+  "wikidata_label": "Steven G. Calabresi",
+  "enwiki": "Steven Calabresi",
+  "desc": "American lawyer"
+ },
+ "Q7788241": {
+  "record": "Carothers",
+  "file": "people.jsonl",
+  "record_label": "Thomas Carothers",
+  "wikidata_label": "Thomas Carothers",
+  "enwiki": "Thomas Carothers",
+  "desc": "American political scientist"
+ },
+ "Q7821917": {
+  "record": "Blinken",
+  "file": "people.jsonl",
+  "record_label": "Antony Blinken",
+  "wikidata_label": "Antony Blinken",
+  "enwiki": "Antony Blinken",
+  "desc": "American lawyer and diplomat (born 1962) and former United States Secretary of State (2021–2025)"
+ },
+ "Q7925791": {
+  "record": "VCha",
+  "file": "people.jsonl",
+  "record_label": "Victor Cha",
+  "wikidata_label": "Victor Cha",
+  "enwiki": "Victor Cha",
+  "desc": "American presidential advisor"
+ },
+ "Q7937768": {
+  "record": "Schiller",
+  "file": "people.jsonl",
+  "record_label": "Vivian Schiller",
+  "wikidata_label": "Vivian Schiller",
+  "enwiki": "Vivian Schiller",
+  "desc": "American journalist, Vice President & Executive Director of Aspen Digital"
+ },
+ "Q8000233": {
+  "record": "WRoss",
+  "file": "people.jsonl",
+  "record_label": "Wilbur Ross",
+  "wikidata_label": "Wilbur L. Ross Jr.",
+  "enwiki": "Wilbur Ross",
+  "desc": "United States 39th Secretary of Commerce"
+ },
+ "Q8013160": {
+  "record": "Bratton",
+  "file": "people.jsonl",
+  "record_label": "William J. Bratton",
+  "wikidata_label": "William J. Bratton",
+  "enwiki": "William Bratton",
+  "desc": "American police officer"
+ },
+ "Q10853588": {
+  "record": "Harris",
+  "file": "people.jsonl",
+  "record_label": "Kamala Harris",
+  "wikidata_label": null,
+  "enwiki": "Kamala Harris",
+  "desc": "Vice President of the United States from 2021 to 2025"
+ },
+ "Q14525857": {
+  "record": "Haines",
+  "file": "people.jsonl",
+  "record_label": "Avril Haines",
+  "wikidata_label": "Avril Haines",
+  "enwiki": "Avril Haines",
+  "desc": "7th Director of National Intelligence"
+ },
+ "Q14913689": {
+  "record": "Wardell",
+  "file": "people.jsonl",
+  "record_label": "Brad Wardell",
+  "wikidata_label": "Brad Wardell",
+  "enwiki": "Brad Wardell",
+  "desc": "American businessman, programmer and author"
+ },
+ "Q14946725": {
+  "record": "JWilliams",
+  "file": "people.jsonl",
+  "record_label": "John C. Williams",
+  "wikidata_label": "John C. Williams",
+  "enwiki": "John C. Williams (economist)",
+  "desc": "American economist (born 1962)"
+ },
+ "Q15055710": {
+  "record": "AParker",
+  "file": "people.jsonl",
+  "record_label": "Andrew Parker",
+  "wikidata_label": "Andrew Parker",
+  "enwiki": "Andrew Parker, Baron Parker of Minsmere",
+  "desc": "Director-General of the British Security Service"
+ },
+ "Q15439301": {
+  "record": "Spiegel",
+  "file": "people.jsonl",
+  "record_label": "Evan Spiegel",
+  "wikidata_label": "Evan Spiegel",
+  "enwiki": "Evan Spiegel",
+  "desc": "American businessman (born 1990)"
+ },
+ "Q15485936": {
+  "record": "Bradbury",
+  "file": "people.jsonl",
+  "record_label": "Steven Bradbury",
+  "wikidata_label": "Steven G. Bradbury",
+  "enwiki": "Steven G. Bradbury",
+  "desc": "American lawyer"
+ },
+ "Q15488345": {
+  "record": "Gorsuch",
+  "file": "people.jsonl",
+  "record_label": "Neil Gorsuch",
+  "wikidata_label": "Neil Gorsuch",
+  "enwiki": "Neil Gorsuch",
+  "desc": "Associate Justice of the Supreme Court of the United States since 2017 (born 1967)"
+ },
+ "Q15725863": {
+  "record": "YCohen",
+  "file": "people.jsonl",
+  "record_label": "Yossi Cohen",
+  "wikidata_label": "Yossi Cohen",
+  "enwiki": "Yossi Cohen",
+  "desc": "Israeli intelligence officer, director of Mossad"
+ },
+ "Q15967402": {
+  "record": "Farrar",
+  "file": "people.jsonl",
+  "record_label": "Jeremy Farrar",
+  "wikidata_label": "Jeremy Farrar",
+  "enwiki": "Jeremy Farrar",
+  "desc": "epidemiologist and director of the Wellcome Trust"
+ },
+ "Q16090635": {
+  "record": "Yoon",
+  "file": "people.jsonl",
+  "record_label": "Yoon Suk-yeol",
+  "wikidata_label": "Yoon Suk Yeol",
+  "enwiki": "Yoon Suk Yeol",
+  "desc": "President of South Korea from 2022 to 2025"
+ },
+ "Q16106982": {
+  "record": "DHoffman",
+  "file": "people.jsonl",
+  "record_label": "David M. Hoffman",
+  "wikidata_label": "David M. Hoffman",
+  "enwiki": "David M. Hoffman",
+  "desc": "author, political commentator, television project director and media activist"
+ },
+ "Q16186720": {
+  "record": "Jaishankar",
+  "file": "people.jsonl",
+  "record_label": "Subrahmanyam Jaishankar",
+  "wikidata_label": "Subrahmanyam Jaishankar",
+  "enwiki": "S. Jaishankar",
+  "desc": "External Affairs Minister of India"
+ },
+ "Q16189531": {
+  "record": "TSteyer",
+  "file": "people.jsonl",
+  "record_label": "Tom Steyer",
+  "wikidata_label": "Tom Steyer",
+  "enwiki": "Tom Steyer",
+  "desc": "American businessman, politician, and environmentalist (born 1957)"
+ },
+ "Q16191011": {
+  "record": "MPayne",
+  "file": "people.jsonl",
+  "record_label": "Marise Payne",
+  "wikidata_label": "Marise Payne",
+  "enwiki": "Marise Payne",
+  "desc": "Australian politician"
+ },
+ "Q16194176": {
+  "record": "Lutnick",
+  "file": "people.jsonl",
+  "record_label": "Howard Lutnick",
+  "wikidata_label": "Howard Lutnick",
+  "enwiki": "Howard Lutnick",
+  "desc": "American billionaire businessman (born 1961)"
+ },
+ "Q16200445": {
+  "record": "Bongino",
+  "file": "people.jsonl",
+  "record_label": "Dan Bongino",
+  "wikidata_label": "Dan Bongino",
+  "enwiki": "Dan Bongino",
+  "desc": "American political commentator and deputy FBI director (born 1974)"
+ },
+ "Q16221586": {
+  "record": "Menczer",
+  "file": "people.jsonl",
+  "record_label": "Filippo Menczer",
+  "wikidata_label": null,
+  "enwiki": "Filippo Menczer",
+  "desc": "American computer scientist"
+ },
+ "Q16240862": {
+  "record": "Kuchera",
+  "file": "people.jsonl",
+  "record_label": "Ben Kuchera",
+  "wikidata_label": "Ben Kuchera",
+  "enwiki": null,
+  "desc": "American video game journalist"
+ },
+ "Q16269109": {
+  "record": "PLuckey",
+  "file": "people.jsonl",
+  "record_label": "Palmer Luckey",
+  "wikidata_label": "Palmer Luckey",
+  "enwiki": "Palmer Luckey",
+  "desc": "American founder of Oculus VR and inventor of the Oculus Rift"
+ },
+ "Q16274616": {
+  "record": "DKramer",
+  "file": "people.jsonl",
+  "record_label": "David J. Kramer",
+  "wikidata_label": "David J. Kramer",
+  "enwiki": "David J. Kramer",
+  "desc": "American government official"
+ },
+ "Q16727786": {
+  "record": "Calhoun",
+  "file": "people.jsonl",
+  "record_label": "David L. Calhoun",
+  "wikidata_label": "Dave Calhoun",
+  "enwiki": "Dave Calhoun",
+  "desc": "American businessperson and corporate director, President and CEO, The Boeing Company"
+ },
+ "Q16730147": {
+  "record": "JSullivan",
+  "file": "people.jsonl",
+  "record_label": "Jake Sullivan",
+  "wikidata_label": "Jake Sullivan",
+  "enwiki": "Jake Sullivan",
+  "desc": "American attorney and politician (born 1976)"
+ },
+ "Q16735177": {
+  "record": "MRich",
+  "file": "people.jsonl",
+  "record_label": "Michael Rich",
+  "wikidata_label": "Michael D. Rich",
+  "enwiki": "Michael D. Rich",
+  "desc": "American businessman"
+ },
+ "Q16847797": {
+  "record": "Suleyman",
+  "file": "people.jsonl",
+  "record_label": "Mustafa Suleyman",
+  "wikidata_label": null,
+  "enwiki": "Mustafa Suleyman",
+  "desc": "British entrepreneur (born 1984)"
+ },
+ "Q16875330": {
+  "record": "EScalia",
+  "file": "people.jsonl",
+  "record_label": "Eugene Scalia",
+  "wikidata_label": "Eugene Scalia",
+  "enwiki": "Eugene Scalia",
+  "desc": "American lawyer"
+ },
+ "Q16980175": {
+  "record": "Ratcliffe",
+  "file": "people.jsonl",
+  "record_label": "John Ratcliffe",
+  "wikidata_label": "John Ratcliffe",
+  "enwiki": "John Ratcliffe",
+  "desc": "American lawyer and politician"
+ },
+ "Q18345839": {
+  "record": "LAlexander",
+  "file": "people.jsonl",
+  "record_label": "Leigh Alexander",
+  "wikidata_label": "Leigh Alexander",
+  "enwiki": "Leigh Alexander (journalist)",
+  "desc": "American journalist"
+ },
+ "Q18759496": {
+  "record": "CamilleFrancois",
+  "file": "people.jsonl",
+  "record_label": "Camille François",
+  "wikidata_label": "Camille François",
+  "enwiki": "Camille François",
+  "desc": "French digital disinformation researcher"
+ },
+ "Q19560940": {
+  "record": "Karp",
+  "file": "people.jsonl",
+  "record_label": "Alex Karp",
+  "wikidata_label": "Alexander C. Karp",
+  "enwiki": "Alex Karp",
+  "desc": "businessman, author"
+ },
+ "Q20055561": {
+  "record": "Sunak",
+  "file": "people.jsonl",
+  "record_label": "Rishi Sunak",
+  "wikidata_label": null,
+  "enwiki": "Rishi Sunak",
+  "desc": "Prime Minister of the United Kingdom from 2022 to 2024"
+ },
+ "Q20675663": {
+  "record": "Rosekind",
+  "file": "people.jsonl",
+  "record_label": "Mark Rosekind",
+  "wikidata_label": "Mark Rosekind",
+  "enwiki": "Mark Rosekind",
+  "desc": "American psychologist"
+ },
+ "Q21062238": {
+  "record": "Yarvin",
+  "file": "people.jsonl",
+  "record_label": "Curtis Yarvin",
+  "wikidata_label": "Curtis Yarvin",
+  "enwiki": "Curtis Yarvin",
+  "desc": "American far-right political theorist and computer scientist"
+ },
+ "Q21062855": {
+  "record": "Yates",
+  "file": "people.jsonl",
+  "record_label": "Sally Yates",
+  "wikidata_label": "Sally Yates",
+  "enwiki": "Sally Yates",
+  "desc": "American lawyer, 36th United States Deputy Attorney General"
+ },
+ "Q21139425": {
+  "record": "Spalding",
+  "file": "people.jsonl",
+  "record_label": "Matthew Spalding",
+  "wikidata_label": "Matthew Spalding",
+  "enwiki": null,
+  "desc": "American author"
+ },
+ "Q21712134": {
+  "record": "Sutskever",
+  "file": "people.jsonl",
+  "record_label": "Ilya Sutskever",
+  "wikidata_label": "Ilya Sutskever",
+  "enwiki": "Ilya Sutskever",
+  "desc": "Canadian-Israeli AI researcher"
+ },
+ "Q22006370": {
+  "record": "Mester",
+  "file": "people.jsonl",
+  "record_label": "Loretta Mester",
+  "wikidata_label": "Loretta Mester",
+  "enwiki": "Loretta J. Mester",
+  "desc": "American businesswoman"
+ },
+ "Q22095395": {
+  "record": "Burgum",
+  "file": "people.jsonl",
+  "record_label": "Doug Burgum",
+  "wikidata_label": "Doug Burgum",
+  "enwiki": "Doug Burgum",
+  "desc": "United States Secretary of the Interior"
+ },
+ "Q23662246": {
+  "record": "Sankar",
+  "file": "people.jsonl",
+  "record_label": "Shyam Sankar",
+  "wikidata_label": "Shyam Sankar",
+  "enwiki": null,
+  "desc": "business executive"
+ },
+ "Q23727975": {
+  "record": "DelHarvey",
+  "file": "people.jsonl",
+  "record_label": "Del Harvey",
+  "wikidata_label": "Del Harvey",
+  "enwiki": null,
+  "desc": "VP of Trust & Safety at Twitter"
+ },
+ "Q24239052": {
+  "record": "Birx",
+  "file": "people.jsonl",
+  "record_label": "Deborah Birx",
+  "wikidata_label": "Deborah L. Birx",
+  "enwiki": "Deborah Birx",
+  "desc": "American physician and diplomat"
+ },
+ "Q24248265": {
+  "record": "Mnuchin",
+  "file": "people.jsonl",
+  "record_label": "Steven Mnuchin",
+  "wikidata_label": "Steven Mnuchin",
+  "enwiki": "Steven Mnuchin",
+  "desc": "United States Secretary of the Treasury from 2017 to 2021"
+ },
+ "Q28216818": {
+  "record": "Steele",
+  "file": "people.jsonl",
+  "record_label": "Christopher Steele",
+  "wikidata_label": "Christopher Steele",
+  "enwiki": "Christopher Steele",
+  "desc": "former British intelligence officer"
+ },
+ "Q28222835": {
+  "record": "Simpson",
+  "file": "people.jsonl",
+  "record_label": "Glenn Simpson",
+  "wikidata_label": "Glenn R. Simpson",
+  "enwiki": "Glenn R. Simpson",
+  "desc": "American journalist (born 1964)"
+ },
+ "Q28316793": {
+  "record": "MHorowitz",
+  "file": "people.jsonl",
+  "record_label": "Michael Horowitz",
+  "wikidata_label": "Michael E. Horowitz",
+  "enwiki": "Michael E. Horowitz",
+  "desc": "American lawyer and public servant"
+ },
+ "Q28922190": {
+  "record": "GHayes",
+  "file": "people.jsonl",
+  "record_label": "Greg Hayes",
+  "wikidata_label": "Greg Hayes",
+  "enwiki": "Gregory J. Hayes",
+  "desc": "American businessperson, Chair and CEO, Raytheon Technologies"
+ },
+ "Q28925007": {
+  "record": "NFrancisco",
+  "file": "people.jsonl",
+  "record_label": "Noel Francisco",
+  "wikidata_label": "Noel Francisco",
+  "enwiki": "Noel Francisco",
+  "desc": "American lawyer (born 1969)"
+ },
+ "Q28935729": {
+  "record": "JVance",
+  "file": "people.jsonl",
+  "record_label": "JD Vance",
+  "wikidata_label": "JD Vance",
+  "enwiki": "JD Vance",
+  "desc": "Vice President of the United States since 2025"
+ },
+ "Q28974563": {
+  "record": "Fleming",
+  "file": "people.jsonl",
+  "record_label": "Jeremy Fleming",
+  "wikidata_label": "Jeremy Fleming",
+  "enwiki": "Jeremy Fleming",
+  "desc": "former director GCHQ"
+ },
+ "Q29863844": {
+  "record": "Barrett",
+  "file": "people.jsonl",
+  "record_label": "Amy Coney Barrett",
+  "wikidata_label": "Amy Coney Barrett",
+  "enwiki": "Amy Coney Barrett",
+  "desc": "American lawyer and jurist (born 1972)"
+ },
+ "Q29963497": {
+  "record": "Vought",
+  "file": "people.jsonl",
+  "record_label": "Russell Vought",
+  "wikidata_label": "Russell Vought",
+  "enwiki": "Russell Vought",
+  "desc": "Director of the Office of Management and Budget"
+ },
+ "Q30148517": {
+  "record": "Wray",
+  "file": "people.jsonl",
+  "record_label": "Christopher Wray",
+  "wikidata_label": "Christopher A. Wray",
+  "enwiki": "Christopher A. Wray",
+  "desc": "Director of the Federal Bureau of Investigation from 2017 to 2025"
+ },
+ "Q30193642": {
+  "record": "Weissmann",
+  "file": "people.jsonl",
+  "record_label": "Andrew Weissmann",
+  "wikidata_label": "Andrew Weissmann",
+  "enwiki": "Andrew Weissmann",
+  "desc": "American attorney, US Department of Justice official"
+ },
+ "Q30458034": {
+  "record": "JBClark",
+  "file": "people.jsonl",
+  "record_label": "Jeffrey Bossert Clark",
+  "wikidata_label": "Jeffrey Bossert Clark",
+  "enwiki": "Jeffrey Clark",
+  "desc": "American lawyer"
+ },
+ "Q31193317": {
+  "record": "RMoore",
+  "file": "people.jsonl",
+  "record_label": "Richard Moore",
+  "wikidata_label": "Richard Moore",
+  "enwiki": "Richard Moore (diplomat)",
+  "desc": "British spy, chief of Secret Intelligence Service"
+ },
+ "Q33190271": {
+  "record": "Esper",
+  "file": "people.jsonl",
+  "record_label": "Mark Esper",
+  "wikidata_label": "Mark T. Esper",
+  "enwiki": "Mark Esper",
+  "desc": "27th United States Secretary of Defense (2017-2020)"
+ },
+ "Q34677188": {
+  "record": "Lord",
+  "file": "people.jsonl",
+  "record_label": "Ellen Lord",
+  "wikidata_label": "Ellen Lord",
+  "enwiki": "Ellen Lord",
+  "desc": "American businesswoman and government official"
+ },
+ "Q34903664": {
+  "record": "Prelogar",
+  "file": "people.jsonl",
+  "record_label": "Elizabeth Prelogar",
+  "wikidata_label": "Elizabeth Barchas Prelogar",
+  "enwiki": "Elizabeth Prelogar",
+  "desc": "Solicitor General of the United States since 2021"
+ },
+ "Q47529003": {
+  "record": "JTucker",
+  "file": "people.jsonl",
+  "record_label": "Joshua Tucker",
+  "wikidata_label": "Joshua A. Tucker",
+  "enwiki": null,
+  "desc": "researcher"
+ },
+ "Q50300377": {
+  "record": "BSmith",
+  "file": "people.jsonl",
+  "record_label": "Brad Smith",
+  "wikidata_label": "Brad Smith",
+  "enwiki": "Brad Smith (American lawyer)",
+  "desc": "American lawyer and CLO of Microsoft (born 1959)"
+ },
+ "Q50822408": {
+  "record": "Stamos",
+  "file": "people.jsonl",
+  "record_label": "Alex Stamos",
+  "wikidata_label": "Alex Stamos",
+  "enwiki": "Alex Stamos",
+  "desc": "American computer scientist and academic, former chief security officer at Facebook"
+ },
+ "Q54861072": {
+  "record": "Walker",
+  "file": "people.jsonl",
+  "record_label": "Kent Walker",
+  "wikidata_label": "Kent Walker",
+  "enwiki": "Kent Walker",
+  "desc": "Senior Vice-President and General Counsel - Google Inc."
+ },
+ "Q55386653": {
+  "record": "Waltz",
+  "file": "people.jsonl",
+  "record_label": "Mike Waltz",
+  "wikidata_label": "Mike Waltz",
+  "enwiki": "Mike Waltz",
+  "desc": "U.S. Ambassador to the United Nations since 2025"
+ },
+ "Q56523534": {
+  "record": "Khan",
+  "file": "people.jsonl",
+  "record_label": "Lina Khan",
+  "wikidata_label": "Lina M. Khan",
+  "enwiki": "Lina Khan",
+  "desc": "American legal scholar and jurist (born 1989)"
+ },
+ "Q57313857": {
+  "record": "Cipollone",
+  "file": "people.jsonl",
+  "record_label": "Pat Cipollone",
+  "wikidata_label": "Pat Cipollone",
+  "enwiki": "Pat Cipollone",
+  "desc": "American lawyer"
+ },
+ "Q60445729": {
+  "record": "Warden",
+  "file": "people.jsonl",
+  "record_label": "Kathy J. Warden",
+  "wikidata_label": "Kathy J. Warden",
+  "enwiki": "Kathy Warden",
+  "desc": "American business executive, CEO of Northrop Grumman Corporation"
+ },
+ "Q60618074": {
+  "record": "Grayson",
+  "file": "people.jsonl",
+  "record_label": "Nathan Grayson",
+  "wikidata_label": "Nathan Grayson",
+  "enwiki": "Nathan Grayson",
+  "desc": "American video game journalist for Kotaku"
+ },
+ "Q61719460": {
+  "record": "Gadde",
+  "file": "people.jsonl",
+  "record_label": "Vijaya Gadde",
+  "wikidata_label": "Vijaya Gadde",
+  "enwiki": "Vijaya Gadde",
+  "desc": "business executive"
+ },
+ "Q61756576": {
+  "record": "Totilo",
+  "file": "people.jsonl",
+  "record_label": "Stephen Totilo",
+  "wikidata_label": "Stephen Totilo",
+  "enwiki": null,
+  "desc": "American video game journalist"
+ },
+ "Q61984711": {
+  "record": "Klepek",
+  "file": "people.jsonl",
+  "record_label": "Patrick Klepek",
+  "wikidata_label": "Patrick Klepek",
+  "enwiki": null,
+  "desc": "video game journalist"
+ },
+ "Q64364288": {
+  "record": "LauraRosenberger",
+  "file": "people.jsonl",
+  "record_label": "Laura Rosenberger",
+  "wikidata_label": "Laura Rosenberger",
+  "enwiki": "Laura Rosenberger",
+  "desc": "Political scientist from the United States"
+ },
+ "Q74370310": {
+  "record": "Luxon",
+  "file": "people.jsonl",
+  "record_label": "Christopher Luxon",
+  "wikidata_label": "Christopher Luxon",
+  "enwiki": "Christopher Luxon",
+  "desc": "Prime Minister of New Zealand since 2023"
+ },
+ "Q77963506": {
+  "record": "DiResta",
+  "file": "people.jsonl",
+  "record_label": "Renee DiResta",
+  "wikidata_label": "Renée DiResta",
+  "enwiki": "Renée DiResta",
+  "desc": "author and Mozilla Fellow in Media"
+ },
+ "Q81486902": {
+  "record": "McCord",
+  "file": "people.jsonl",
+  "record_label": "Mary McCord",
+  "wikidata_label": null,
+  "enwiki": "Mary B. McCord",
+  "desc": "American lawyer"
+ },
+ "Q83380160": {
+  "record": "TonThat",
+  "file": "people.jsonl",
+  "record_label": "Hoan Ton-That",
+  "wikidata_label": "Hoan Ton-That",
+  "enwiki": "Hoan Ton-That",
+  "desc": "founder of Clearview AI"
+ },
+ "Q86744346": {
+  "record": "HMizuno",
+  "file": "people.jsonl",
+  "record_label": "Hiro Mizuno",
+  "wikidata_label": "Hiromichi Mizuno",
+  "enwiki": "Hiromichi Mizuno",
+  "desc": "financial executive from Japan"
+ },
+ "Q87684934": {
+  "record": "Srinivasan",
+  "file": "people.jsonl",
+  "record_label": "Balaji Srinivasan",
+  "wikidata_label": "Balaji Srinivasan",
+  "enwiki": "Balaji Srinivasan",
+  "desc": "American entrepreneur and investor"
+ },
+ "Q88965331": {
+  "record": "Slaoui",
+  "file": "people.jsonl",
+  "record_label": "Moncef Slaoui",
+  "wikidata_label": "Moncef Slaoui",
+  "enwiki": "Moncef Slaoui",
+  "desc": "Moroccan American doctor and researcher"
+ },
+ "Q89657903": {
+  "record": "JDonovan",
+  "file": "people.jsonl",
+  "record_label": "Joan Donovan",
+  "wikidata_label": "Joan Donovan",
+  "enwiki": "Joan Donovan",
+  "desc": "American social scientist and academic"
+ },
+ "Q91619913": {
+  "record": "McCallum",
+  "file": "people.jsonl",
+  "record_label": "Ken McCallum",
+  "wikidata_label": "Ken McCallum",
+  "enwiki": "Ken McCallum",
+  "desc": "Director General of MI5"
+ },
+ "Q92271928": {
+  "record": "Schreier",
+  "file": "people.jsonl",
+  "record_label": "Jason Schreier",
+  "wikidata_label": "Jason Schreier",
+  "enwiki": "Jason Schreier",
+  "desc": "American video game journalist (born 1987)"
+ },
+ "Q100276124": {
+  "record": "Agrawal",
+  "file": "people.jsonl",
+  "record_label": "Parag Agrawal",
+  "wikidata_label": "Parag Agrawal",
+  "enwiki": "Parag Agrawal",
+  "desc": "Indian–American technology executive"
+ },
+ "Q100604534": {
+  "record": "Brockman",
+  "file": "people.jsonl",
+  "record_label": "Greg Brockman",
+  "wikidata_label": "Greg Brockman",
+  "enwiki": "Greg Brockman",
+  "desc": "American entrepreneur, investor, and software developer"
+ },
+ "Q103335665": {
+  "record": "Amodei",
+  "file": "people.jsonl",
+  "record_label": "Dario Amodei",
+  "wikidata_label": "Dario Amodei",
+  "enwiki": "Dario Amodei",
+  "desc": "CEO and co-founder of Anthropic"
+ },
+ "Q104639732": {
+  "record": "KPatel",
+  "file": "people.jsonl",
+  "record_label": "Kash Patel",
+  "wikidata_label": "Kash Patel",
+  "enwiki": "Kash Patel",
+  "desc": "Director of the Federal Bureau of Investigation"
+ },
+ "Q106962786": {
+  "record": "Barnea",
+  "file": "people.jsonl",
+  "record_label": "David Barnea",
+  "wikidata_label": "David Barnea",
+  "enwiki": "David Barnea",
+  "desc": "Director of the Mossad"
+ },
+ "Q107324729": {
+  "record": "Hatchett",
+  "file": "people.jsonl",
+  "record_label": "Richard Hatchett",
+  "wikidata_label": "Richard Hatchett",
+  "enwiki": "Richard Hatchett",
+  "desc": "American epidemiologist"
+ },
+ "Q107718311": {
+  "record": "Ahmed",
+  "file": "people.jsonl",
+  "record_label": "Imran Ahmed",
+  "wikidata_label": "Imran Ahmed",
+  "enwiki": "Imran Ahmed (strategist)",
+  "desc": "CEO of the Center for Countering Digital Hate"
+ },
+ "Q108655361": {
+  "record": "Sussmann",
+  "file": "people.jsonl",
+  "record_label": "Michael Sussmann",
+  "wikidata_label": "Michael Sussmann",
+  "enwiki": "Michael Sussmann",
+  "desc": "American lawyer"
+ },
+ "Q110610881": {
+  "record": "Taiclet",
+  "file": "people.jsonl",
+  "record_label": "James Taiclet",
+  "wikidata_label": "James D. Taiclet",
+  "enwiki": "James Taiclet",
+  "desc": "American business executive"
+ },
+ "Q113534602": {
+  "record": "Stiell",
+  "file": "people.jsonl",
+  "record_label": "Simon Stiell",
+  "wikidata_label": "Simon Stiell",
+  "enwiki": "Simon Stiell",
+  "desc": "Grenadian politician"
+ },
+ "Q115271256": {
+  "record": "JSmith",
+  "file": "people.jsonl",
+  "record_label": "Jack Smith",
+  "wikidata_label": "Jack Smith",
+  "enwiki": "Jack Smith (lawyer)",
+  "desc": "American lawyer and special counsel (born 1969)"
+ },
+ "Q115276073": {
+  "record": "Suzman",
+  "file": "people.jsonl",
+  "record_label": "Mark Suzman",
+  "wikidata_label": "Mark Suzman",
+  "enwiki": null,
+  "desc": "CEO & Board Member - Bill & Melinda Gates Foundation"
+ },
+ "Q116706551": {
+  "record": "Murati",
+  "file": "people.jsonl",
+  "record_label": "Mira Murati",
+  "wikidata_label": "Mira Murati",
+  "enwiki": "Mira Murati",
+  "desc": "Albanian-American business executive (born 1988)"
+ },
+ "Q116890779": {
+  "record": "YRoth",
+  "file": "people.jsonl",
+  "record_label": "Yoel Roth",
+  "wikidata_label": "Yoel Roth",
+  "enwiki": "Yoel Roth",
+  "desc": "former Head of Site Integrity at Twitter"
+ },
+ "Q123130693": {
+  "record": "JanLeike",
+  "file": "people.jsonl",
+  "record_label": "Jan Leike",
+  "wikidata_label": "Jan Leike",
+  "enwiki": "Jan Leike",
+  "desc": "AI safety researcher"
+ },
+ "Q124646741": {
+  "record": "TraeStephens",
+  "file": "people.jsonl",
+  "record_label": "Trae Stephens",
+  "wikidata_label": "Trae Stephens",
+  "enwiki": "Trae Stephens",
+  "desc": "American arms dealer"
+ },
+ "Q126287428": {
+  "record": "VictoriaKrakovna",
+  "file": "people.jsonl",
+  "record_label": "Victoria Krakovna",
+  "wikidata_label": "Victoria Krakovna",
+  "enwiki": null,
+  "desc": "artificial intelligence researcher"
+ },
+ "Q126791479": {
+  "record": "Navaroli",
+  "file": "people.jsonl",
+  "record_label": "Anika Collier Navaroli",
+  "wikidata_label": "Anika Collier Navaroli",
+  "enwiki": "Anika Collier Navaroli",
+  "desc": "American researcher and whistleblower"
+ },
+ "Q131442000": {
+  "record": "SuchirBalaji",
+  "file": "people.jsonl",
+  "record_label": "Suchir Balaji",
+  "wikidata_label": "Suchir Balaji",
+  "enwiki": "Suchir Balaji",
+  "desc": "American artificial intelligence researcher (1998–2024)"
+ },
+ "Q135216343": {
+  "record": "Blania",
+  "file": "people.jsonl",
+  "record_label": "Alex Blania",
+  "wikidata_label": "Alex Blania",
+  "enwiki": "Alex Blania",
+  "desc": "German entrepreneur"
+ }
+}

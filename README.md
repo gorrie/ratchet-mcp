@@ -145,6 +145,10 @@ ratchet-mcp/
 
 ## Status
 
+`v0.3.1` — 2026-09-26. Jerome Powell's record cited Colin Powell's Wikipedia page and Wikidata
+item; corrected. Every Wikidata QID is now gated against the record it sits on
+(`scripts/verify_qids.py`, run by the test suite).
+
 `v0.3` — 2026-09-26. Dataset at 550 persons / 486 institutions / 1,245 edges.
 Every Wikidata identifier re-checked against the Wikidata API by label, description and
 instance-of, and every Wikipedia title against the MediaWiki API: identifiers that pointed at
