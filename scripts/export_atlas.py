@@ -56,6 +56,13 @@ def main():
         prof[f.stem] = {"url": f"/profiles/{f.stem}/", "footprint": footprint_of(txt)}
     person_slug = {pid: slug(p["label"]) for pid, p in people.items()}
     inst_slug = {iid: slug(i["label"].split("(")[0]) for iid, i in insts.items()}
+    # graph ids whose profile file name differs from the label slug (shared with graph-links.py)
+    _aliases = json.loads((DATA / "profile-aliases.json").read_text(encoding="utf-8"))["aliases"]
+    for _id, _s in _aliases.items():
+        if _id in person_slug:
+            person_slug[_id] = _s
+        if _id in inst_slug:
+            inst_slug[_id] = _s
 
     ap = argparse.ArgumentParser()
     ap.add_argument("--full", action="store_true",
@@ -96,8 +103,7 @@ def main():
             "receipts": receipts.get(pid, []),
         })
     # existing institutions whose profile slug != label-slug
-    PROFILE_ALIAS = {"GovAI": "govai", "RAND": "rand-corporation",
-                     "UKAISI": "uk-ai-safety-institute", "CAISI": "us-caisi"}
+    PROFILE_ALIAS = _aliases
     for iid in sorted(node_insts):
         i = insts[iid]
         pr = prof.get(PROFILE_ALIAS.get(iid) or inst_slug[iid], {})

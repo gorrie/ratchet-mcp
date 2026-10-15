@@ -14,11 +14,11 @@ queryable.
 ## What's in it
 
 <!-- counts:begin -->
-- **550 named persons** — every record carries ≥2 primary sources and
+- **565 named persons** — every record carries ≥2 primary sources and
   tags from the closed [plays](docs/PLAYS.md) and
   [actors](docs/ACTORS.md) vocabularies.
-- **486 institutions** — every record carries ≥1 source.
-- **1,245 edges** — person → institution adjacencies.
+- **498 institutions** — every record carries ≥1 source.
+- **1,295 edges** — person → institution adjacencies.
 - **328 stored statements** in the texts-by-person lane (`server/data/texts.jsonl`)
   and **24 receipts** (`server/data/receipts.jsonl`), each a sourced, dated act.
 <!-- counts:end -->
@@ -144,6 +144,10 @@ ratchet-mcp/
 ```
 
 ## Status
+
+`v0.4` — 2026-10-15. Dataset at 565 persons / 498 institutions / 1,295 edges. Adds the AI
+evaluators (Scale AI, Transluce, FAR.AI, Andon Labs and their leaders), brings records current on
+primary sources, and maps graph ids to their published profiles (`server/data/profile-aliases.json`).
 
 `v0.3.1` — 2026-09-26. Jerome Powell's record cited Colin Powell's Wikipedia page and Wikidata
 item; corrected. Every Wikidata QID is now gated against the record it sits on

@@ -48,7 +48,7 @@ NEW_PERSONS = [
     {"id": "TonThat", "label": "Hoan Ton-That", "sector": "tech",
      "admin": [], "networks": [],
      "plays": [], "actors": ["model", "papers"],
-     "role": "iOS app developer (Trumpet, ViddyHo) -> Clearview AI co-founder + CEO 2017-",
+     "role": "iOS app developer (Trump Hair, ViddyHo) -> Clearview AI co-founder + CEO 2017-",
      "sources": [w("Hoan_Ton-That"), wd("Q83380160"),
                  news("https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html")]},
     {"id": "RSchwartz", "label": "Richard Schwartz", "sector": "tech",

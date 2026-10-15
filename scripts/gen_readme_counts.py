@@ -51,16 +51,30 @@ def render() -> str:
     ])
 
 
-def splice(text: str, block: str) -> str:
-    pat = re.compile(re.escape(BEGIN) + r"\n.*?\n" + re.escape(END), re.S)
+def splice(text: str, block: str, name: str = "README.md") -> str:
+    # An empty block (BEGIN on the line directly above END) is a new file awaiting its first fill.
+    pat = re.compile(re.escape(BEGIN) + r"\n(?:.*?\n)?" + re.escape(END), re.S)
     if not pat.search(text):
-        sys.exit(f"README.md has no {BEGIN} ... {END} block")
+        sys.exit(f"{name} has no {BEGIN} ... {END} block")
     return pat.sub(lambda _m: f"{BEGIN}\n{block}\n{END}", text, count=1)
 
 
-#: Every file that carries the counts block. The release notes for the pending cut carry the
-#: same block, so the two cannot disagree -- one generator, two targets, one --check.
-TARGETS = [README, ROOT / "RELEASE-NOTES-v0.3.md"]
+def _version(p: Path):
+    m = re.fullmatch(r"RELEASE-NOTES-v(\d+(?:\.\d+)*)\.md", p.name)
+    return tuple(int(x) for x in m.group(1).split(".")) if m else None
+
+
+def _pending_notes():
+    """The newest RELEASE-NOTES-vX.Y.md (drafts excluded). Older notes describe a tagged cut and
+    keep that cut's numbers: until 2026-10-15 this list named v0.3 literally, so --check went red
+    as soon as the data grew past the tag and a fix would have rewritten a published cut."""
+    notes = [p for p in ROOT.glob("RELEASE-NOTES-v*.md") if _version(p)]
+    return [max(notes, key=_version)] if notes else []
+
+
+#: Every file that carries the counts block: the README and the notes for the newest cut, so the
+#: two cannot disagree -- one generator, two targets, one --check.
+TARGETS = [README, *_pending_notes()]
 
 
 def main(argv=None) -> int:
@@ -73,7 +87,7 @@ def main(argv=None) -> int:
         raw = io.open(target, encoding="utf-8", newline="").read()   # keep the file's own line endings
         nl = "\r\n" if "\r\n" in raw else "\n"
         text = raw.replace("\r\n", "\n")
-        want = splice(text, block)
+        want = splice(text, block, target.name)
         if want == text:
             continue
         stale.append(target.name)

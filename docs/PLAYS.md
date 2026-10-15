@@ -22,7 +22,7 @@ To add a new play, see [CONTRIBUTING.md](CONTRIBUTING.md#how-to-add-a-new-play).
 
 ## When to use which tag
 
-A person can carry multiple play tags — many of the 550 do. The dataset's filter dimensions are designed to make this useful:
+A person can carry multiple play tags — many of the 551 do. The dataset's filter dimensions are designed to make this useful:
 
 - `query_cohort(play="vault", admin="clinton")` → who ran the Vault under Clinton? (Rubin, Summers, possibly others)
 - `query_cohort(play="cousin", network="bilderberg")` → who's a Cousin via Bilderberg specifically? (overlap question)

@@ -1,0 +1,27 @@
+{
+  "_comment": "Graph node id -> evilrobots.lol profile slug, for nodes whose label slug differs from the profile's file name. Read by scripts/export_atlas.py and by the site build that turns graph links into profile links. Each entry checked against the profile's title.",
+  "aliases": {
+    "Aadhaar": "aadhaar-uidai",
+    "ADL": "adl",
+    "AllianceForSecuringDemocracy": "hamilton-68",
+    "Aspen": "aspen-institute",
+    "AtlanticCouncil": "atlantic-council",
+    "BIS": "bis-cbdc",
+    "Blinken": "antony-blinken",
+    "BSmith": "brad-smith",
+    "CAISI": "us-caisi",
+    "CamilleFrancois": "camille-francois",
+    "Carney": "mark-carney",
+    "CCDH": "ccdh",
+    "CISA": "cisa",
+    "Delangue": "clement-delangue",
+    "DFRLab": "dfrlab",
+    "GovAI": "govai",
+    "JVance": "jd-vance",
+    "Kissinger": "henry-kissinger",
+    "RAND": "rand-corporation",
+    "TinoCuellar": "tino-cuellar",
+    "ToolsForHumanity": "worldcoin",
+    "UKAISI": "uk-ai-safety-institute"
+  }
+}

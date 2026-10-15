@@ -1243,3 +1243,53 @@
 {"source": "Bratton", "target": "SoundThinking", "rel": "member-of"}
 {"source": "Mueller", "target": "SpecialCounsel", "rel": "employed-by"}
 {"source": "Weissmann", "target": "SpecialCounsel", "rel": "employed-by"}
+{"source": "Delangue", "target": "HuggingFace", "rel": "founded"}
+{"source": "YoshuaBengio", "target": "UN", "rel": "advisory"}
+{"source": "DGuido", "target": "TrailOfBits", "rel": "founded"}
+{"source": "TrailOfBits", "target": "OpenAI", "rel": "acquisition-talks", "sources": [{"type": "press", "url": "https://www.pymnts.com/cybersecurity/2026/openai-weighs-deal-one-time-security-partner-trail-of-bits/"}]}
+{"source": "DLahav", "target": "Irregular", "rel": "founded"}
+{"source": "ONevo", "target": "Irregular", "rel": "founded"}
+{"source": "Irregular", "target": "Sequoia", "rel": "funded-by", "sources": [{"type": "press", "url": "https://techcrunch.com/2025/09/17/irregular-raises-80-million-to-secure-frontier-ai-models/"}]}
+{"source": "Irregular", "target": "Anthropic", "rel": "evaluator-for", "sources": [{"type": "official", "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"}]}
+{"source": "Irregular", "target": "Google", "rel": "evaluator-for", "sources": [{"type": "press", "url": "https://www.foxbusiness.com/technology/google-gemini-accessed-3-companies-systems-during-ai-cybersecurity-test"}]}
+{"source": "Shlegeris", "target": "RedwoodResearch", "rel": "employed-by"}
+{"source": "RGreenblatt", "target": "RedwoodResearch", "rel": "employed-by"}
+{"source": "RGreenblatt", "target": "METR", "rel": "employed-by", "sources": [{"type": "official", "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"}, {"type": "official", "url": "https://x.com/RyanGreenblatt/status/2104268596553957477"}]}
+{"source": "RGreenblatt", "target": "Anthropic", "rel": "co-author", "sources": [{"type": "paper", "url": "https://arxiv.org/abs/2412.14093"}]}
+{"source": "RGreenblatt", "target": "BBarnes", "rel": "disclosed-relationship", "sources": [{"type": "official", "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"}]}
+{"source": "RedwoodResearch", "target": "UKAISI", "rel": "advisory", "sources": [{"type": "official", "url": "https://www.redwoodresearch.org/"}]}
+{"source": "RedwoodResearch", "target": "Anthropic", "rel": "advisory", "sources": [{"type": "official", "url": "https://www.redwoodresearch.org/"}]}
+{"source": "RedwoodResearch", "target": "DeepMind", "rel": "advisory", "sources": [{"type": "official", "url": "https://www.redwoodresearch.org/"}]}
+{"source": "RedwoodResearch", "target": "METR", "rel": "joint-investigation", "sources": [{"type": "official", "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"}]}
+{"source": "ACotra", "target": "METR", "rel": "employed-by"}
+{"source": "ACotra", "target": "OpenPhil", "rel": "employed-by", "sources": [{"type": "official", "url": "https://metr.org/team/ajeya-cotra/"}]}
+{"source": "ACotra", "target": "EpochAI", "rel": "member-of", "sources": [{"type": "official", "url": "https://epoch.ai/about/team"}]}
+{"source": "ACotra", "target": "Christiano", "rel": "disclosed-relationship", "sources": [{"type": "official", "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"}]}
+{"source": "Besiroglu", "target": "EpochAI", "rel": "founded"}
+{"source": "Besiroglu", "target": "Mechanize", "rel": "founded"}
+{"source": "JSevilla", "target": "EpochAI", "rel": "employed-by"}
+{"source": "EpochAI", "target": "OpenAI", "rel": "funded-by", "sources": [{"type": "press", "url": "https://techcrunch.com/2025/01/19/ai-benchmarking-organization-criticized-for-waiting-to-disclose-funding-from-openai/"}]}
+{"source": "EpochAI", "target": "OpenPhil", "rel": "funded-by", "sources": [{"type": "press", "url": "https://techcrunch.com/2025/01/19/ai-benchmarking-organization-criticized-for-waiting-to-disclose-funding-from-openai/"}]}
+{"source": "Ladish", "target": "PalisadeResearch", "rel": "founded"}
+{"source": "Ladish", "target": "Anthropic", "rel": "employed-by", "sources": [{"type": "official", "url": "https://palisaderesearch.org/about/"}]}
+{"source": "MFredrikson", "target": "GraySwan", "rel": "founded"}
+{"source": "MFredrikson", "target": "CMU", "rel": "employed-by", "sources": [{"type": "official", "url": "https://www.grayswan.ai/about"}]}
+{"source": "AWang", "target": "Scale", "rel": "founded"}
+{"source": "AWang", "target": "Meta", "rel": "employed-by", "sources": [{"type": "press", "url": "https://www.nbcnewyork.com/news/business/money-report/mark-zuckerberg-announces-creation-of-meta-superintelligence-labs-read-the-memo/6320911/"}]}
+{"source": "Scale", "target": "Meta", "rel": "funded-by", "sources": [{"type": "official", "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution"}, {"type": "press", "url": "https://www.news4jax.com/business/2025/06/13/meta-invests-in-ai-firm-scale-and-recruits-its-ceo-for-superintelligence-team/"}]}
+{"source": "Scale", "target": "CAISI", "rel": "evaluator-for", "sources": [{"type": "official", "url": "https://scale.com/blog/first-independent-model-evaluator-for-the-USAISI"}]}
+{"source": "Scale", "target": "CAIS", "rel": "co-author", "sources": [{"type": "paper", "url": "https://arxiv.org/abs/2501.14249"}]}
+{"source": "GIrving", "target": "UKAISI", "rel": "employed-by", "sources": [{"type": "official", "url": "https://www.aisi.gov.uk/blog/why-i-joined-aisi---geoffrey-irving"}]}
+{"source": "GIrving", "target": "OpenAI", "rel": "employed-by", "sources": [{"type": "official", "url": "https://www.aisi.gov.uk/blog/why-i-joined-aisi---geoffrey-irving"}]}
+{"source": "GIrving", "target": "DeepMind", "rel": "employed-by", "sources": [{"type": "official", "url": "https://www.aisi.gov.uk/blog/why-i-joined-aisi---geoffrey-irving"}]}
+{"source": "GIrving", "target": "SequentResearch", "rel": "founded", "sources": [{"type": "official", "url": "https://x.com/geoffreyirving/status/2064733320827568231"}]}
+{"source": "AGleave", "target": "FARAI", "rel": "founded"}
+{"source": "AGleave", "target": "METR", "rel": "member-of", "sources": [{"type": "official", "url": "https://metr.org/about"}]}
+{"source": "AGleave", "target": "DeepMind", "rel": "employed-by", "sources": [{"type": "official", "url": "https://www.gleave.me/"}]}
+{"source": "JSteinhardt", "target": "Transluce", "rel": "founded"}
+{"source": "JSteinhardt", "target": "OpenAI", "rel": "employed-by", "sources": [{"type": "official", "url": "https://jsteinhardt.stat.berkeley.edu/"}]}
+{"source": "JSteinhardt", "target": "OpenPhil", "rel": "employed-by", "sources": [{"type": "official", "url": "https://jsteinhardt.stat.berkeley.edu/"}]}
+{"source": "Transluce", "target": "OpenAI", "rel": "evaluator-for", "sources": [{"type": "official", "url": "https://transluce.org/investigating-o3-truthfulness"}]}
+{"source": "AndonLabs", "target": "Anthropic", "rel": "evaluator-for", "sources": [{"type": "official", "url": "https://www.anthropic.com/research/project-vend-1"}]}
+{"source": "Shlegeris", "target": "Anthropic", "rel": "co-author", "sources": [{"type": "paper", "url": "https://arxiv.org/abs/2412.14093"}]}
+{"source": "MFredrikson", "target": "Kolter", "rel": "co-author", "sources": [{"type": "paper", "url": "https://arxiv.org/abs/2307.15043"}]}

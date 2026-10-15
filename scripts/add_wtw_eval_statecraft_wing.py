@@ -78,7 +78,7 @@ PEOPLE_RECS = [
 EDGE_RECS = [
     ("Kolter", "OpenAI"), ("Kolter", "GraySwan"), ("Kolter", "CMU"),
     ("BBarnes", "METR"), ("BBarnes", "OpenAI"), ("BBarnes", "ARC"),
-    ("Hobbhahn", "Apollo"), ("Hobbhahn", "RethinkPriorities"),
+    ("Hobbhahn", "ApolloResearch"), ("Hobbhahn", "RethinkPriorities"),
     ("Makanju", "OpenAI"), ("Makanju", "Meta"), ("Makanju", "NSC"),
     ("Makanju", "StateDept"), ("Makanju", "DoD"),
     ("Downs", "Google"), ("Downs", "YouTube"), ("Downs", "Airbnb"), ("Downs", "ACLU"),

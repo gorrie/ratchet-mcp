@@ -318,7 +318,7 @@ This cohort can be expanded to **other allied-foreign individuals** (UK, EU, Fiv
 - **Foreign heads of state without US cabinet / multilateral crossover.** This is a US-centric revolving-door dataset by design. A French politician who attended Davos but never held a sector position outside France: out.
 - **Pure media figures.** Network television hosts, newspaper editors, columnists. Their influence is real but it doesn't satisfy the 2-sector test. Exception: media executives who serve on think-tank or corporate boards (then they're `tech` or `tank`).
 - **Junior staff / fellows / interns / one-off advisors.** Even if they later became famous. The record starts when they hit a senior position.
-- **Private-life claims, motivation imputations, unindicted-allegation reporting.** This is a documented-positions dataset. The 550 entries are public-record. Nothing about who someone slept with, owed, or feared.
+- **Private-life claims, motivation imputations, unindicted-allegation reporting.** This is a documented-positions dataset. The 551 entries are public-record. Nothing about who someone slept with, owed, or feared.
 - **Living vs deceased makes no difference** — defamation safety is the test, not biological status. Same standard applies.
 
 ## Defamation safety

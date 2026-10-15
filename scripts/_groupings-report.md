@@ -1,6 +1,6 @@
 # Ratchet Dataset — Discovered Groupings
 
-Snapshot of 550 persons / 486 institutions / 1243 edges.
+Snapshot of 551 persons / 487 institutions / 1247 edges.
 
 Mechanical analyses below; cross-reference against clusters.json (named human-curated clusters) and SCOPE.md (cohort definitions).
 
@@ -30,11 +30,11 @@ Mechanical analyses below; cross-reference against clusters.json (named human-cu
 | `Volcker` (Paul Volcker) | 5 | gov | cycle | money |
 | `Lagarde` (Christine Lagarde) | 5 | imf | bretton,cousin | money |
 | `DRockefeller` (David Rockefeller) | 5 | fin | cycle,cousin | money,embassy |
-| `Donilon` (Tom Donilon) | 5 | gov | vault,cousin | embassy,flagging |
+| `Donilon` (Tom Donilon) | 5 | gov | cousin | embassy,flagging |
 | `Bolton` (John Bolton) | 5 | gov | pulpit | embassy,backdoor |
 | `Haines` (Avril Haines) | 5 | intel |  | tap,watchers |
 | `Hoffman` (Reid Hoffman) | 5 | tech | pipeline,cousin | algorithm,blueprint |
-| `Sandberg` (Sheryl Sandberg) | 5 | tech | pipeline,vault,cousin | algorithm,flagging,papers |
+| `Sandberg` (Sheryl Sandberg) | 5 | tech | pipeline,cousin | algorithm,flagging,papers |
 | `Musk` (Elon Musk) | 5 | tech | acquisition,pipeline | algorithm,blueprint |
 
 ### Most-connected institutions (top 25)
@@ -53,8 +53,8 @@ Mechanical analyses below; cross-reference against clusters.json (named human-cu
 | `Google` (Google / Alphabet) | 22 | tech |
 | `WEF` (WEF) | 18 | cfr |
 | `Senate` (US Senate) | 16 | gov |
+| `UN` (UN) | 16 | imf |
 | `Meta` (Meta) | 16 | tech |
-| `UN` (UN) | 15 | imf |
 | `Anthropic` (Anthropic) | 15 | tech |
 | `Goldman` (Goldman Sachs) | 13 | fin |
 | `FedReserve` (Federal Reserve) | 12 | gov |
@@ -73,15 +73,12 @@ Mechanical analyses below; cross-reference against clusters.json (named human-cu
 
 | Play A | Play B | Persons with both |
 |---|---|---|
-| acquisition | pipeline | 7 |
-| cousin | vault | 5 |
 | cousin | pulpit | 5 |
 | cousin | pipeline | 5 |
-| backstop | pulpit | 5 |
-| acquisition | vault | 4 |
 | cycle | pulpit | 4 |
 | bretton | cousin | 4 |
 | bretton | vault | 3 |
+| acquisition | pipeline | 3 |
 
 ### Actors that co-occur (>= 3 persons touch both)
 
@@ -125,10 +122,14 @@ Small cohorts are thesis-sharp. These are the unexpected ones — small named-pa
 | Play | Actor | Persons | Names |
 |---|---|---|---|
 | acquisition | hospital | 3 | Slaoui, Azar, Slavitt |
+| backstop | watchers | 3 | Cheney, Petraeus, Vickers |
+| bar | flagging | 3 | Wray, Holder, WBarr |
+| bar | tap | 3 | Wray, Mueller, WBarr |
 | cousin | flagging | 3 | Schmidt, Donilon, Sandberg |
 | cycle | eagle | 3 | Kissinger, Brzezinski, Hills |
 | pulpit | money | 3 | Shultz, Baker, Froman |
 | acquisition | blueprint | 4 | Andreessen, Musk, Warner, PLuckey |
+| backstop | tap | 4 | Cheney, Petraeus, Deutch, Vickers |
 | cousin | blueprint | 4 | Schmidt, Hoffman, Altman, Schwab |
 | cousin | eagle | 4 | Kissinger, Rice, Clinton, Dulles |
 | cycle | money | 4 | Volcker, Blumenthal, DRockefeller, Burns |
@@ -138,16 +139,16 @@ Small cohorts are thesis-sharp. These are the unexpected ones — small named-pa
 | pulpit | watchers | 5 | Pompeo, Negroponte, GGerstell, Panetta, McCabe |
 | acquisition | money | 7 | Paulson, Mnuchin, Bessent, ORneill, Snow, Corzine, Lutnick |
 | cousin | embassy | 7 | Kissinger, Shultz, Rice, Clinton, Dulles, DRockefeller, Donilon |
-| pipeline | tap | 7 | Thiel, Monaco, SGordon, CInglis, DCohen, Morial, RJacobson |
 | cycle | embassy | 8 | Kissinger, Vance, Christopher, Brzezinski, HBrown, AYoung, Huntington, DRockefeller |
-| pipeline | papers | 8 | Sandberg, Nilekani, FCollins, Varmus, Gutmann, SeidmanBecker, BlakeHall, OWest |
-| backstop | watchers | 9 | Cheney, Petraeus, KAlexander, MRogers, RJoyce, MMorell, Vickers, Panetta, Nakasone |
-| pipeline | algorithm | 10 | Schmidt, Gore, Khan, Hoffman, Suleyman, Sandberg, Musk, Bickert, Walker, YRoth |
-| backstop | tap | 12 | Cheney, Petraeus, Gates, KAlexander, Mueller, MRogers, RJoyce, MMorell, Deutch, Vickers, Panetta, Nakasone |
-| pipeline | watchers | 14 | SGordon, CInglis, DCohen, JBash, MChertoff, SOSullivan, TraeStephens, Bratton, Sankar, Carmona, JeriWilliams, KTodt, TSzymanski, DMathews |
+| vault | money | 8 | Rubin, Paulson, Geithner, Lew, Mnuchin, Summers, Fischer, Draghi |
+| ward | hospital | 8 | Gottlieb, Hahn, McClellan, Gerberding, Azar, Slavitt, EFowler, Zerhouni |
+| backstop | embassy | 9 | Rumsfeld, Cheney, Mattis, Esper, Austin, Work, Flournoy, Deutch, Stavridis |
+| pipeline | algorithm | 9 | Schmidt, Gore, Hoffman, Suleyman, Sandberg, Musk, Bickert, Walker, YRoth |
+| pipeline | model | 11 | Schmidt, Thiel, Hassabis, Lonsdale, PLuckey, GinaRaimondo, SriramKrishnan, AratiPrabhakar, TraeStephens, Dugan, Sankar |
+| pipeline | blueprint | 12 | Schmidt, Andreessen, Hoffman, Altman, Hassabis, Suleyman, Amodei, Musk, Sacks, PLuckey, AratiPrabhakar, Sankar |
+| pipeline | flagging | 12 | Schmidt, Sandberg, Stamos, JBaker, Bickert, JKaplan, Walker, YRoth, AStone, Badalich, NathanielGleicher, ChrisKrebs |
 | pulpit | eagle | 14 | Kissinger, Albright, CPowell, Rice, Clinton, Powell, Acheson, Dulles, Rusk, Hills, Marshall, SPower, Makanju, Lehane |
 | bretton | money | 15 | Summers, Fischer, Lagarde, Georgieva, Zoellick, Kim, Banga, Camdessus, Kohler, Rato, StraussKahn, Wolfensohn, Malpass, Carney, Draghi |
-| vault | money | 15 | Rubin, Paulson, Geithner, Lew, Mnuchin, Yellen, Summers, Bessent, Fischer, Blumenthal, Corzine, Weill, Pandit, Lewis, Draghi |
 
 ### Network x Actor intersections
 
@@ -279,25 +280,25 @@ Institutions touched by the most persons, with the sector breakdown of those per
 
 | Institution | Persons | Person-sector breakdown |
 |---|---|---|
-| `CFR` (CFR) | 88 | gov:57, intel:10, imf:7, fin:5, def:5, cfr:2, tank:1, tech:1 |
-| `WhiteHouse` (White House) | 50 | gov:25, tank:12, tech:6, fin:2, judiciary:2, def:1, multi:1, intel:1 |
-| `State` (State Dept) | 45 | gov:34, tank:3, intel:2, def:2, tech:1, imf:1, fin:1, cfr:1 |
+| `CFR` (CFR) | 88 | gov:57, intel:10, imf:7, fin:5, def:5, cfr:2, tech:1, tank:1 |
+| `WhiteHouse` (White House) | 50 | gov:25, tank:12, tech:6, judiciary:2, fin:2, multi:1, intel:1, def:1 |
+| `State` (State Dept) | 45 | gov:34, tank:3, def:2, intel:2, fin:1, cfr:1, imf:1, tech:1 |
 | `DoD` (DoD) | 45 | def:21, gov:12, intel:7, tank:3, tech:2 |
 | `NSC` (NSC) | 31 | gov:23, tank:4, intel:2, def:1, tech:1 |
-| `OpenAI` (OpenAI) | 27 | tech:15, tank:3, gov:2, multi:1, intel:1 |
+| `OpenAI` (OpenAI) | 27 | tech:15, tank:3, gov:2, intel:1, multi:1 |
 | `CIA` (CIA) | 24 | intel:19, gov:3, def:2 |
-| `Treasury` (US Treasury) | 22 | gov:15, fin:4, tech:1, imf:1, intel:1 |
-| `Bilderberg` (Bilderberg) | 22 | fin:6, gov:6, tech:4, imf:4, tank:1, def:1 |
-| `Google` (Google / Alphabet) | 22 | tech:16, gov:1, def:1 |
-| `WEF` (WEF) | 18 | gov:7, fin:3, tech:3, imf:2, tank:1, cfr:1, multi:1 |
-| `Senate` (US Senate) | 16 | gov:13, fin:1, def:1, intel:1 |
+| `Treasury` (US Treasury) | 22 | gov:15, fin:4, intel:1, tech:1, imf:1 |
+| `Bilderberg` (Bilderberg) | 22 | gov:6, fin:6, imf:4, tech:4, tank:1, def:1 |
+| `Google` (Google / Alphabet) | 22 | tech:16, def:1, gov:1 |
+| `WEF` (WEF) | 18 | gov:7, fin:3, tech:3, imf:2, multi:1, tank:1, cfr:1 |
+| `Senate` (US Senate) | 16 | gov:13, intel:1, fin:1, def:1 |
+| `UN` (UN) | 16 | gov:10, intel:2, multi:2, tank:1, fin:1 |
 | `Meta` (Meta) | 16 | tech:12, def:2, gov:1 |
-| `UN` (UN) | 15 | gov:10, intel:2, multi:2, fin:1 |
 | `Anthropic` (Anthropic) | 15 | tech:9, tank:2 |
 | `Goldman` (Goldman Sachs) | 13 | fin:7, gov:4, multi:1, imf:1 |
 | `FedReserve` (Federal Reserve) | 12 | gov:11, imf:1 |
 | `FederalistSociety` (Federalist Society) | 12 | tank:5, judiciary:5, gov:2 |
-| `WorldBank` (World Bank) | 11 | imf:7, gov:2, fin:1, def:1 |
+| `WorldBank` (World Bank) | 11 | imf:7, gov:2, def:1, fin:1 |
 | `Trilateral` (Trilateral Comm.) | 11 | gov:10, fin:1 |
 
 ## 7. Connector personalities — persons whose edges span the most distinct sectors
@@ -339,13 +340,13 @@ People connected to institutions across many distinct sectors. Higher = bridges 
 | Play | Count |
 |---|---|
 | acquisition | 27 |
-| backstop | 36 |
+| backstop | 13 |
 | bretton | 20 |
 | cousin | 29 |
 | cycle | 12 |
-| pipeline | 116 |
+| pipeline | 36 |
 | pulpit | 58 |
-| vault | 18 |
+| vault | 8 |
 
 ### Actors usage
 
@@ -357,7 +358,7 @@ People connected to institutions across many distinct sectors. Higher = bridges 
 | eagle | 18 |
 | embassy | 92 |
 | flagging | 53 |
-| model | 37 |
+| model | 38 |
 | money | 59 |
 | papers | 15 |
 | tap | 46 |
